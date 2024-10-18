@@ -1,3 +1,4 @@
+import ProjectDetails from "./components/ProjectDetails";
 
 export default function Home() {
   return (
@@ -47,15 +48,18 @@ export default function Home() {
     </section>
 
     <section className="grid grid-rows-[20px_1fr_20px]  min-h-screen sm:p-20 ">
-      <h1 className="font-syne text-5xl font-extrabold">W<span className="text-purple-700">O</span>RKS</h1>
-      <div className="p-4 mt-20 flex border border-white rounded-md">
+     <h1 className="font-syne text-5xl font-extrabold">W<span className="text-purple-700">O</span>RKS</h1>
+      <div className="px-4 mt-20 flex border border-white rounded-md">
           <div className="my-auto">
             <p className="p-6 text-5xl"><span className="text-green-600 font-extrabold">flow</span>mode</p>
           </div>
-          <div className="p-4 text-xl">A wellness and productivity app allowing users to utlize Spotify audio to promote a healthy balance of focus and rest.<br/>
-          Features:<br/><br/>
-            Tech Used:<span className="font-bold"> Next.js, Tailwind CSS, MongoDB, Spotify API</span>
-            <div className="mt-2">
+          <div className="p-4">
+            <p className="mt-12 text-xl">Flowmode is a web-based timer that integrates with Spotify to help users maintain productivity while preventing burnout. By encouraging regular breaks through customizable Flow and Rest intervals, <span className="text-green-600 font-extrabold">flow</span>mode helps users work for longer periods without fatigue. Users can choose audio to accompany both Flow and Rest phases, making the experience enjoyable and effective.
+            </p>
+
+            <ProjectDetails />
+
+            <div className="mt-4">
               <button className="py-1 px-6  mr-2 border border-white rounded-md">Code</button>
               <button className="py-1 px-6 m-2 bg-green-600 rounded-md">Live</button>
             </div>
