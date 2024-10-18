@@ -11,8 +11,9 @@ export default function Home() {
           </div>
         </main>
         <div className="row-start-4 flex flex-wrap justify-between">
-          <h1 className="mt-20 text-7xl font-extrabold text-purple-700 bg-white">Mary Boles</h1>
+          <h1 className="mt-36 text-7xl font-extrabold text-purple-700 bg-white">Mary Boles</h1>
           <div className="flex flex-col">
+            <button className="px-4 py-4 w-40 text-xl font-semibold bg-purple-800 border-2 border-purple-800 rounded-md  transition-colors duration-300 ease-in-out hover:bg-purple-700">About</button>
             <button className="px-4 py-4 my-2 w-40 text-xl font-semibold bg-purple-700 border-2 border-purple-700 rounded-md  transition-colors duration-300 ease-in-out hover:bg-purple-600">View Works</button>
             <button className="py-4 w-40 text-xl font-semibold border-2 border-white rounded-md transition-colors duration-300 ease-in-out hover:bg-purple-600">Get In Touch</button>
           </div>
@@ -49,7 +50,7 @@ export default function Home() {
 
     <section className="grid grid-rows-[20px_1fr_20px]  min-h-screen sm:p-20 ">
      <h1 className="font-syne text-5xl font-extrabold">W<span className="text-purple-700">O</span>RKS</h1>
-      <div className="px-4 mt-20 flex border border-white rounded-md">
+      <div className="px-4 mt-20 flex bg-white bg-opacity-5 rounded-md">
           <div className="my-auto">
             <p className="p-6 text-5xl"><span className="text-green-600 font-extrabold">flow</span>mode</p>
           </div>
