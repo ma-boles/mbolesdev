@@ -1,4 +1,5 @@
 import ProjectDetails from "./components/ProjectDetails";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -60,19 +61,49 @@ export default function Home() {
 
             <ProjectDetails />
 
-            <div className="mt-4">
-              <button className="py-1 px-6  mr-2 border border-white rounded-md">Code</button>
-              <button className="py-1 px-6 m-2 bg-green-600 rounded-md">Live</button>
+            <div className="flex mt-4 mb-2">
+              <button className="px-8 py-2 border border-gray-500 rounded-md hover:bg-gray-500">Code</button>
+              <button className="px-8 py-2 mx-2  bg-green-700 rounded-md hover:bg-green-600">Live</button>
             </div>
           </div>
       </div>
     </section>
 
-    <section className="grid grid-rows-[20px_1fr_20px] bg-white bg-opacity-20 min-h-screen sm:p-20 ">
-      <h1 className="p-1 text-7xl font-extrabold text-purple-600">GET IN TOUCH</h1>
-      <div className="flex mt-20">
-        <h2 className="p-4 text-3xl">Linkedin</h2>
-        <h2 className="p-4 text-3xl">GitHub</h2>
+    <section className="grid grid-rows-[20px_1fr_20px] bg-white bg-opacity-20 min-h-screen relative sm:p-20 ">
+      <h1 className="p-1 text-7xl font-extrabold">GET IN <span className="text-purple-500">TOUCH</span><br/>
+      <span className="text-4xl font-medium">Feel free to reach out if you have any questions or projects in mind!</span></h1>
+      <div className="absolute bottom-0 left-0 right-0 flex p-20 justify-between">
+        <div className="text-left">
+          <h2 className="text-2xl font-bold">EMAIL</h2>
+          <p className="text-lg font-semibold">email@gmail.com</p>
+        </div>
+        <div className="text-left">
+          <h2 className="pb-1 text-2xl font-bold">SOCIAL</h2>
+          <div className="flex px-1 justify-between">
+            <a href="https://www.linkedin.com/in/mary-boles" 
+              target="_blank"
+              rel="noopener noreferrer">
+                <div className="invert">
+                  <Image 
+                    src="/linkedin-brands-solid (1).svg"
+                    alt="Link to LinkedIn Profile"
+                    width={25}
+                    height={25} />
+                </div>
+            </a>
+            <a href="https://github.com/ma-boles" 
+              target="_blank"
+              rel="noopener noreferrer">
+                <div className="invert">
+                  <Image 
+                    src="/github-brands-solid (1).svg"
+                    alt="Link to GitHub Profile"
+                    width={27}
+                    height={27}/>
+                </div>
+            </a>
+          </div>
+        </div>
       </div>
     </section>
     </>
