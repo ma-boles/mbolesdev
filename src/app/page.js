@@ -1,5 +1,6 @@
 import ProjectDetails from "./components/ProjectDetails";
 import Image from "next/image";
+import BackToTopButton from "./components/BackToTopButton";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         </div>
     </section>
 
+<BackToTopButton />
     <section className="grid grid-rows-[20px_1fr_20px] min-h-screen bg-white bg-opacity-20 sm:p-20">
       <h1 className="font-syne text-5xl font-extrabold">ABOUT | <span className="text-purple-500">SKILLS</span></h1>
       <div className="font-syne flex mt-20 justify-between">
