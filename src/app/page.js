@@ -15,9 +15,9 @@ export default function Home() {
         <div className="row-start-4 flex flex-wrap justify-between">
           <h1 className="mt-36 text-7xl font-extrabold text-purple-700 bg-white">Mary Boles</h1>
           <div className="flex flex-col">
-            <button className="px-4 py-4 w-40 text-xl font-semibold bg-purple-800 border-2 border-purple-800 rounded-md  transition-colors duration-300 ease-in-out hover:bg-purple-700">About</button>
-            <button className="px-4 py-4 my-2 w-40 text-xl font-semibold bg-purple-700 border-2 border-purple-700 rounded-md  transition-colors duration-300 ease-in-out hover:bg-purple-600">View Works</button>
-            <button className="py-4 w-40 text-xl font-semibold border-2 border-white rounded-md transition-colors duration-300 ease-in-out hover:bg-purple-600">Get In Touch</button>
+            <button className="px-4 py-4 w-40 text-xl font-semibold bg-purple-950 border-2 border-purple-900 border-opacity-40 rounded-md  transition-colors duration-300 ease-in-out hover:bg-purple-800">About</button>
+            <button className="px-4 py-4 my-2 w-40 text-xl font-semibold bg-purple-700 border-2 border-purple-700 rounded-md transition-colors duration-300 ease-in-out hover:bg-purple-600">View Works</button>
+            <button className="py-4 w-40 text-xl font-semibold border-2 border-white rounded-md transition-colors duration-300 ease-in-out hover:bg-purple-500">Get In Touch</button>
           </div>
         </div>
     </section>
@@ -36,7 +36,7 @@ export default function Home() {
           </h2>
         </div>
         <div className="p-8 w-1/4 bg-white bg-opacity-10 rounded-lg ">
-        <h2 className="pt-6 pb-4 text-2xl font-extrabold text-center">TOOLBOX</h2>
+        <h2 className="pt-6 pb-4 text-2xl font-extrabold text-center"><span className="text-purple-500">TOOL</span>BOX</h2>
         <div className="flex flex-wrap justify-center">
           <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js badge" className="p-1"/>
           <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript badge" className="p-1"/>
@@ -64,7 +64,12 @@ export default function Home() {
             <ProjectDetails />
 
             <div className="flex mt-4 mb-2">
+              <a href="https://github.com/ma-boles/flowmode/tree/main/my-nextjs-app" 
+              target="_blank"
+              rel="noopener noreferrer"
+              >
               <button className="px-8 py-2 border border-gray-500 rounded-md hover:bg-gray-500">Code</button>
+              </a>
               <button className="px-8 py-2 mx-2  bg-green-700 rounded-md hover:bg-green-600">Live</button>
             </div>
           </div>
@@ -73,21 +78,21 @@ export default function Home() {
 
     <section className="grid grid-rows-[20px_1fr_20px] bg-white bg-opacity-20 min-h-screen relative sm:p-20 ">
       <h1 className="p-1 text-7xl font-extrabold">GET IN <span className="text-purple-500">TOUCH</span><br/>
-      <span className="text-4xl font-medium">Feel free to reach out if you have any questions or projects in mind!</span></h1>
+      <span className="text-4xl font-bold">I'm Excited to Bring My Skills to Your Team!</span></h1>
       <div className="absolute bottom-0 left-0 right-0 flex p-20 justify-between">
         <div className="text-left">
-          <h2 className="text-2xl font-bold">EMAIL</h2>
+          <h2 className="text-2xl font-extrabold text-purple-400">EMAIL</h2>
           <p className="text-lg font-semibold">email@gmail.com</p>
         </div>
         <div className="text-left">
-          <h2 className="pb-1 text-2xl font-bold">SOCIAL</h2>
+          <h2 className="pb-1 text-2xl font-extrabold text-purple-400">SOCIAL</h2>
           <div className="flex px-1 justify-between">
             <a href="https://www.linkedin.com/in/mary-boles" 
               target="_blank"
               rel="noopener noreferrer">
                 <div className="invert">
                   <Image 
-                    src="/linkedin-brands-solid (1).svg"
+                    src="/images/linkedin-brands-solid (1).svg"
                     alt="Link to LinkedIn Profile"
                     width={25}
                     height={25} />
@@ -98,7 +103,7 @@ export default function Home() {
               rel="noopener noreferrer">
                 <div className="invert">
                   <Image 
-                    src="/github-brands-solid (1).svg"
+                    src="/images/github-brands-solid (1).svg"
                     alt="Link to GitHub Profile"
                     width={27}
                     height={27}/>
