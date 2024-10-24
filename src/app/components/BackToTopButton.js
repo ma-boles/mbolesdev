@@ -30,7 +30,10 @@ export default function BackToTopButton () {
             { isVisible && (
                 <button
                 onClick={scrollToTop}
-                className="fixed bottom-4 right-4 p-3 border border-purple-600 rounded-lg hover:bg-purple-600"
+                className="fixed bottom-4 right-4 p-3 border border-white rounded-lg 
+                hover:bg-slate-700
+                dark:border-purple-600 
+                dark:hover:bg-purple-600"
                 style={{ zIndex: 1000 }}>
                     <div className="invert">
                     <Image 
