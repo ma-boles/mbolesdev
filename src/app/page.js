@@ -1,32 +1,25 @@
 import ProjectDetails from "./components/ProjectDetails";
 import Image from "next/image";
 import BackToTopButton from "./components/BackToTopButton";
-import Link from "next/link";
+import LargeNav from "./components/LargeNav";
+import SmallNav from "./components/SmallNav";
 
 export default function Home() {
   return (
     <>
     <section className="grid grid-rows-[20px_1fr_20px] min-h-screen py-16 px-8 sm:p-20">
-      <div className="flex flex-col gap-4 items-center sm:items-start text-center sm:text-left">
+      <div className="flex flex-col gap-4 items-center sm:items-start text-center sm:text-left px-2 sm:px-0">
           <h2>Software Engineer</h2>
           <div className="flex gap-4 items-center flex-col sm:flex-row">
-            <h3 className="text-purple-300">Creating innovative user-centric solutions</h3>
+            <h3 className="text-purple-400">Delivering innovative user-centric solutions</h3>
           </div>
+          <h1 className="mt-36 text-purple-700 bg-white whitespace-nowrap md:hidden">Mary Boles</h1>
       </div>
-      <div className="row-start-4 flex flex-col items-center sm:flex-row sm:items-start sm:justify-between">
-          <h1 className="mt-36 text-purple-700 bg-white whitespace-nowrap">Mary Boles</h1>
-          <div /* nav buttons */ className="flex lg:flex-col gap-2 m-4 md:flex-col sm:flex-row">
-            <Link href="#about">
-              <button className="custom-button bg-purple-950 border-2 border-purple-900 border-opacity-40 hover:bg-purple-800">About</button>
-            </Link>
-            <Link href="#works">
-              <button className="custom-button bg-purple-700 border-2 border-purple-700 hover:bg-purple-600">View Works</button>
-            </Link>
-            <Link href="#contact">
-              <button className="custom-button border-2 border-white  hover:bg-purple-500 ">Get In Touch</button>
-            </Link>
-          </div>
-        </div>
+      <div className="row-start-4 flex flex-col items-center sm:flex-row sm:items-start justify-between">
+        <h1 className="mt-36 text-purple-700 bg-white whitespace-nowrap hidden md:block">Mary Boles</h1>
+        <LargeNav className="hidden md:block"/>
+        <SmallNav className="absolute bottom-0 block md:hidden"/>
+      </div>
     </section>
 
     <BackToTopButton />
@@ -84,8 +77,8 @@ export default function Home() {
 
     <section className="grid grid-rows-[20px_1fr_20px] bg-white bg-opacity-20 min-h-screen relative py-16 px-8 sm:p-20" id="contact">
       <div className="sm:items-start text-center sm:text-left">
-      <h1 className="p-1">GET IN <span className="text-purple-500">TOUCH</span></h1><br/>
-      <h3>I'm Excited to Bring My Skills to Your Team!</h3>
+        <h1 className="p-1">GET IN <span className="text-purple-500">TOUCH</span></h1><br/>
+        <h3>I'm Excited to Bring My Skills to Your Team!</h3>
       </div>
       <div className="absolute bottom-0 left-0 right-0 flex p-20 justify-between">
         <div className="text-left">
