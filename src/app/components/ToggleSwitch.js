@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 export default function ToggleSwitch({ onToggle }) {
-    const [isToggled, setIsToggled] = useState(false);
+    const [isToggled, setIsToggled] = useState(true);
     
     useEffect(() => {
         document.documentElement.classList.add('dark'); // Add dark class by default
