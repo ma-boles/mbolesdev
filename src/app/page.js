@@ -1,41 +1,48 @@
+'use client'
 import ProjectDetails from "./components/ProjectDetails";
 import Image from "next/image";
 import BackToTopButton from "./components/BackToTopButton";
 import LargeNav from "./components/LargeNav";
 import SmallNav from "./components/SmallNav";
+import ToggleSwitch from "./components/ToggleSwitch";
 
 export default function Home() {
+  
   return (
     <>
-    <section className="grid grid-rows-[20px_1fr_20px] min-h-screen py-16 px-8 sm:p-20">
+    <section className="relative grid grid-rows-[20px_1fr_20px] min-h-screen py-16 px-8 sm:p-20">
       <div className="flex flex-col gap-4 items-center sm:items-start text-center sm:text-left px-2 sm:px-0">
           <h2>Software Engineer</h2>
           <div className="flex gap-4 items-center flex-col sm:flex-row">
-            <h3 className="text-purple-400">Delivering innovative user-centric solutions</h3>
+            <h3 className="text-blue-400 dark:text-purple-400">Delivering innovative user-centric solutions</h3>
           </div>
-          <h1 className="mt-36 text-purple-700 bg-white whitespace-nowrap md:hidden">Mary Boles</h1>
+          <h1 className="mt-36 text-blue-600 dark:text-purple-700 bg-white whitespace-nowrap md:hidden">Mary Boles</h1>
       </div>
       <div className="row-start-4 flex flex-col items-center sm:flex-row sm:items-start justify-between">
-        <h1 className="mt-36 text-purple-700 bg-white whitespace-nowrap hidden md:block">Mary Boles</h1>
+        <h1 className="mt-36 text-blue-600 dark:text-purple-700 bg-white whitespace-nowrap hidden md:block">Mary Boles</h1>
         <LargeNav className="hidden md:block"/>
         <SmallNav className="absolute bottom-0 block md:hidden"/>
       </div>
+
+    <div className="min-h-screen absolute top-5 right-5 ">
+      <ToggleSwitch />
+    </div>
     </section>
 
     <BackToTopButton />
 
     <section className="grid grid-rows-[20px_1fr_20px] min-h-screen w-full bg-white bg-opacity-20 py-16 px-8  sm:p-20" id="about">
-      <h2 className="font-syne">ABOUT | <span className="text-purple-500">SKILLS</span></h2>
+      <h2 className="font-syne">ABOUT | <span className="text-blue-400 dark:text-purple-500">SKILLS</span></h2>
       <div className="flex flex-col md:flex-row justify-start mt-20 md:justify-between items-center md-items-start">
         <div className="w-full md:w-2/3 pb-4">
           <p className="mr-2 text-lg font-normal">Hi! I'm Mary, a software engineer transitioning from a career in the education field. Movtivated by my passion for creativity and <span className="font-bold">problem-solving,</span> I decided to pursue development focusing on building impactful web applications.<br/><br/>
           With a experience in <span className="font-bold">JavaScript, React, Next.js, Tailwind CSS,</span> I create solutions that merge functionality and clean UI design. My background in education has honed my skills in communication, project management, analytical thinking, which are invaluable to understanding user needs and collaborating with teams.<br/><br/>
           Outside of coding, I spend my time enjoying DJing, collecting vinyl records + CD's, watching films and sports, and listening to podcasts!<br/><br/>
-          Feel free to get in touch if you'd like to collaborate, or simply <a href="#contact"><span className="underline hover:text-purple-400">connect</span></a>!
+          Feel free to get in touch if you'd like to collaborate, or simply <a href="#contact"><span className="underline hover:text-blue-400 dark:hover:text-purple-400">connect</span></a>!
           </p>
         </div>
         <div className="w-full p-8 md:w-1/4 min-w-[200px] bg-white bg-opacity-5 rounded-lg ">
-        <h4 className="my-2 py-2 bg-purple-500 bg-opacity-50 text-center">TOOLBOX</h4>
+        <h4 className="my-2 py-2 bg-blue-400 dark:bg-purple-500 bg-opacity-50 text-center">TOOLBOX</h4>
         <div className="flex flex-wrap justify-center">
           <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js badge" className="p-1"/>
           <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript badge" className="p-1"/>
@@ -51,8 +58,8 @@ export default function Home() {
     </section>
 
     <section className="grid grid-rows-[20px_1fr_20px]  min-h-screen py-16 px-8 sm:p-20 " id="works">
-     <h2 className="font-syne">W<span className="text-purple-700">O</span>RKS</h2>
-      <div className="px-4 mt-20 flex flex-col bg-white bg-opacity-5 rounded-md sm:flex-row">
+     <h2 className="font-syne">W<span className="text-blue-500 dark:text-purple-700">O</span>RKS</h2>
+      <div className="px-4 mt-20 flex flex-col border-2 border-white dark:border-none bg-white bg-opacity-5 rounded-md sm:flex-row">
           <div className="my-auto">
             <h2 className="p-6 text-center"><span className="text-green-600 font-extrabold">flow</span>mode</h2>
           </div>
@@ -67,7 +74,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
               >
-              <button className="px-8 py-2 border border-gray-500 rounded-md hover:bg-gray-500">Code</button>
+              <button className="px-8 py-2 border border-white dark:border-gray-500 rounded-md hover:bg-gray-500">Code</button>
               </a>
               <button className="px-8 py-2 mx-2  bg-green-700 rounded-md hover:bg-green-600">Live</button>
             </div>
@@ -77,16 +84,16 @@ export default function Home() {
 
     <section className="grid grid-rows-[20px_1fr_20px] bg-white bg-opacity-20 min-h-screen relative py-16 px-8 sm:p-20" id="contact">
       <div className="sm:items-start text-center sm:text-left">
-        <h1 className="p-1">GET IN <span className="text-purple-500">TOUCH</span></h1><br/>
+        <h1 className="p-1">GET IN <span className=" text-blue-400 dark:text-purple-600 ">TOUCH</span></h1><br/>
         <h3>I'm Excited to Bring My Skills to Your Team!</h3>
       </div>
-      <div className="absolute bottom-0 left-0 right-0 flex p-20 justify-between">
+      <div className="absolute bottom-0 left-0 right-0 flex py-24 px-12 sm:p-20 justify-between">
         <div className="text-left">
-          <h4 className="text-purple-400">EMAIL</h4>
+          <h4 className="text-blue-400 dark:text-purple-400">EMAIL</h4>
           <p className="text-lg font-semibold">email@gmail.com</p>
         </div>
         <div className="text-left">
-          <h4 className="pb-1 text-purple-400">SOCIAL</h4>
+          <h4 className="pb-1 text-blue-400 dark:text-purple-400">SOCIAL</h4>
           <div className="flex px-1 justify-between">
             <a href="https://www.linkedin.com/in/mary-boles" 
               target="_blank"
