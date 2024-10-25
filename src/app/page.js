@@ -12,11 +12,11 @@ export default function Home() {
     <>
     <section className="relative grid grid-rows-[20px_1fr_20px] min-h-screen py-16 px-8 sm:p-20">
       <div className="flex flex-col gap-4 items-center sm:items-start text-center sm:text-left px-2 sm:px-0">
-          <h2>Software Engineer</h2>
+          <h2 className="mt-0 dark:mt-8">Software Engineer</h2>
           <div className="flex gap-4 items-center flex-col sm:flex-row">
             <h3 className="text-blue-400 dark:text-purple-400">Delivering innovative user-centric solutions</h3>
           </div>
-          <h1 className="mt-36 text-blue-600 dark:text-purple-700 bg-white whitespace-nowrap md:hidden">Mary Boles</h1>
+          <h1 className="mt-24 text-blue-600 dark:text-purple-700 bg-white whitespace-nowrap md:hidden">Mary Boles</h1>
       </div>
       <div className="row-start-4 flex flex-col items-center sm:flex-row sm:items-start justify-between">
         <h1 className="mt-36 text-blue-600 dark:text-purple-700 bg-white whitespace-nowrap hidden md:block">Mary Boles</h1>
