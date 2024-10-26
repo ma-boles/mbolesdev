@@ -6,20 +6,29 @@ import LargeNav from "./components/LargeNav";
 import SmallNav from "./components/SmallNav";
 import ToggleSwitch from "./components/ToggleSwitch";
 
+
 export default function Home() {
   
   return (
     <>
     <section className="relative grid grid-rows-[20px_1fr_20px] min-h-screen py-16 px-8 sm:p-20">
-      <div className="flex flex-col gap-4 items-center sm:items-start text-center sm:text-left px-2 sm:px-0">
-          <h2 className="mt-0 dark:mt-8">Software Engineer</h2>
+      <Image 
+      src="/images/background-blocks.svg"
+      alt="background"
+      layout="fill"
+      objectFit="cover"
+      className="z-0 grayscale opacity-10"
+      style={{ filter: "grayscale(100%)" }}
+      />
+      <div className="flex flex-col gap-4 items-center sm:items-start text-center sm:text-left px-2 sm:px-0 z-10">
+          <h2 className="mt-8">Software Engineer</h2>
           <div className="flex gap-4 items-center flex-col sm:flex-row">
-            <h3 className="text-blue-400 dark:text-purple-400">Delivering innovative user-centric solutions</h3>
+            <h3 className="text-gray-400 dark:text-purple-400">Delivering innovative user-centric solutions</h3>
           </div>
-          <h1 className="mt-24 text-blue-600 dark:text-purple-700 bg-white whitespace-nowrap md:hidden">Mary Boles</h1>
+          <h1 className="mt-24 text-gray-600 dark:text-purple-700 bg-white whitespace-nowrap md:hidden">Mary Boles</h1>
       </div>
-      <div className="row-start-4 flex flex-col items-center sm:flex-row sm:items-start justify-between">
-        <h1 className="mt-36 text-blue-600 dark:text-purple-700 bg-white whitespace-nowrap hidden md:block">Mary Boles</h1>
+      <div className="row-start-4 flex flex-col items-center sm:flex-row sm:items-start justify-between z-10">
+        <h1 className="mt-36 text-gray-600 dark:text-purple-700 bg-white whitespace-nowrap hidden md:block">Mary Boles</h1>
         <LargeNav className="hidden md:block"/>
         <SmallNav className="absolute bottom-0 block md:hidden"/>
       </div>
@@ -32,7 +41,7 @@ export default function Home() {
     <BackToTopButton />
 
     <section className="grid grid-rows-[20px_1fr_20px] min-h-screen w-full bg-white bg-opacity-20 py-16 px-8  sm:p-20" id="about">
-      <h2 className="font-syne">ABOUT | <span className="text-blue-400 dark:text-purple-500">SKILLS</span></h2>
+      <h2 className="font-syne">ABOUT | <span className="text-gray-400 dark:text-purple-500">SKILLS</span></h2>
       <div className="flex flex-col md:flex-row justify-start mt-20 md:justify-between items-center md-items-start">
         <div className="w-full md:w-2/3 pb-4">
           <p className="mr-2 text-lg font-normal">Hi! I'm Mary, a software engineer transitioning from a career in the education field. Movtivated by my passion for creativity and <span className="font-bold">problem-solving,</span> I decided to pursue development focusing on building impactful web applications.<br/><br/>
@@ -42,7 +51,7 @@ export default function Home() {
           </p>
         </div>
         <div className="w-full p-8 md:w-1/4 min-w-[200px] bg-white bg-opacity-5 rounded-lg ">
-        <h4 className="my-2 py-2 bg-blue-400 dark:bg-purple-500 bg-opacity-50 text-center">TOOLBOX</h4>
+        <h4 className="my-2 py-2 bg-gray-400 dark:bg-purple-500 bg-opacity-50 text-center">TOOLBOX</h4>
         <div className="flex flex-wrap justify-center">
           <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js badge" className="p-1"/>
           <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript badge" className="p-1"/>
@@ -58,7 +67,7 @@ export default function Home() {
     </section>
 
     <section className="grid grid-rows-[20px_1fr_20px]  min-h-screen py-16 px-8 sm:p-20 " id="works">
-     <h2 className="font-syne">W<span className="text-blue-500 dark:text-purple-700">O</span>RKS</h2>
+     <h2 className="font-syne">W<span className="text-gray-500 dark:text-purple-700">O</span>RKS</h2>
       <div className="px-4 mt-20 flex flex-col border-2 border-white dark:border-none bg-white bg-opacity-5 rounded-md sm:flex-row">
           <div className="my-auto">
             <h2 className="p-6 text-center"><span className="text-green-600 font-extrabold">flow</span>mode</h2>
@@ -82,18 +91,26 @@ export default function Home() {
       </div>
     </section>
 
-    <section className="grid grid-rows-[20px_1fr_20px] bg-white bg-opacity-20 min-h-screen relative py-16 px-8 sm:p-20" id="contact">
+    <section className="grid grid-rows-[20px_1fr_20px]  min-h-screen relative py-16 px-8 sm:p-20" id="contact">
+    <Image 
+      src="/images/background-blocks.svg"
+      alt="background"
+      layout="fill"
+      objectFit="cover"
+      className="z-0 grayscale opacity-20"
+      style={{ filter: "grayscale(100%)" }}
+      />
       <div className="sm:items-start text-center sm:text-left">
-        <h1 className="p-1">GET IN <span className=" text-blue-400 dark:text-purple-600 ">TOUCH</span></h1><br/>
+        <h1 className="p-1">GET IN <span className=" text-gray-500 dark:text-purple-600 ">TOUCH</span></h1><br/>
         <h3>I'm Excited to Bring My Skills to Your Team!</h3>
       </div>
       <div className="absolute bottom-0 left-0 right-0 flex py-24 px-12 sm:p-20 justify-between">
         <div className="text-left">
-          <h4 className="text-blue-400 dark:text-purple-400">EMAIL</h4>
+          <h4 className="text-gray-400 dark:text-purple-400">EMAIL</h4>
           <p className="text-lg font-semibold">email@gmail.com</p>
         </div>
         <div className="text-left">
-          <h4 className="pb-1 text-blue-400 dark:text-purple-400">SOCIAL</h4>
+          <h4 className="pb-1 text-gray-400 dark:text-purple-400">SOCIAL</h4>
           <div className="flex px-1 justify-between">
             <a href="https://www.linkedin.com/in/mary-boles" 
               target="_blank"
