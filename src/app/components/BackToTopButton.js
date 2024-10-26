@@ -30,7 +30,7 @@ export default function BackToTopButton () {
             { isVisible && (
                 <button
                 onClick={scrollToTop}
-                className="fixed bottom-4 right-4 p-3 border border-white rounded-lg 
+                className="fixed bottom-3 right-3 p-2 border border-white rounded-lg 
                 hover:bg-slate-700
                 dark:border-purple-600 
                 dark:hover:bg-purple-600"
@@ -38,8 +38,10 @@ export default function BackToTopButton () {
                     <div className="invert">
                     <Image 
                     src="/images/arrow-up.svg"
-                    width={20}
-                    height={20}
+                    alt="Arrow up"
+                    width={20}       
+                    height={20}     
+                    className="w-3 h-5 sm:w-3 sm:h-5 md:w-8 md:h-10 lg:w-8 lg:h-10 object-contain"
                     />
                     </div>
                     </button>
