@@ -11,13 +11,13 @@ export default function Home() {
   
   return (
     <>
-    <section className="relative grid grid-rows-[20px_1fr_20px] min-h-screen py-16 px-8 sm:p-20">
+    <section className="relative grid grid-rows-[20px_1fr_20px] min-h-screen py-8 px-0 sm:py-16 sm-px-8 md:p-20 bg-white bg-opacity-5 backdrop-blur-3xl">
       <Image 
       src="/images/background-blocks.svg"
       alt="background"
       layout="fill"
       objectFit="cover"
-      className="z-0 grayscale opacity-10"
+      className="z-0 grayscale opacity-5 filter brightness-75 contrast-125"
       style={{ filter: "grayscale(100%)" }}
       />
       <div className="flex flex-col gap-4 items-center sm:items-start text-center sm:text-left px-2 sm:px-0 z-10">
@@ -25,10 +25,10 @@ export default function Home() {
           <div className="flex gap-4 items-center flex-col sm:flex-row">
             <h3 className="text-gray-400 dark:text-purple-400">Delivering innovative user-centric solutions</h3>
           </div>
-          <h1 className="mt-24 text-gray-600 dark:text-purple-700 bg-white whitespace-nowrap md:hidden">Mary Boles</h1>
+          <h1 /* mobile screen */ className="mt-24 text-gray-600 dark:text-purple-700 bg-white whitespace-nowrap md:hidden">Mary Boles</h1>
       </div>
       <div className="row-start-4 flex flex-col items-center sm:flex-row sm:items-start justify-between z-10">
-        <h1 className="mt-36 text-gray-600 dark:text-purple-700 bg-white whitespace-nowrap hidden md:block">Mary Boles</h1>
+        <h1 /* med screen */ className="mt-36 text-gray-600 dark:text-purple-700 bg-white whitespace-nowrap hidden md:block shadow-[0px_12px_20px_rgba(0,0,0,0.5)]">Mary Boles</h1>
         <LargeNav className="hidden md:block"/>
         <SmallNav className="absolute bottom-0 block md:hidden"/>
       </div>
@@ -66,7 +66,7 @@ export default function Home() {
     </div>
     </section>
 
-    <section className="grid grid-rows-[20px_1fr_20px]  min-h-screen py-16 px-8 sm:p-20 " id="works">
+    <section className="grid grid-rows-[20px_1fr_20px] min-h-screen py-16 px-8 sm:p-20" id="works">
      <h2 className="font-syne">W<span className="text-gray-500 dark:text-purple-700">O</span>RKS</h2>
       <div className="px-4 mt-20 flex flex-col border-2 border-white dark:border-none bg-white bg-opacity-5 rounded-md sm:flex-row">
           <div className="my-auto">
@@ -91,13 +91,13 @@ export default function Home() {
       </div>
     </section>
 
-    <section className="grid grid-rows-[20px_1fr_20px]  min-h-screen relative py-16 px-8 sm:p-20" id="contact">
+    <section className="grid grid-rows-[20px_1fr_20px] min-h-screen relative py-16 px-8 sm:p-20 bg-white bg-opacity-5 backdrop-blur-3xl"  id="contact">
     <Image 
       src="/images/background-blocks.svg"
       alt="background"
       layout="fill"
       objectFit="cover"
-      className="z-0 grayscale opacity-20"
+      className="z-0 grayscale opacity-10 filter brightness-50 contrast-200"
       style={{ filter: "grayscale(100%)" }}
       />
       <div className="sm:items-start text-center sm:text-left">
