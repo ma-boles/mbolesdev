@@ -16,10 +16,18 @@ export default function Home() {
       <Image 
       src="/images/background-blocks.svg"
       alt="background"
-      layout="fill"
-      objectFit="cover"
       className="z-0 grayscale opacity-5 filter brightness-75 contrast-125"
-      style={{ filter: "grayscale(100%)" }}
+      width={1000}
+      height={1920}
+      style={{ 
+        position: "absolute",
+        top: 0,
+        left: 0,
+        width: "100%",
+        height: "100%",
+        filter: "grayscale(100%)", 
+        objectFit:"cover"
+      }}
       />
       <div className="flex flex-col gap-4 items-center sm:items-start text-center sm:text-left px-2 sm:px-0 z-10">
           <h2 className="mt-8">Software Engineer</h2>
@@ -98,10 +106,18 @@ export default function Home() {
     <Image 
       src="/images/background-blocks.svg"
       alt="background"
-      layout="fill"
-      objectFit="cover"
       className="z-0 grayscale opacity-10 filter brightness-50 contrast-200"
-      style={{ filter: "grayscale(100%)" }}
+      width={1000}
+      height={1920}
+      style={{ 
+        position: "absolute",
+        top: 0,
+        left: 0,
+        width: "100%",
+        height: "100%",
+        filter: "grayscale(100%)", 
+        objectFit:"cover"
+      }}
       />
       <div className="sm:items-start text-center sm:text-left">
         <h1 className="p-1">GET IN <span className=" text-gray-500 dark:text-purple-600 ">TOUCH</span></h1><br/>
