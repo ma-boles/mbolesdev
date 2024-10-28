@@ -8,6 +8,7 @@ import ToggleSwitch from "./components/ToggleSwitch";
 
 
 export default function Home() {
+  const currentDate = new Date().getFullYear();
   
   return (
     <>
@@ -44,13 +45,13 @@ export default function Home() {
       <h2 className="font-syne">ABOUT | <span className="text-gray-400 dark:text-purple-500">SKILLS</span></h2>
       <div className="flex flex-col md:flex-row justify-start mt-20 md:justify-between items-center md-items-start">
         <div className="w-full md:w-3/5 pb-4">
-          <p className="mr-2">Hi! I'm Mary, a software engineer transitioning from a career in the education field. Movtivated by my passion for creativity and <span className="font-bold">problem-solving,</span> I decided to pursue development focusing on building impactful web applications.<br/><br/>
-          With a experience in <span className="font-bold">JavaScript, React, Next.js, Tailwind CSS,</span> I create solutions that merge functionality and clean UI design. My background in education has honed my skills in communication, project management, analytical thinking, which are invaluable to understanding user needs and collaborating with teams.<br/><br/>
-          Outside of coding, I spend my time enjoying DJing, collecting vinyl records + CD's, watching films and sports, and listening to podcasts!<br/><br/>
+          <p className="mr-2">Hi! I'm Mary, a software engineer transitioning from a career in the education field. Movtivated by my passion for creativity and <span className="font-bold">problem-solving,</span> I made the decision to pursue development focusing on building impactful web applications.<br/><br/>
+          With experience in <span className="font-bold">JavaScript, React, Next.js, Tailwind CSS,</span> I create solutions that merge functionality and clean UI design. My background in education has honed my skills in communication, project management, analytical thinking, which are invaluable to understanding user needs and collaborating with teams.<br/><br/>
+          Outside of coding, I enjoy collecting vinyl records + CD's, DJing, watching films and sports, as well as listening to podcasts!<br/><br/>
           Feel free to get in touch if you'd like to collaborate, or simply <a href="#contact"><span className="underline hover:text-blue-400 dark:hover:text-purple-400">connect</span></a>!
           </p>
         </div>
-        <div className="w-full p-8 md:w-2/5 min-w-[200px] bg-white bg-opacity-5 rounded-lg ">
+        <div className="w-full p-8 m-4 md:w-2/5 min-w-[200px] bg-white bg-opacity-5 rounded-lg ">
           <h4 className="my-2 py-2 bg-gray-400 dark:bg-purple-500 bg-opacity-50 text-center">TOOLBOX</h4>
           <div className="flex flex-wrap justify-center">
             <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js badge" className="p-1"/>
@@ -73,7 +74,9 @@ export default function Home() {
             <h2 className="p-6 text-center"><span className="text-green-600 font-extrabold">flow</span>mode</h2>
           </div>
           <div className="py-2 sm:p-4">
-            <p className="mt-0 lg:mt-12">Flowmode is a web-based timer that integrates with Spotify to help users maintain productivity while preventing burnout. By encouraging regular breaks through customizable Flow and Rest intervals, <span className="text-green-600 font-extrabold">flow</span>mode helps users work for longer periods without fatigue. Users can choose audio to accompany both Flow and Rest phases, making the experience enjoyable and effective.
+            <p className="mt-0 lg:mt-12">
+            <span className="italic font-light">*Still in progress</span><br/>
+              Flowmode is a web-based timer that integrates with Spotify to help users maintain productivity while preventing burnout. By encouraging regular breaks through customizable Flow and Rest intervals, <span className="text-green-600 font-extrabold">flow</span>mode helps users work for longer periods without fatigue. Users can choose audio to accompany both Flow and Rest phases, making the experience enjoyable and effective.
             </p>
 
             <ProjectDetails />
@@ -85,7 +88,7 @@ export default function Home() {
               >
               <button className="px-8 py-2 border border-white dark:border-gray-500 rounded-md hover:bg-gray-500">Code</button>
               </a>
-              <button className="px-8 py-2 ml-2  bg-green-700 rounded-md hover:bg-green-600">Live</button>
+              <button className="px-8 py-2 ml-2  bg-green-700 rounded-md cursor-none">Live</button>
             </div>
           </div>
       </div>
@@ -138,6 +141,11 @@ export default function Home() {
         </div>
       </div>
     </section>
+    <footer className="py-4 bg-white bg-opacity-5">
+      <div className="conatiner mx-auto text-center">
+        <p className="text-sm">&copy; {currentDate} Mary Boles</p>
+      </div>
+    </footer>
     </>
   );
 }
