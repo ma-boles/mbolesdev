@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function SmallNav({ className }) {
     return (
         <>
-          <div /* nav buttons */ className={`flex mt-2 w-full bg-white bg-opacity-5 justify-between ${className}`}>
+          <div /* nav buttons */ role="navigation" className={`flex mt-2 w-full bg-white bg-opacity-5 justify-between ${className}`} data-testid="small-nav">
             <Link href="#about" className="flex-1">
               <button className="custom-nav w-full
               hover:bg-gray-700 text-center
