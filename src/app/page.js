@@ -29,7 +29,7 @@ export default function Home() {
         objectFit:"cover"
       }}
       />
-      <div className="flex flex-col gap-4 items-center sm:items-start text-center sm:text-left px-2 sm:px-0 z-10">
+      <div className="flex flex-col gap-4 items-center md:items-start text-center md:text-left px-2 md:px-0 z-10">
           <h2 className="mt-8">Software Engineer</h2>
           <div className="flex gap-4 items-center flex-col sm:flex-row">
             <h3 className="text-gray-400 dark:text-purple-400">Delivering innovative user-centric solutions</h3>
@@ -70,6 +70,7 @@ export default function Home() {
             <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub badge" className="p-1"/>
             <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code badge" className="p-1"/>
             <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB badge" className="p-1"/>
+            <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel badge" className="p-1"/>
           </div>
       </div>
     </div>
@@ -77,13 +78,13 @@ export default function Home() {
 
     <section className="grid grid-rows-[20px_1fr_20px] min-h-screen py-16 px-8 sm:p-20" id="works">
      <h2 className="font-syne">W<span className="text-gray-500 dark:text-purple-700">O</span>RKS</h2>
-      <div className="px-4 mt-20 flex flex-col border-2 border-white dark:border-none bg-white bg-opacity-5 rounded-md sm:flex-row">
+      <div className="px-4 mt-20 flex flex-col border-2 border-white dark:border-none bg-white bg-opacity-5 rounded-md lg:flex-row">
           <div className="my-auto">
             <h2 className="p-6 text-center"><span className="text-green-600 font-extrabold">flow</span>mode</h2>
           </div>
           <div className="py-2 sm:p-4">
             <p className="mt-0 lg:mt-12">
-            <span className="italic font-light">*Still in progress</span><br/>
+            <span className="italic font-light text-green-300">*Still in progress</span><br/>
               Flowmode is a web-based timer that integrates with Spotify to help users maintain productivity while preventing burnout. By encouraging regular breaks through customizable Flow and Rest intervals, <span className="text-green-600 font-extrabold">flow</span>mode helps users work for longer periods without fatigue. Users can choose audio to accompany both Flow and Rest phases, making the experience enjoyable and effective.
             </p>
 
