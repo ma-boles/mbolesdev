@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function LargeNav({ className }) {
     return (
         <>
-          <div /* nav buttons */ className={`hidden md:flex flex-col gap-2 m-4 ${className}`}>
+          <div /* nav buttons */ className={`hidden md:flex flex-col gap-2 m-4 ${className}`} data-testid="large-nav">
           <Link href="#about">
               <button className="custom-button 
               bg-gray-800 
