@@ -9,6 +9,8 @@ export default function ToggleSwitch({ onToggle }) {
     
       const handleToggle = () => {
         setIsToggled(!isToggled);
+        onToggle && onToggle(!isToggled); // Invoke the callback with the updated state
+
         // Toggle the classes on the html element
         if (isToggled) {
           document.documentElement.classList.remove('dark'); // Remove dark class to switch to light mode
