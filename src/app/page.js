@@ -30,7 +30,7 @@ export default function Home() {
       }}
       />
       <div className="flex flex-col gap-4 items-center md:items-start text-center md:text-left px-2 md:px-0 z-10">
-          <h2 className="mt-8">Software Engineer</h2>
+          <h2 className="mt-16 sm:mt-8">Software Engineer</h2>
           <div className="flex gap-4 items-center flex-col sm:flex-row">
             <h3 className="text-gray-400 dark:text-purple-400">Delivering innovative user-centric solutions</h3>
           </div>
@@ -124,14 +124,14 @@ export default function Home() {
         <h1 className="p-1">GET IN <span className=" text-gray-500 dark:text-purple-600 ">TOUCH</span></h1><br/>
         <h3>I'm Excited to Bring My Skills to Your Team!</h3>
       </div>
-      <div className="absolute bottom-0 left-0 right-0 flex py-24 px-12 sm:p-20 justify-between">
+      <div className="absolute bottom-0 left-0 right-0 py-8 px-12 sm:p-20 justify-between sm:flex">
         <div className="text-left">
           <h4 className="text-gray-400 dark:text-purple-400">EMAIL</h4>
-          <p className="text-lg font-semibold">email@gmail.com</p>
+          <p className="text-lg font-semibold">mboles.dev@gmail.com</p>
         </div>
         <div className="text-left">
           <h4 className="pb-1 text-gray-400 dark:text-purple-400">SOCIAL</h4>
-          <div className="flex px-1 justify-between">
+          <div className="flex sm:justify-start">
             <a href="https://www.linkedin.com/in/mary-boles" 
               target="_blank"
               rel="noopener noreferrer">
@@ -146,7 +146,7 @@ export default function Home() {
             <a href="https://github.com/ma-boles" 
               target="_blank"
               rel="noopener noreferrer">
-                <div className="invert">
+                <div className="invert px-2 sm:px-4 ">
                   <Image 
                     src="/images/github-brands-solid (1).svg"
                     alt="Link to GitHub Profile"
