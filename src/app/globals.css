@@ -19,6 +19,7 @@ body {
   background: var(--background-dark); 
   color: var(--text-color);
   transition: background 0.3s ease, color 0.3s ease; /* Smooth transition */
+  font-family: 'Syne', sans-serif;
 }  
 
 html.light body {
