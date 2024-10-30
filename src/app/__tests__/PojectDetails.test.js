@@ -1,13 +1,14 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen, fireEvent } from '@testing-library/react';
 import ProjectDetails from '../components/ProjectDetails';
 
 describe('ProjectDetails', () => {
-    beforeEach(() => {
-        render(<ProjectDetails />);
-    });
-
     test('renders project details', () => {
-        expect(screen.getByText('Features')).toBeInTheDocument();
+        render(<ProjectDetails />);
+
+        // Click the "Show More" button if "Features" is behind it
+        const showMoreButton = screen.getByText('Show More');
+        fireEvent.click(showMoreButton);
+
+        expect(screen.getByText(/features/i)).toBeInTheDocument();
     });
-    
 });
