@@ -1,5 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import Home from '../page';
+/* eslint-disable @next/next/no-img-element */
+
 
 /* eslint-disable react/display-name */
 jest.mock('next/image', () => {
