@@ -14,7 +14,7 @@ describe('Home', () => {
     });
 
     test('renders home page', () => {
-        expect(screen.getByText('Software Engineer')).toBeInTheDocument();
+        expect(screen.getByText('Web Developer')).toBeInTheDocument();
     });
 
     test('renders background image with correct properties', () => {
