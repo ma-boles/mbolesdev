@@ -41,7 +41,7 @@ export default function BackToTopButton () {
                     alt="Arrow up"
                     width={20}
                     height={20}
-                    className="w-3 h-5 sm:w-3 sm:h-5 md:w-8 md:h-10 lg:w-8 lg:h-10 object-contain"
+                    className="w-4 h-6 sm:w-5 sm:h-7 md:w-6 md:h-8 lg:w-8 lg:h-10 object-contain"
                     />
                     </div>
                     </button>
