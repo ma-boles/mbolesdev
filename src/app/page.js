@@ -53,10 +53,10 @@ export default function Home() {
       <h2 className="font-syne">ABOUT | <span className="text-gray-400 dark:text-purple-500">SKILLS</span></h2>
       <div className="flex flex-col md:flex-row justify-start mt-20 md:justify-between items-center md-items-start">
         <div className="w-full md:w-3/5 pb-4">
-          <p className="mr-2">Hi! I'm Mary, a web developer transitioning from a career in the education field. Movtivated by my passion for creativity and <span className="font-bold">problem-solving,</span> I made the decision to pursue development focusing on building impactful web applications.<br/><br/>
+          <p className="mr-2">Hi! I&#39;m Mary, a web developer transitioning from a career in the education field. Movtivated by my passion for creativity and <span className="font-bold">problem-solving,</span> I made the decision to pursue development focusing on building impactful web applications.<br/><br/>
           With experience in <span className="font-bold">JavaScript, React, Next.js, Tailwind CSS,</span> I create solutions that merge functionality and clean UI design. My background in education has honed my skills in communication, project management, analytical thinking, which are invaluable to understanding user needs and collaborating with teams.<br/><br/>
-          Outside of coding, I enjoy collecting vinyl records + CD's, DJing, watching films and sports, as well as listening to podcasts!<br/><br/>
-          Feel free to get in touch if you'd like to collaborate, or simply <a href="#contact"><span className="underline hover:text-blue-400 dark:hover:text-purple-400">connect</span></a>!
+          Outside of coding, I enjoy collecting vinyl records + CD&#39;s, DJing, watching films and sports, as well as listening to podcasts!<br/><br/>
+          Feel free to get in touch if you&#39;d like to collaborate, or simply <a href="#contact"><span className="underline hover:text-blue-400 dark:hover:text-purple-400">connect</span></a>!
           </p>
         </div>
         <div className="w-full p-8 m-4 md:w-2/5 min-w-[200px] bg-white bg-opacity-5 rounded-lg ">
