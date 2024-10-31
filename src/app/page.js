@@ -62,15 +62,51 @@ export default function Home() {
         <div className="w-full p-8 m-4 md:w-2/5 min-w-[200px] bg-white bg-opacity-5 rounded-lg ">
           <h4 className="my-2 py-2 bg-gray-400 dark:bg-purple-500 bg-opacity-50 text-center">TOOLBOX</h4>
           <div className="flex flex-wrap justify-center">
-            <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js badge" className="p-1"/>
-            <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript badge" className="p-1"/>
-            <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React badge" className="p-1"/>
-            <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS badge" className="p-1"/>
-            <img src="https://img.shields.io/badge/APIs-000000?style=for-the-badge&logo=api&logoColor=white" alt="APIs badge" className="p-1"/>
-            <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub badge" className="p-1"/>
-            <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code badge" className="p-1"/>
-            <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB badge" className="p-1"/>
-            <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel badge" className="p-1"/>
+            <Image 
+            src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" 
+            alt="Next.js badge" 
+            className="p-1"
+            style={{ width: 'auto', height: 'auto' }}/>
+            <Image 
+            src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" 
+            alt="JavaScript badge" 
+            className="p-1"
+            style={{ width: 'auto', height: 'auto' }}/>
+            <Image 
+            src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" 
+            alt="React badge" 
+            className="p-1"
+            style={{ width: 'auto', height: 'auto' }}/>
+            <Image 
+            src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" 
+            alt="Tailwind CSS badge" 
+            className="p-1"
+            style={{ width: 'auto', height: 'auto' }}/>
+            <Image 
+            src="https://img.shields.io/badge/APIs-000000?style=for-the-badge&logo=api&logoColor=white" 
+            alt="APIs badge" 
+            className="p-1"
+            style={{ width: 'auto', height: 'auto' }}/>
+            <Image 
+            src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" 
+            alt="GitHub badge" 
+            className="p-1"
+            style={{ width: 'auto', height: 'auto' }}/>
+            <Image 
+            src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" 
+            alt="VS Code badge" 
+            className="p-1"
+            style={{ width: 'auto', height: 'auto' }}/>
+            <Image 
+            src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" 
+            alt="MongoDB badge" 
+            className="p-1"
+            style={{ width: 'auto', height: 'auto' }}/>
+            <Image 
+            src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" 
+            alt="Vercel badge" 
+            className="p-1"
+            style={{ width: 'auto', height: 'auto' }}/>
           </div>
       </div>
     </div>
@@ -104,19 +140,19 @@ export default function Home() {
     </section>
 
     <section className="grid grid-rows-[20px_1fr_20px] min-h-screen relative py-16 px-8 sm:p-20 bg-white bg-opacity-5 backdrop-blur-3xl"  id="contact">
-    <Image 
+    <Image
       src="/images/background-blocks.svg"
       alt="background"
       className="z-0 grayscale opacity-10 filter brightness-50 contrast-200"
       width={1000}
       height={1920}
-      style={{ 
+      style={{
         position: "absolute",
         top: 0,
         left: 0,
         width: "100%",
         height: "100%",
-        filter: "grayscale(100%)", 
+        filter: "grayscale(100%)",
         objectFit:"cover"
       }}
       />
