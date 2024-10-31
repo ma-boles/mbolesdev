@@ -63,58 +63,58 @@ export default function Home() {
           <h4 className="my-2 py-2 bg-gray-400 dark:bg-purple-500 bg-opacity-50 text-center">TOOLBOX</h4>
           <div className="flex flex-wrap justify-center">
             <Image 
-            src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" 
+            src="/images/Next.svg"
             alt="Next.js badge" 
             className="p-1"
             width={99}
             height={28}/>
             <Image 
-            src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" 
+            src="/images/JavaScript-F7DF1E.svg"
             alt="JavaScript badge" 
             className="p-1"
-            width={99}
+            width={127}
             height={28}/>
             <Image 
-            src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" 
+            src="/images/React-61DAFB.svg"
             alt="React badge" 
             className="p-1"
-            width={99}
+            width={87}
             height={28}/>
             <Image 
-            src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" 
+            src="/images/Tailwind_CSS-06B6D4.svg"
             alt="Tailwind CSS badge" 
             className="p-1"
-            width={99}
+            width={143}
             height={28}/>
             <Image 
-            src="https://img.shields.io/badge/APIs-000000?style=for-the-badge&logo=api&logoColor=white" 
+            src="/images/APIs-000000.svg"
             alt="APIs badge" 
             className="p-1"
-            width={99}
+            width={56}
             height={28}/>
             <Image 
-            src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" 
+            src="/images/GitHub-181717.svg"
             alt="GitHub badge" 
             className="p-1"
-            width={99}
+            width={96}
             height={28}/>
             <Image 
-            src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" 
+            src="/images/VS_Code-007ACC.svg"
             alt="VS Code badge" 
             className="p-1"
-            width={99}
+            width={82}
             height={28}/>
             <Image 
-            src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" 
+            src="/images/MongoDB-47A248.svg"
             alt="MongoDB badge" 
             className="p-1"
-            width={99}
+            width={111}
             height={28}/>
             <Image 
-            src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" 
+            src="/images/Vercel-000000.svg"
             alt="Vercel badge" 
             className="p-1"
-            width={99}
+            width={94}
             height={28}/>
           </div>
       </div>
