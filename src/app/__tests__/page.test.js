@@ -1,12 +1,13 @@
 import { render, screen } from '@testing-library/react';
 import Home from '../page';
 
+/* eslint-disable react/display-name */
 jest.mock('next/image', () => {
     return ({ src, alt, className }) => {
         return <img src={src} alt={alt} className={className} />
     };
 });
-
+/* eslint-disable react/display-name */
 
 describe('Home', () => {
     beforeEach(() => {
