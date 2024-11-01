@@ -5,6 +5,7 @@ import BackToTopButton from "./components/BackToTopButton";
 import LargeNav from "./components/LargeNav";
 import SmallNav from "./components/SmallNav";
 import ToggleSwitch from "./components/ToggleSwitch";
+import { useEffect, useState } from "react";
 
 
 export default function Home() {
@@ -12,23 +13,20 @@ export default function Home() {
   
   return (
     <>
-    <section className="relative grid grid-rows-[20px_1fr_20px] min-h-screen py-8 px-0 sm:py-16 sm-px-8 md:p-20 bg-white bg-opacity-5 backdrop-blur-3xl">
-      <Image 
-      src="/images/background-blocks.svg"
-      alt="background"
-      className="z-0 grayscale opacity-5 filter brightness-75 contrast-125"
-      width={1000}
-      height={1920}
-      style={{ 
-        position: "absolute",
-        top: 0,
-        left: 0,
-        width: "100%",
-        height: "100%",
-        filter: "grayscale(100%)", 
-        objectFit:"cover"
-      }}
-      />
+    <section className="relative grid grid-rows-[20px_1fr_20px] min-h-screen py-8 px-0 sm:py-16 sm-px-8 md:p-20 bg-white bg-opacity-10 backdrop-blur-3x overflow-hidden">
+        <Image 
+        src="/images/giant blocks.svg"
+        alt="background"
+        className="z-0 grayscale opacity-30 filter brightness-50 contrast-200"
+        width={4096}
+        height={2160}
+        style={{ 
+          position: "absolute",
+          top: 0,
+          left: 0,
+          filter: "grayscale(100%)", 
+        }}
+        />
       <div className="flex flex-col gap-4 items-center md:items-start text-center md:text-left px-2 md:px-0 z-10">
           <h2 className="mt-16 sm:mt-8 fade-in-up-1">Web Developer</h2>
           <div className="flex gap-4 items-center flex-col sm:flex-row">
@@ -121,7 +119,7 @@ export default function Home() {
     </div>
     </section>
 
-    <section className="grid grid-rows-[20px_1fr_20px] min-h-screen py-16 px-8 sm:p-20" id="works">
+    <section className="grid grid-rows-[20px_1fr_20px] min-h-screen py-16 px-8 bg-white bg-opacity-10 sm:p-20" id="works">
      <h2 className="font-syne">W<span className="text-gray-500 dark:text-purple-700">O</span>RKS</h2>
       <div className="px-4 mt-20 flex flex-col border-2 border-white dark:border-none bg-white bg-opacity-5 rounded-md lg:flex-row">
           <div className="my-auto">
@@ -148,21 +146,18 @@ export default function Home() {
       </div>
     </section>
 
-    <section className="grid grid-rows-[20px_1fr_20px] min-h-screen relative py-16 px-8 sm:p-20 bg-white bg-opacity-5 backdrop-blur-3xl"  id="contact">
+    <section className="grid grid-rows-[20px_1fr_20px] min-h-screen relative py-16 px-8 overflow-hidden sm:p-20 bg-white bg-opacity-5 backdrop-blur-3xl"  id="contact">
     <Image
-      src="/images/background-blocks.svg"
+      src="/images/giant blocks.svg"
       alt="background"
-      className="z-0 grayscale opacity-10 filter brightness-50 contrast-200"
-      width={1000}
-      height={1920}
+      className="z-0 grayscale opacity-20 filter brightness-50 contrast-200"
+      width={4096}
+      height={2160}
       style={{
         position: "absolute",
         top: 0,
         left: 0,
-        width: "100%",
-        height: "100%",
         filter: "grayscale(100%)",
-        objectFit:"cover"
       }}
       />
       <div className="sm:items-start text-center sm:text-left">
