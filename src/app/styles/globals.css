@@ -64,3 +64,33 @@ html {
   }
 }
 
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.7s forwards;
+}
+
+.fade-in-up-1 {
+  animation: fadeInUp 3s forwards;
+  animation-delay: 0.2s; /* Delay for 1st line */
+}
+
+.fade-in-up-2 {
+  animation: fadeInUp 3s forwards;
+  animation-delay: 0.4s; /* Delay for 2nd line */
+}
+
+.fade-in-up-3 {
+  animation: fadeInUp 3s forwards;
+  animation-delay: 0.6s; /* Delay for 2nd line */
+}
+

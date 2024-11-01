@@ -30,14 +30,14 @@ export default function Home() {
       }}
       />
       <div className="flex flex-col gap-4 items-center md:items-start text-center md:text-left px-2 md:px-0 z-10">
-          <h2 className="mt-16 sm:mt-8">Web Developer</h2>
+          <h2 className="mt-16 sm:mt-8 fade-in-up-1">Web Developer</h2>
           <div className="flex gap-4 items-center flex-col sm:flex-row">
-            <h3 className="text-gray-400 dark:text-purple-400">Delivering innovative user-centric solutions</h3>
+            <h3 className="text-gray-400 dark:text-purple-400 fade-in-up-2">Delivering innovative user-centric solutions</h3>
           </div>
-          <h1 /* mobile screen */ className="mt-24 text-gray-600 dark:text-purple-700 bg-white whitespace-nowrap md:hidden">Mary Boles</h1>
+          <h1 /* mobile screen */ className="mt-24 text-gray-600 dark:text-purple-700 bg-white whitespace-nowrap md:hidden fade-in-up-3">Mary Boles</h1>
       </div>
       <div className="row-start-4 flex flex-col items-center sm:flex-row sm:items-start justify-between z-10">
-        <h1 /* med screen */ className="mt-36 text-gray-600 dark:text-purple-700 bg-white whitespace-nowrap hidden md:block shadow-[0px_12px_20px_rgba(0,0,0,0.5)]">Mary Boles</h1>
+        <h1 /* med screen */ className="mt-36 text-gray-600 dark:text-purple-700 bg-white whitespace-nowrap hidden md:block shadow-[0px_12px_20px_rgba(0,0,0,0.5)] fade-in-up-3">Mary Boles</h1>
         <LargeNav className="hidden md:block"/>
         <SmallNav className="absolute bottom-0 block md:hidden"/>
       </div>
@@ -180,6 +180,8 @@ export default function Home() {
             <a href="https://www.linkedin.com/in/mary-boles" 
               target="_blank"
               rel="noopener noreferrer">
+                <button className="hover:scale-125 transition-transform duration-200 ease-in-out focus:outline-none focus:ring-4 focus:ring-purple-500
+">
                 <div className="invert">
                   <Image 
                     src="/images/linkedin-brands-solid (1).svg"
@@ -187,17 +189,21 @@ export default function Home() {
                     width={25}
                     height={25} />
                 </div>
+                </button>
             </a>
             <a href="https://github.com/ma-boles" 
               target="_blank"
               rel="noopener noreferrer">
-                <div className="invert px-2 sm:px-4 ">
+                <button className="hover:scale-125 transition-transform duration-200 ease-in-out focus:outline-none focus:ring-4 focus:ring-purple-500
+">
+                <div className="invert px-2 sm:px-4">
                   <Image 
                     src="/images/github-brands-solid (1).svg"
                     alt="Link to GitHub Profile"
                     width={27}
                     height={27}/>
                 </div>
+                </button>
             </a>
           </div>
         </div>
