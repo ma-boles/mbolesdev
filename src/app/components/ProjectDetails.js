@@ -10,7 +10,7 @@ export default function ProjectDetails () {
 
     return (
         <>
-        <button className="pt-1 text-gray-400 dark:text-purple-300 text-lg font-bold hover:border-b border-purple-300"
+        <button className="pt-1 text-green-500 text-lg font-bold hover:border-b border-white"
         onClick={toggleDetails}>
             {isExpanded ? "Show Less" : "Show More"}
         </button>
