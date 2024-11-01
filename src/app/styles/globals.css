@@ -75,11 +75,6 @@ html {
   }
 }
 
-.fade-in-up {
-  animation: fadeInUp 0.7s forwards;
-  opacity: 0; /* Ensures hidden at start*/
-}
-
 .fade-in-up-1 {
   animation: fadeInUp 3s forwards;
   animation-delay: 0.2s; /* Delay for 1st line */
