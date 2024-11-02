@@ -5,26 +5,23 @@ import BackToTopButton from "./components/BackToTopButton";
 import LargeNav from "./components/LargeNav";
 import SmallNav from "./components/SmallNav";
 import ToggleSwitch from "./components/ToggleSwitch";
-import { useEffect, useState } from "react";
 
 
 export default function Home() {
   const currentDate = new Date().getFullYear();
-  
+
   return (
     <>
     <section className="relative grid grid-rows-[20px_1fr_20px] min-h-screen py-8 px-0 sm:py-16 sm-px-8 md:p-20 bg-white bg-opacity-10 backdrop-blur-3x overflow-hidden">
-        <Image 
+        <Image
         src="/images/giant blocks.svg"
         alt="background"
         className="z-0 grayscale opacity-30 filter brightness-50 contrast-200"
-        width={4096}
-        height={2160}
-        style={{ 
-          position: "absolute",
-          top: 0,
-          left: 0,
-          filter: "grayscale(100%)", 
+        fill
+        style={{
+          objectFit: "cover",
+          objectPosition: "center",
+          filter: "grayscale(100%)",
         }}
         />
       <div className="flex flex-col gap-4 items-center md:items-start text-center md:text-left px-2 md:px-0 z-10">
@@ -60,57 +57,57 @@ export default function Home() {
         <div className="w-full p-8 m-4 md:w-2/5 min-w-[200px] bg-white bg-opacity-5 rounded-lg ">
           <h4 className="my-2 py-2 bg-gray-400 dark:bg-purple-500 bg-opacity-50 text-center">TOOLBOX</h4>
           <div className="flex flex-wrap justify-center">
-            <Image 
+            <Image
             src="/images/Next.svg"
-            alt="Next.js badge" 
+            alt="Next.js badge"
             className="p-1"
             width={99}
             height={28}/>
-            <Image 
+            <Image
             src="/images/JavaScript-F7DF1E.svg"
-            alt="JavaScript badge" 
+            alt="JavaScript badge"
             className="p-1"
             width={127}
             height={28}/>
-            <Image 
+            <Image
             src="/images/React-61DAFB.svg"
-            alt="React badge" 
+            alt="React badge"
             className="p-1"
             width={87}
             height={28}/>
-            <Image 
+            <Image
             src="/images/Tailwind_CSS-06B6D4.svg"
-            alt="Tailwind CSS badge" 
+            alt="Tailwind CSS badge"
             className="p-1"
             width={143}
             height={28}/>
-            <Image 
+            <Image
             src="/images/APIs-000000.svg"
-            alt="APIs badge" 
+            alt="APIs badge"
             className="p-1"
             width={56}
             height={28}/>
-            <Image 
+            <Image
             src="/images/GitHub-181717.svg"
-            alt="GitHub badge" 
+            alt="GitHub badge"
             className="p-1"
             width={96}
             height={28}/>
-            <Image 
+            <Image
             src="/images/VS_Code-007ACC.svg"
-            alt="VS Code badge" 
+            alt="VS Code badge"
             className="p-1"
             width={82}
             height={28}/>
-            <Image 
+            <Image
             src="/images/MongoDB-47A248.svg"
-            alt="MongoDB badge" 
+            alt="MongoDB badge"
             className="p-1"
             width={111}
             height={28}/>
-            <Image 
+            <Image
             src="/images/Vercel-000000.svg"
-            alt="Vercel badge" 
+            alt="Vercel badge"
             className="p-1"
             width={94}
             height={28}/>
@@ -134,7 +131,7 @@ export default function Home() {
             <ProjectDetails />
 
             <div className="flex mt-4 mb-2 sm:justify-between md:justify-start">
-              <a href="https://github.com/ma-boles/flowmode/tree/main/my-nextjs-app" 
+              <a href="https://github.com/ma-boles/flowmode/tree/main/my-nextjs-app"
               target="_blank"
               rel="noopener noreferrer"
               >
@@ -151,12 +148,10 @@ export default function Home() {
       src="/images/giant blocks.svg"
       alt="background"
       className="z-0 grayscale opacity-20 filter brightness-50 contrast-200"
-      width={4096}
-      height={2160}
+      fill
       style={{
-        position: "absolute",
-        top: 0,
-        left: 0,
+        objectFit: "cover",
+        objectPosition: "center",
         filter: "grayscale(100%)",
       }}
       />
@@ -172,13 +167,13 @@ export default function Home() {
         <div className="text-left">
           <h4 className="pb-1 text-gray-400 dark:text-purple-400">SOCIAL</h4>
           <div className="flex sm:justify-start">
-            <a href="https://www.linkedin.com/in/mary-boles" 
+            <a href="https://www.linkedin.com/in/mary-boles"
               target="_blank"
               rel="noopener noreferrer">
                 <button className="hover:scale-125 transition-transform duration-200 ease-in-out focus:outline-none focus:ring-4 focus:ring-purple-500
 ">
                 <div className="invert">
-                  <Image 
+                  <Image
                     src="/images/linkedin-brands-solid (1).svg"
                     alt="Link to LinkedIn Profile"
                     width={25}
@@ -186,13 +181,13 @@ export default function Home() {
                 </div>
                 </button>
             </a>
-            <a href="https://github.com/ma-boles" 
+            <a href="https://github.com/ma-boles"
               target="_blank"
               rel="noopener noreferrer">
                 <button className="hover:scale-125 transition-transform duration-200 ease-in-out focus:outline-none focus:ring-4 focus:ring-purple-500
 ">
                 <div className="invert px-2 sm:px-4">
-                  <Image 
+                  <Image
                     src="/images/github-brands-solid (1).svg"
                     alt="Link to GitHub Profile"
                     width={27}
