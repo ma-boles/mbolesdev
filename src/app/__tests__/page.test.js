@@ -28,7 +28,7 @@ describe('Home', () => {
 
         const backgroundImg = backgroundImgs[0]
         expect(backgroundImg).toBeInTheDocument();
-        expect(backgroundImg).toHaveAttribute('src', '/images/background-blocks.svg');
+        expect(backgroundImg).toHaveAttribute('src', '/images/giant blocks.svg');
         expect(backgroundImg).toHaveAttribute('class', expect.stringContaining('grayscale'));
     });
 
