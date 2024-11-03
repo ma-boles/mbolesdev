@@ -10,6 +10,7 @@ module.exports = {
     extend: {
       fontFamily: {
         syne: ['Syne', 'sans-serif'],
+        inter: ['Inter', 'sans-serif'],
       },
       fontWeight: {
         'extrabold': '800', 
