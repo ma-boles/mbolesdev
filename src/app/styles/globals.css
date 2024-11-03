@@ -1,8 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /* Default dark mode */
 :root {
@@ -19,7 +19,7 @@ body {
   background: var(--background-dark);
   color: var(--text-color);
   transition: background 0.3s ease, color 0.3s ease; /* Smooth transition */
-  font-family: 'Syne', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 html.light body {
@@ -37,20 +37,23 @@ html {
 }
 
 @layer base {
+  body {
+    @apply font-inter; /* Apply custom font family */
+  }
   h1{
-    @apply text-5xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold;
+    @apply text-5xl sm:text-5xl lg-mobile:text-6xl md:text-6xl lg:text-7xl font-extrabold;
   }
   h2{
-    @apply text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-extrabold;
+    @apply text-3xl sm:text-4xl lg-mobile:text-5xl md:text-5xl lg:text-5xl font-extrabold;
   }
   h3 {
-    @apply text-2xl sm:text-2xl md:text-4xl lg:text-4xl font-extrabold;
+    @apply text-2xl sm:text-2xl lg-mobile:text-4xl md:text-4xl lg:text-4xl font-extrabold;
   }
   h4 {
-    @apply text-lg sm:text-xl md:text-3xl lg:text-3xl font-extrabold;
+    @apply text-lg sm:text-xl lg-mobile:text-3xl md:text-3xl lg:text-3xl font-extrabold;
   }
   p{
-    @apply text-base sm:text-lg md:text-lg lg:text-xl;
+    @apply text-base sm:text-lg lg-mobile:text-lg md:text-lg lg:text-xl;
   }
 }
 
