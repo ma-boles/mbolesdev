@@ -1,7 +1,7 @@
 import "@/app/styles/globals.css"
 
 export const metadata = {
-  title: "Mary Boles | Web Developer Portfolio",
+  title: "Mary Boles | Developer Portfolio",
   description: "Portfolio showcasing my web development projects, skills, and experience in building modern applications. Built in Next.js and Tailwind CSS.",
   keywords: ["Web Developer"," Portfolio", "Next.js", "Tailwind CSS", "JavaScript", "React"]
 };
