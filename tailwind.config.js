@@ -10,7 +10,14 @@ module.exports = {
     extend: {
       fontFamily: {
         syne: ['Syne', 'sans-serif'],
-      }
+      },
+      fontWeight: {
+        'extrabold': '800', 
+        'semibold': '600',
+      },
+      screens: {
+        'lg-mobile': '414px', // Large mobile
+      },
     },
   },
   plugins: [],
