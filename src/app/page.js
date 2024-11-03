@@ -5,27 +5,36 @@ import BackToTopButton from "./components/BackToTopButton";
 import LargeNav from "./components/LargeNav";
 import SmallNav from "./components/SmallNav";
 import ToggleSwitch from "./components/ToggleSwitch";
+import { useState } from "react";
 
 
 export default function Home() {
+  const [loaded, setLoaded] = useState(false);
   const currentDate = new Date().getFullYear();
+
+  const handleImageLoad = () => {
+    setLoaded(true); // Set loaded to true when the image has loaded
+  };
 
   return (
     <>
     <section className="relative grid grid-rows-[20px_1fr_20px] min-h-screen py-8 px-0 sm:py-16 sm-px-8 md:p-20 bg-white bg-opacity-10 backdrop-blur-3x overflow-hidden">
-        <Image
-        src="/images/giant blocks.svg"
-        alt="background"
-        className="z-0 grayscale opacity-30 filter brightness-50 contrast-200"
-        fill
-        style={{
-          objectFit: "cover",
-          objectPosition: "center",
-          filter: "grayscale(100%)",
-        }}
-        />
+      <div className={`fade-in ${loaded ? 'fade-in-active' : ''}`}>
+          <Image
+          src="/images/giant blocks.svg"
+          alt="background"
+          className="z-0 grayscale opacity-30 filter brightness-50 contrast-200"
+          fill
+          style={{
+            objectFit: "cover",
+            objectPosition: "center",
+            filter: "grayscale(100%)",
+          }}
+          onLoad={handleImageLoad} // Trigger state change on image load
+          />
+      </div>
       <div className="flex flex-col gap-4 items-center md:items-start text-center md:text-left px-2 md:px-0 z-10">
-          <h2 className="mt-16 font-bold sm:mt-8 fade-in-up-1">Web Developer</h2>
+          <h2 className="mt-16 sm:mt-8 fade-in-up-1">Web Developer</h2>
           <div className="flex gap-4 items-center flex-col sm:flex-row">
             <h3 className="text-gray-400 dark:text-purple-400 fade-in-up-2">Delivering innovative user-centric solutions</h3>
           </div>
@@ -144,17 +153,20 @@ export default function Home() {
     </section>
 
     <section className="grid grid-rows-[20px_1fr_20px] min-h-screen relative py-16 px-8 overflow-hidden sm:p-20 bg-white bg-opacity-5 backdrop-blur-3xl"  id="contact">
-    <Image
-      src="/images/giant blocks.svg"
-      alt="background"
-      className="z-0 grayscale opacity-20 filter brightness-50 contrast-200"
-      fill
-      style={{
-        objectFit: "cover",
-        objectPosition: "center",
-        filter: "grayscale(100%)",
-      }}
-      />
+      <div className={`fade-in ${loaded ? 'fade-in-active' : ''}`}>
+        <Image
+          src="/images/giant blocks.svg"
+          alt="background"
+          className="z-0 grayscale opacity-20 filter brightness-50 contrast-200"
+          fill
+          style={{
+            objectFit: "cover",
+            objectPosition: "center",
+            filter: "grayscale(100%)",
+          }}
+          onLoad={handleImageLoad} // Trigger state change on image load
+          />
+        </div>
       <div className="sm:items-start text-center sm:text-left">
         <h1 className="p-1">GET IN <span className=" text-gray-500 dark:text-purple-600 ">TOUCH</span></h1><br/>
         <h3>I&#39;m Excited to Bring My Skills to Your Team!</h3>
