@@ -18,7 +18,8 @@ export default function Home() {
 
   return (
     <>
-    <section className="relative grid grid-rows-[20px_1fr_20px] min-h-screen py-8 px-0 sm:py-16 sm-px-8 md:p-20 bg-white bg-opacity-10 backdrop-blur-3x overflow-hidden">
+    <main>
+    <section className="relative grid grid-rows-[20px_1fr_20px] min-h-screen py-8 sm:py-16 sm-px-8 md:p-20 bg-white bg-opacity-10 backdrop-blur-3x overflow-hidden">
       <div className={`fade-in ${loaded ? 'fade-in-active' : ''}`}>
           <Image
           src="/images/giant blocks.svg"
@@ -33,18 +34,18 @@ export default function Home() {
           onLoad={handleImageLoad} // Trigger state change on image load
           />
       </div>
-      <div className="flex flex-col gap-4 items-center md:items-start text-center md:text-left px-2 md:px-0 z-10">
-          <h2 className="mt-16 sm:mt-8 fade-in-up-1">Web Developer</h2>
-          <div className="flex gap-4 items-center flex-col sm:flex-row">
-            <h3 className="text-gray-400 dark:text-purple-500 fade-in-up-2">Delivering innovative user-centric solutions</h3>
-          </div>
-          <h1 /* mobile screen */ className="mt-24 text-gray-600 dark:text-purple-700 bg-white whitespace-nowrap md:hidden lg-mobile:mt-12 fade-in-up-3">Mary Boles</h1>
-      </div>
-      <div className="row-start-4 flex flex-col items-center sm:flex-row sm:items-start justify-between z-10">
-        <h1 /* med screen */ className="mt-36 text-gray-600 dark:text-purple-700 bg-white whitespace-nowrap hidden md:block shadow-[0px_12px_20px_rgba(0,0,0,0.5)] fade-in-up-3">Mary Boles</h1>
-        <LargeNav className="hidden md:block"/>
-        <SmallNav className="absolute bottom-0 block md:hidden"/>
-      </div>
+        <div className="flex flex-col gap-4 items-center md:items-start text-center md:text-left px-2 md:px-0 z-10">
+            <h2 className="mt-16 sm:mt-8 fade-in-up-1">Web Developer</h2>
+            <div className="flex gap-4 items-center flex-col sm:flex-row">
+              <h3 className="text-gray-400 dark:text-purple-500 fade-in-up-2">Delivering innovative user-centric solutions</h3>
+            </div>
+            <h1 /* mobile screen */ className="mt-24 text-gray-600 dark:text-purple-700 bg-white whitespace-nowrap md:hidden lg-mobile:mt-12 fade-in-up-3">Mary Boles</h1>
+        </div>
+        <div className="row-start-4 flex flex-col items-center sm:flex-row sm:items-start justify-between z-10">
+          <h1 /* med screen */ className="mt-36 text-gray-600 dark:text-purple-700 bg-white whitespace-nowrap hidden md:block shadow-[0px_12px_20px_rgba(0,0,0,0.5)] fade-in-up-3">Mary Boles</h1>
+          <LargeNav className="hidden md:block"/>
+          <SmallNav className="absolute bottom-0 block md:hidden"/>
+        </div>
 
     <div className="min-h-screen absolute top-5 right-5 ">
       <ToggleSwitch />
@@ -54,7 +55,7 @@ export default function Home() {
     <BackToTopButton />
 
     <section className="grid grid-rows-[20px_1fr_20px] min-h-screen w-full bg-white bg-opacity-20 py-16 px-8  sm:p-20" id="about">
-      <h2 className="font-syne">ABOUT | <span className="text-gray-400 dark:text-purple-500">SKILLS</span></h2>
+      <h2 className="font-syne">ABOUT | <span className="text-gray-400 dark:text-white">SKILLS</span></h2>
       <div className="flex flex-col md:flex-row justify-start mt-20 md:justify-between items-center md-items-start">
         <div className="w-full md:w-3/5 pb-4">
           <p className="mr-2">Hi! I&#39;m Mary, a web developer transitioning from a career in the education field. Movtivated by my passion for creativity and <span className="font-bold">problem-solving,</span> I made the decision to pursue development focusing on building impactful web applications.<br/><br/>
@@ -211,6 +212,7 @@ export default function Home() {
         </div>
       </div>
     </section>
+    </main>
     <footer className="py-4 bg-white bg-opacity-5">
       <div className="conatiner mx-auto text-center">
         <p className="text-sm">&copy; {currentDate} Mary Boles</p>
