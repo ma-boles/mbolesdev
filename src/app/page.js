@@ -38,7 +38,7 @@ export default function Home() {
           <div className="flex gap-4 items-center flex-col sm:flex-row">
             <h3 className="text-gray-400 dark:text-purple-500 fade-in-up-2">Delivering innovative user-centric solutions</h3>
           </div>
-          <h1 /* mobile screen */ className="mt-24 text-gray-600 dark:text-purple-700 bg-white whitespace-nowrap md:hidden fade-in-up-3">Mary Boles</h1>
+          <h1 /* mobile screen */ className="mt-24 text-gray-600 dark:text-purple-700 bg-white whitespace-nowrap md:hidden lg-mobile:mt-12 fade-in-up-3">Mary Boles</h1>
       </div>
       <div className="row-start-4 flex flex-col items-center sm:flex-row sm:items-start justify-between z-10">
         <h1 /* med screen */ className="mt-36 text-gray-600 dark:text-purple-700 bg-white whitespace-nowrap hidden md:block shadow-[0px_12px_20px_rgba(0,0,0,0.5)] fade-in-up-3">Mary Boles</h1>
