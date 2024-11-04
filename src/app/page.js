@@ -185,12 +185,12 @@ export default function Home() {
               rel="noopener noreferrer">
                 <button className="hover:scale-125 transition-transform duration-200 ease-in-out focus:outline-none focus:ring-4 focus:ring-purple-500
 ">
-                <div className="invert">
+                <div className="invert " style={{ width: '30px', height:'30px', display:'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                   <Image
                     src="/images/linkedin-brands-solid (1).svg"
                     alt="Link to LinkedIn Profile"
-                    width={25}
-                    height={25} />
+                    width={30}
+                    height={30} />
                 </div>
                 </button>
             </a>
@@ -199,12 +199,12 @@ export default function Home() {
               rel="noopener noreferrer">
                 <button className="hover:scale-125 transition-transform duration-200 ease-in-out focus:outline-none focus:ring-4 focus:ring-purple-500
 ">
-                <div className="invert px-2 sm:px-4">
+                <div className="invert mx-4" style={{ width: '30px', height:'30px', display:'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                   <Image
                     src="/images/github-brands-solid (1).svg"
                     alt="Link to GitHub Profile"
-                    width={27}
-                    height={27}/>
+                    width={30}
+                    height={30}/>
                 </div>
                 </button>
             </a>
