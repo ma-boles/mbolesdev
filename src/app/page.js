@@ -168,11 +168,11 @@ export default function Home() {
           onLoad={handleImageLoad} // Trigger state change on image load
           />
         </div>
-      <div className="sm:items-start text-center sm:text-left">
-        <h1 className="p-1">GET IN <span className=" text-gray-500 dark:text-purple-600 ">TOUCH</span></h1><br/>
+      <div className="sm:items-start text-center sm:text-left z-10">
+        <h1 className="p-1">GET <span className=" bg-white text-gray-500 dark:text-purple-700 ">IN TOUCH</span></h1><br/>
         <h3>I&#39;m Excited to Bring My Skills to Your Team!</h3>
       </div>
-      <div className="absolute bottom-0 left-0 right-0 py-8 px-12 sm:p-20 justify-between sm:flex">
+      <div className="absolute bottom-0 left-0 right-0 py-8 px-12 sm:p-20 justify-between sm:flex z-10">
         <div className="text-left">
           <h4 className="text-gray-400 dark:text-purple-400">EMAIL</h4>
           <p className="text-lg font-semibold">mboles.dev@gmail.com</p>
