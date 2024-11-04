@@ -36,7 +36,7 @@ export default function Home() {
       <div className="flex flex-col gap-4 items-center md:items-start text-center md:text-left px-2 md:px-0 z-10">
           <h2 className="mt-16 sm:mt-8 fade-in-up-1">Web Developer</h2>
           <div className="flex gap-4 items-center flex-col sm:flex-row">
-            <h3 className="text-gray-400 dark:text-purple-400 fade-in-up-2">Delivering innovative user-centric solutions</h3>
+            <h3 className="text-gray-400 dark:text-purple-500 fade-in-up-2">Delivering innovative user-centric solutions</h3>
           </div>
           <h1 /* mobile screen */ className="mt-24 text-gray-600 dark:text-purple-700 bg-white whitespace-nowrap md:hidden fade-in-up-3">Mary Boles</h1>
       </div>
@@ -146,7 +146,7 @@ export default function Home() {
               >
               <button className="px-8 py-2 border border-white dark:border-gray-500 rounded-md hover:bg-gray-500">Code</button>
               </a>
-              <button className="px-8 py-2 ml-2  bg-green-700 rounded-md cursor-none">Live</button>
+              <button className="px-8 py-2 ml-2  bg-green-700 rounded-md cursor-not-allowed">Live</button>
             </div>
           </div>
       </div>
