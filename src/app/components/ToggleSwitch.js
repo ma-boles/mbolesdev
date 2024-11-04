@@ -29,6 +29,7 @@ export default function ToggleSwitch({ onToggle }) {
             className="opacity-0 w-0 h-0"
             checked={isToggled}
             onChange={handleToggle}
+            aria-label="Toggle theme"
             />
             <span className={`absolute cursor-pointer inset-0 rounded-full bg-gray-500 dark:bg-purple-500 transition-colors duration-300 ${isToggled ? 'bg-blue-500' : 'bg-gray-400'} `}>
                 <span 
