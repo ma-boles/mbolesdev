@@ -174,11 +174,11 @@ export default function Home() {
       </div>
       <div className="absolute bottom-0 left-0 right-0 py-8 px-12 sm:p-20 justify-between sm:flex z-10">
         <div className="text-left">
-          <h4 className="text-gray-400 dark:text-purple-400">EMAIL</h4>
+          <h3 className="text-gray-400 dark:text-purple-400">EMAIL</h3>
           <p className="text-lg font-semibold">mboles.dev@gmail.com</p>
         </div>
         <div className="text-left">
-          <h4 className="pb-1 text-gray-400 dark:text-purple-400">SOCIAL</h4>
+          <h3 className="pb-1 text-gray-400 dark:text-purple-400">SOCIAL</h3>
           <div className="flex sm:justify-start">
             <a href="https://www.linkedin.com/in/mary-boles"
               target="_blank"
