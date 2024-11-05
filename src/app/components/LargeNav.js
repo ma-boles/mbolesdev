@@ -20,8 +20,8 @@ export default function LargeNav({ className }) {
             </Link>
             <Link href="#works">
               <button className="custom-button
-              bg-gray-600
-              border-gray-600
+              bg-gray-700
+              border-gray-700
               hover:bg-gray-500
                 rounded-lg shadow-lg
               dark:bg-purple-700 border-2
