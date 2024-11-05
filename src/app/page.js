@@ -153,7 +153,7 @@ export default function Home() {
       </div>
     </section>
 
-    <section className="grid grid-rows-[20px_1fr_20px] min-h-screen relative py-16 px-8 overflow-hidden sm:p-20 bg-white bg-opacity-5 backdrop-blur-3xl"  id="contact">
+    <section className="grid grid-rows-[20px_1fr_20px] min-h-screen relative p-8 overflow-hidden sm:p-20 bg-white bg-opacity-5 backdrop-blur-3xl"  id="contact">
       <div className={`fade-in ${loaded ? 'fade-in-active' : ''}`}>
         <Image
           src="/images/giant blocks.svg"
@@ -169,7 +169,7 @@ export default function Home() {
           />
         </div>
       <div className="sm:items-start text-center sm:text-left z-10">
-        <h1 className="px-1 hidden md:block">GET IN <span className="bg-white text-gray-600 dark:text-purple-700">TOUCH</span></h1><br/>
+        <h1 className="px-1 hidden md:block">GET IN <span className="bg-white text-gray-600 dark:text-purple-700">TOUCH</span></h1>
         <h1 className="px-1 block md:hidden">GET IN </h1><br />
         <h1 className="mb-6 bg-white text-gray-600 dark:text-purple-700 inline-block md:hidden">TOUCH</h1>
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl">I&#39;m Excited to Bring My Skills to Your Team!</h2>
@@ -177,7 +177,7 @@ export default function Home() {
       <div className="absolute bottom-0 left-0 right-0 py-8 px-12 sm:p-20 justify-between sm:flex z-10">
         <div className="text-left">
           <h3 className="text-gray-300 dark:text-purple-400">EMAIL</h3>
-          <p className="text-lg font-semibold">mboles.dev@gmail.com</p>
+          <p className="text-2xl font-semibold">mboles.dev@gmail.com</p>
         </div>
         <div className="text-left">
           <h3 className="pb-1 text-gray-300 dark:text-purple-400">SOCIAL</h3>
@@ -187,7 +187,7 @@ export default function Home() {
               rel="noopener noreferrer">
                 <button className="hover:scale-125 transition-transform duration-200 ease-in-out focus:outline-none focus:ring-4 focus:ring-purple-500
 ">
-                <div className="invert " style={{ width: '30px', height:'30px', display:'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
+                <div className="invert" style={{ width: '30px', height:'30px', display:'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                   <Image
                     src="/images/linkedin-brands-solid (1).svg"
                     alt="Link to LinkedIn Profile"
