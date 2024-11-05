@@ -20,7 +20,7 @@ export default function Home() {
     <>
     <main>
     <section className="relative grid grid-rows-[20px_1fr_20px] min-h-screen py-8 sm:py-16 sm-px-8 md:p-20 bg-white bg-opacity-10 backdrop-blur-3x overflow-hidden">
-      <div className={`fade-in ${loaded ? 'fade-in-active' : ''}`}>
+      <div className={`fade-in ${loaded ? 'fade-in-active' : ''}`} role="img" aria-label="background">
           <Image
           src="/images/giant blocks.svg"
           alt="background"
