@@ -41,19 +41,19 @@ html {
     @apply font-inter; /* Apply custom font family */
   }
   h1{
-    @apply text-5xl sm:text-6xl lg-mobile:text-6xl md:text-6xl lg:text-7xl font-extrabold;
+    @apply text-5xl sm:text-6xl lg-mobile:text-6xl md:text-7xl lg:text-7xl font-extrabold;
   }
   h2{
-    @apply text-3xl sm:text-5xl lg-mobile:text-5xl md:text-5xl lg:text-5xl font-extrabold;
+    @apply text-4xl sm:text-4xl lg-mobile:text-4xl md:text-5xl lg:text-6xl font-extrabold;
   }
   h3 {
-    @apply text-2xl sm:text-4xl lg-mobile:text-4xl md:text-4xl lg:text-4xl font-extrabold;
+    @apply text-3xl sm:text-4xl lg-mobile:text-4xl md:text-5xl lg:text-5xl font-extrabold;
   }
   h4 {
-    @apply text-lg sm:text-3xl lg-mobile:text-3xl md:text-3xl lg:text-3xl font-extrabold;
+    @apply text-xl sm:text-4xl lg-mobile:text-4xl md:text-4xl lg:text-4xl font-extrabold;
   }
   p{
-    @apply text-base sm:text-lg lg-mobile:text-lg md:text-lg lg:text-xl;
+    @apply text-lg sm:text-lg lg-mobile:text-lg md:text-lg lg:text-xl;
   }
 }
 
