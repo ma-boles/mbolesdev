@@ -169,8 +169,8 @@ export default function Home() {
           />
         </div>
       <div className="sm:items-start text-center sm:text-left z-10">
-        <h1 className="p-1">GET <span className=" bg-white text-gray-500 dark:text-purple-700 ">IN TOUCH</span></h1><br/>
-        <h3>I&#39;m Excited to Bring My Skills to Your Team!</h3>
+        <h1 className="px-1">GET IN <span className="text-gray-500 dark:text-purple-700">TOUCH</span></h1><br/>
+        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl">I&#39;m Excited to Bring My Skills to Your Team!</h2>
       </div>
       <div className="absolute bottom-0 left-0 right-0 py-8 px-12 sm:p-20 justify-between sm:flex z-10">
         <div className="text-left">
