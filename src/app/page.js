@@ -37,7 +37,7 @@ export default function Home() {
         <div className="flex flex-col gap-4 items-center md:items-start text-center md:text-left px-2 md:px-0 z-10">
             <h2 className="mt-16 sm:mt-8 fade-in-up-1">Web Developer</h2>
             <div className="flex gap-4 items-center flex-col sm:flex-row">
-              <h3 className="text-gray-400 dark:text-purple-500 fade-in-up-2">Delivering innovative user-centric solutions</h3>
+              <h3 className="text-gray-300 dark:text-purple-500 fade-in-up-2">Delivering innovative user-centric solutions</h3>
             </div>
             <h1 /* mobile screen */ className="mt-24 text-gray-600 dark:text-purple-700 bg-white whitespace-nowrap md:hidden lg-mobile:mt-12 fade-in-up-3">Mary Boles</h1>
         </div>
@@ -55,7 +55,7 @@ export default function Home() {
     <BackToTopButton />
 
     <section className="grid grid-rows-[20px_1fr_20px] min-h-screen w-full bg-white bg-opacity-20 py-16 px-8  sm:p-20" id="about">
-      <h2 className="font-syne">ABOUT | <span className="text-gray-400 dark:text-white">SKILLS</span></h2>
+      <h2 className="font-syne">ABOUT | SKILLS</h2>
       <div className="flex flex-col md:flex-row justify-start mt-20 md:justify-between items-center md-items-start">
         <div className="w-full md:w-3/5 pb-4">
           <p className="mr-2">Hi! I&#39;m Mary, a web developer transitioning from a career in the education field. Movtivated by my passion for creativity and <span className="font-bold">problem-solving,</span> I made the decision to pursue development focusing on building impactful web applications.<br/><br/>
@@ -169,16 +169,18 @@ export default function Home() {
           />
         </div>
       <div className="sm:items-start text-center sm:text-left z-10">
-        <h1 className="px-1">GET IN <span className="text-gray-500 dark:text-purple-700">TOUCH</span></h1><br/>
+        <h1 className="px-1 hidden md:block">GET IN <span className="bg-white text-gray-600 dark:text-purple-700">TOUCH</span></h1><br/>
+        <h1 className="px-1 block md:hidden">GET IN </h1><br />
+        <h1 className="mb-6 bg-white text-gray-600 dark:text-purple-700 inline-block md:hidden">TOUCH</h1>
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl">I&#39;m Excited to Bring My Skills to Your Team!</h2>
       </div>
       <div className="absolute bottom-0 left-0 right-0 py-8 px-12 sm:p-20 justify-between sm:flex z-10">
         <div className="text-left">
-          <h3 className="text-gray-400 dark:text-purple-400">EMAIL</h3>
+          <h3 className="text-gray-300 dark:text-purple-400">EMAIL</h3>
           <p className="text-lg font-semibold">mboles.dev@gmail.com</p>
         </div>
         <div className="text-left">
-          <h3 className="pb-1 text-gray-400 dark:text-purple-400">SOCIAL</h3>
+          <h3 className="pb-1 text-gray-300 dark:text-purple-400">SOCIAL</h3>
           <div className="flex sm:justify-start">
             <a href="https://www.linkedin.com/in/mary-boles"
               target="_blank"
