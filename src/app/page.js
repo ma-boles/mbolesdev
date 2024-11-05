@@ -39,10 +39,10 @@ export default function Home() {
             <div className="flex gap-4 items-center flex-col sm:flex-row">
               <h3 className="text-gray-300 dark:text-purple-500 fade-in-up-2">Delivering innovative user-centric solutions</h3>
             </div>
-            <h1 /* mobile screen */ className="mt-24 text-gray-600 dark:text-purple-700 bg-white whitespace-nowrap md:hidden lg-mobile:mt-12 fade-in-up-3">Mary Boles</h1>
+            <h1 /* mobile screen */ className="mt-24 text-gray-700 dark:text-purple-700 bg-white whitespace-nowrap md:hidden lg-mobile:mt-12 fade-in-up-3">Mary Boles</h1>
         </div>
         <div className="row-start-4 flex flex-col items-center sm:flex-row sm:items-start justify-between z-10">
-          <h1 /* med screen */ className="mt-36 text-gray-600 dark:text-purple-700 bg-white whitespace-nowrap hidden md:block shadow-[0px_12px_20px_rgba(0,0,0,0.5)] fade-in-up-3">Mary Boles</h1>
+          <h1 /* med screen */ className="mt-36 text-gray-700 dark:text-purple-700 bg-white whitespace-nowrap hidden md:block shadow-[0px_12px_20px_rgba(0,0,0,0.5)] fade-in-up-3">Mary Boles</h1>
           <LargeNav className="hidden md:block"/>
           <SmallNav className="absolute bottom-0 block md:hidden"/>
         </div>
@@ -127,8 +127,8 @@ export default function Home() {
     </section>
 
     <section className="grid grid-rows-[20px_1fr_20px] min-h-screen py-16 px-8 bg-white bg-opacity-10 sm:p-20" id="works">
-     <h2 className="font-syne">W<span className="text-gray-500 dark:text-purple-700">O</span>RKS</h2>
-      <div className="px-4 mt-20 flex flex-col border-2 border-white dark:border-none bg-white bg-opacity-5 rounded-md lg:flex-row">
+     <h2 className="font-syne">W<span className="text-gray-400 dark:text-purple-700">O</span>RKS</h2>
+      <div className="px-4 mt-20 flex flex-col bg-black bg-opacity-20 dark:border-none dark:bg-white dark:bg-opacity-5 rounded-md lg:flex-row">
           <div className="my-auto">
             <h2 className="p-6 text-center"><span className="text-green-600 font-extrabold">flow</span>mode</h2>
           </div>
@@ -176,11 +176,11 @@ export default function Home() {
       </div>
       <div className="absolute bottom-0 left-0 right-0 py-8 px-12 sm:p-20 justify-between sm:flex z-10">
         <div className="text-left">
-          <h3 className="text-gray-300 dark:text-purple-400">EMAIL</h3>
+          <h3 className="text-gray-400 dark:text-purple-400">EMAIL</h3>
           <p className="text-2xl font-semibold">mboles.dev@gmail.com</p>
         </div>
         <div className="text-left">
-          <h3 className="pb-1 text-gray-300 dark:text-purple-400">SOCIAL</h3>
+          <h3 className="pb-1 text-gray-400 dark:text-purple-400">SOCIAL</h3>
           <div className="flex sm:justify-start">
             <a href="https://www.linkedin.com/in/mary-boles"
               target="_blank"
