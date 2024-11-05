@@ -64,8 +64,8 @@ export default function Home() {
           Feel free to get in touch if you would like to collaborate, or simply <a href="#contact"><span className="underline hover:text-blue-400 dark:hover:text-purple-400">connect</span></a>!
           </p>
         </div>
-        <div className="w-full p-8 m-4 md:w-2/5 min-w-[200px] bg-white bg-opacity-5 rounded-lg ">
-          <h4 className="my-2 py-2 bg-gray-400 dark:bg-purple-500 bg-opacity-50 text-center">TOOLBOX</h4>
+        <div className="w-full p-4 m-4 md:w-2/5 min-w-[200px] bg-white bg-opacity-5 rounded-lg ">
+          <h3 className="my-2 py-2 bg-gray-400 dark:bg-purple-500 bg-opacity-50 text-center text-2xl sm:text-4xl lg-mobile:text-4xl md:text-4xl lg:text-4xl font-extrabold">TOOLBOX</h3>
           <div className="flex flex-wrap justify-center">
             <Image
             src="/images/Next.svg"
