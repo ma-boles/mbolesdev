@@ -91,7 +91,7 @@ html {
     background: var(--background-dark);
     color: var(--text-color);
     transition: background 0.3s ease, color 0.3s ease; /* Smooth transition */
-    font-family: "Inter", sans-serif; /* Custom font family */
+    font-family: "Inter" !important; /* Custom font family */
     font-weight: 500;
     @apply font-inter antialiased; /* Apply Tailwind's font and antialiasing */
     -webkit-font-smoothing: antialiased; /* Improve font smoothing on iOS Safari */
