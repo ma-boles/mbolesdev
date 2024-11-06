@@ -1,9 +1,9 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities;/*
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+*/
 /* Default dark mode */
 :root {
   --background-dark: rgb(28, 28, 28);
@@ -14,13 +14,6 @@
 html.light  {
   --background-gradient: linear-gradient(141deg, rgba(131,22,122,1) 29%, rgba(1,14,126,1) 76%);
 }
-/*
-body {
-  background: var(--background-dark);
-  color: var(--text-color);
-  transition: background 0.3s ease, color 0.3s ease; /* Smooth transition *//*
-  font-family: "Inter", sans-serif;
-}*/
 
 html.light body {
   background: var(--background-gradient);
@@ -35,6 +28,54 @@ html {
     text-wrap: balance;
   }
 }
+
+
+/* font styling */
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter/Inter-Regular.woff2') format('woff2'),
+       url('/fonts/Inter/Inter-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter/Inter-Regular.woff2') format('woff2'),
+       url('/fonts/Inter/Inter-Regular.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter/Inter-Regular.woff2') format('woff2'),
+       url('/fonts/Inter/Inter-Regular.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter/Inter-Regular.woff2') format('woff2'),
+       url('/fonts/Inter/Inter-Regular.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter/Inter-Regular.woff2') format('woff2'),
+       url('/fonts/Inter/Inter-Regular.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
 
 @layer base {
   body {
