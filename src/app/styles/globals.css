@@ -92,28 +92,34 @@ html {
     color: var(--text-color);
     transition: background 0.3s ease, color 0.3s ease; /* Smooth transition */
     font-family: "Inter", sans-serif; /* Custom font family */
+    font-weight: 500;
     @apply font-inter antialiased; /* Apply Tailwind's font and antialiasing */
     -webkit-font-smoothing: antialiased; /* Improve font smoothing on iOS Safari */
     -moz-osx-font-smoothing: grayscale; /* Improve font smoothing on macOS Safari */
   }
   h1{
     @apply text-5xl sm:text-6xl lg-mobile:text-6xl md:text-7xl lg:text-7xl font-extrabold antialiased;
+    font-weight: 800;
     -webkit-font-smoothing: antialiased;
   }
   h2{
     @apply text-4xl sm:text-4xl lg-mobile:text-4xl md:text-5xl lg:text-6xl font-extrabold antialiased;
+    font-weight: 800;
     -webkit-font-smoothing: antialiased;
   }
   h3 {
     @apply text-3xl sm:text-4xl lg-mobile:text-4xl md:text-5xl lg:text-5xl font-extrabold antialiased;
+    font-weight: 800;
     -webkit-font-smoothing: antialiased;
   }
   h4 {
     @apply text-xl sm:text-4xl lg-mobile:text-4xl md:text-4xl lg:text-4xl font-extrabold antialiased;
+    font-weight: 800;
     -webkit-font-smoothing: antialiased;
   }
   p{
     @apply text-lg sm:text-lg lg-mobile:text-lg md:text-lg lg:text-xl antialiased;
+    font-weight: 500;
     -webkit-font-smoothing: antialiased;
   }
 }
