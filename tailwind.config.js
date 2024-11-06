@@ -9,12 +9,14 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        syne: ['Syne', 'sans-serif'],
         inter: ['Inter', 'sans-serif'],
       },
       fontWeight: {
-        'extrabold': '800', 
+        'extrabold': '800',
+        'bold': '700',
         'semibold': '600',
+        'medium': '500',
+        'regular': '400'
       },
       screens: {
         'lg-mobile': '414px', // Large mobile
