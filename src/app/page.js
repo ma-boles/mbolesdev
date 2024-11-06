@@ -54,7 +54,7 @@ export default function Home() {
 
     <BackToTopButton />
 
-    <section className="grid grid-rows-[20px_1fr_20px] min-h-screen w-full bg-white bg-opacity-20 py-16 px-8  sm:p-20" id="about">
+    <section className="grid grid-rows-[20px_1fr_20px] min-h-screen w-full bg-white bg-opacity-20 py-16 px-4 sm:p-20" id="about">
       <h2 className="font-syne">ABOUT | SKILLS</h2>
       <div className="flex flex-col md:flex-row justify-start mt-20 md:justify-between items-center md-items-start">
         <div className="w-full md:w-3/5 pb-4">
@@ -126,9 +126,9 @@ export default function Home() {
     </div>
     </section>
 
-    <section className="grid grid-rows-[20px_1fr_20px] min-h-screen py-16 px-8 bg-white bg-opacity-10 sm:p-20" id="works">
+    <section className="grid grid-rows-[20px_1fr_20px] min-h-screen py-16 px-4 bg-white bg-opacity-10 sm:p-20" id="works">
      <h2 className="font-syne">W<span className="text-gray-400 dark:text-purple-700">O</span>RKS</h2>
-      <div className="px-4 mt-20 flex flex-col bg-black bg-opacity-20 dark:border-none dark:bg-white dark:bg-opacity-5 rounded-md lg:flex-row">
+      <div className="px-2 sm:px-4 mt-20 flex flex-col bg-black bg-opacity-20 dark:border-none dark:bg-white dark:bg-opacity-5 rounded-md lg:flex-row">
           <div className="my-auto">
             <h2 className="p-6 text-center"><span className="text-green-600 font-extrabold">flow</span>mode</h2>
           </div>
@@ -170,11 +170,11 @@ export default function Home() {
         </div>
       <div className="sm:items-start text-center sm:text-left z-10">
         <h1 className="px-1 hidden md:block">GET IN <span className="bg-white text-gray-600 dark:text-purple-700">TOUCH</span></h1>
-        <h1 className="px-1 block md:hidden">GET IN </h1><br />
+        <h1 className="px-1 block leading-3 md:hidden">GET IN </h1><br />
         <h1 className="mb-6 bg-white text-gray-600 dark:text-purple-700 inline-block md:hidden">TOUCH</h1>
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl">I&#39;m Excited to Bring My Skills to Your Team!</h2>
       </div>
-      <div className="absolute bottom-0 left-0 right-0 py-8 px-12 sm:p-20 justify-between sm:flex z-10">
+      <div className="absolute bottom-0 left-0 right-0 p-8 lg-mobile:px-12 sm:p-20 justify-between sm:flex z-10">
         <div className="text-left">
           <h3 className="text-gray-400 dark:text-purple-400">EMAIL</h3>
           <p className="text-2xl font-semibold">mboles.dev@gmail.com</p>
