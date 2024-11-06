@@ -14,13 +14,13 @@
 html.light  {
   --background-gradient: linear-gradient(141deg, rgba(131,22,122,1) 29%, rgba(1,14,126,1) 76%);
 }
-
+/*
 body {
   background: var(--background-dark);
   color: var(--text-color);
-  transition: background 0.3s ease, color 0.3s ease; /* Smooth transition */
+  transition: background 0.3s ease, color 0.3s ease; /* Smooth transition *//*
   font-family: "Inter", sans-serif;
-}
+}*/
 
 html.light body {
   background: var(--background-gradient);
@@ -38,22 +38,33 @@ html {
 
 @layer base {
   body {
-    @apply font-inter; /* Apply custom font family */
+    background: var(--background-dark);
+    color: var(--text-color);
+    transition: background 0.3s ease, color 0.3s ease; /* Smooth transition */
+    font-family: "Inter", sans-serif; /* Custom font family */
+    @apply font-inter antialiased; /* Apply Tailwind's font and antialiasing */
+    -webkit-font-smoothing: antialiased; /* Improve font smoothing on iOS Safari */
+    -moz-osx-font-smoothing: grayscale; /* Improve font smoothing on macOS Safari */
   }
   h1{
-    @apply text-5xl sm:text-6xl lg-mobile:text-6xl md:text-7xl lg:text-7xl font-extrabold;
+    @apply text-5xl sm:text-6xl lg-mobile:text-6xl md:text-7xl lg:text-7xl font-extrabold antialiased;
+    -webkit-font-smoothing: antialiased;
   }
   h2{
-    @apply text-4xl sm:text-4xl lg-mobile:text-4xl md:text-5xl lg:text-6xl font-extrabold;
+    @apply text-4xl sm:text-4xl lg-mobile:text-4xl md:text-5xl lg:text-6xl font-extrabold antialiased;
+    -webkit-font-smoothing: antialiased;
   }
   h3 {
-    @apply text-3xl sm:text-4xl lg-mobile:text-4xl md:text-5xl lg:text-5xl font-extrabold;
+    @apply text-3xl sm:text-4xl lg-mobile:text-4xl md:text-5xl lg:text-5xl font-extrabold antialiased;
+    -webkit-font-smoothing: antialiased;
   }
   h4 {
-    @apply text-xl sm:text-4xl lg-mobile:text-4xl md:text-4xl lg:text-4xl font-extrabold;
+    @apply text-xl sm:text-4xl lg-mobile:text-4xl md:text-4xl lg:text-4xl font-extrabold antialiased;
+    -webkit-font-smoothing: antialiased;
   }
   p{
-    @apply text-lg sm:text-lg lg-mobile:text-lg md:text-lg lg:text-xl;
+    @apply text-lg sm:text-lg lg-mobile:text-lg md:text-lg lg:text-xl antialiased;
+    -webkit-font-smoothing: antialiased;
   }
 }
 
