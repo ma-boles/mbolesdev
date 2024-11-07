@@ -35,14 +35,14 @@ export default function Home() {
           />
       </div>
         <div className="flex flex-col gap-4 items-center md:items-start text-center md:text-left px-2 md:px-0 z-10">
-            <h2 className="mt-16 sm:mt-8 fade-in-up-1">Web Developer</h2>
+            <h2 className="mt-16 sm:mt-8 fade-in-up-1 font-extrabold">Web Developer</h2>
             <div className="flex gap-4 items-center flex-col sm:flex-row">
-              <h3 className="text-gray-300 dark:text-purple-500 fade-in-up-2">Delivering innovative user-centric solutions</h3>
+              <h3 className="text-gray-300 font-bold dark:text-purple-500 fade-in-up-2">Delivering innovative user-centric solutions</h3>
             </div>
-            <h1 /* mobile screen */ className="mt-24 text-gray-700 dark:text-purple-700 bg-white whitespace-nowrap md:hidden lg-mobile:mt-12 fade-in-up-3">Mary Boles</h1>
+            <h1 /* mobile screen */ className="mt-24 text-gray-700 font-extrabold dark:text-purple-700 bg-white whitespace-nowrap md:hidden lg-mobile:mt-12 fade-in-up-3">Mary Boles</h1>
         </div>
         <div className="row-start-4 flex flex-col items-center sm:flex-row sm:items-start justify-between z-10">
-          <h1 /* med screen */ className="mt-36 text-gray-700 dark:text-purple-700 bg-white whitespace-nowrap hidden md:block shadow-[0px_12px_20px_rgba(0,0,0,0.5)] fade-in-up-3">Mary Boles</h1>
+          <h1 /* med screen */ className="mt-36 text-gray-700 font-extrabold dark:text-purple-700 bg-white whitespace-nowrap hidden md:block shadow-[0px_12px_20px_rgba(0,0,0,0.5)] fade-in-up-3">Mary Boles</h1>
           <LargeNav className="hidden md:block"/>
           <SmallNav className="absolute bottom-0 block md:hidden"/>
         </div>
