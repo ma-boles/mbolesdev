@@ -138,34 +138,32 @@ html {
 @media not all and (min-resolution: 0.001dpcm) {
   @supports (-webkit-touch-callout: none) {
     .safari-text-outline-white {
-      @apply safari-text-outline-white;
+      color: white;
+      -webkit-text-stroke: 1px white;
     }
-    .safari-text-outline-white {
-      @apply safari-text-outline-white;
-    }
-    .safari-text-outline-purple-400 {
-      @apply safari-text-outline-purple-400;
+    /*.safari-text-outline-purple-400 {
+      safari-text-outline-purple-400;
     }
     .safari-text-outline-purple-500 {
-      @apply safari-text-outline-purple-500;
+       safari-text-outline-purple-500;
     }
     .safari-text-outline-purple-700 {
-      @apply safari-text-outline-purple-700;
+       safari-text-outline-purple-700;
     }
     .safari-text-outline-gray-300 {
-      @apply safari-text-outline-gray-300;
+       safari-text-outline-gray-300;
     }
     .safari-text-outline-gray-400 {
-      @apply safari-text-outline-gray-400;
+       safari-text-outline-gray-400;
     }
     .safari-text-outline-gray-600 {
-      @apply safari-text-outline-gray-600;
+       safari-text-outline-gray-600;
     }
     .safari-text-outline-gray-700 {
-      @apply safari-text-outline-gray-700;
+       safari-text-outline-gray-700;
     }
     .safari-text-outline-green-600 {
-      @apply safari-text-outline-green-600;
-    }
+       safari-text-outline-green-600;
+    }*/
   }
 }
