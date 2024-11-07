@@ -55,7 +55,7 @@ export default function Home() {
     <BackToTopButton />
 
     <section className="grid grid-rows-[20px_1fr_20px] min-h-screen w-full bg-white bg-opacity-20 py-16 px-4 sm:p-20" id="about">
-      <h2 className="font-extrabold">ABOUT | SKILLS</h2>
+      <h2 className="font-extrabold safari-text-outline-white">ABOUT | SKILLS</h2>
       <div className="flex flex-col md:flex-row justify-start mt-20 md:justify-between items-center md-items-start">
         <div className="w-full md:w-3/5 pb-4">
           <p className="mr-2">Hi! I&#39;m Mary, a web developer transitioning from a career in the education field. Movtivated by my passion for creativity and <span className="font-bold">problem-solving,</span> I made the decision to pursue development focusing on building impactful web applications.<br/><br/>
@@ -65,7 +65,7 @@ export default function Home() {
           </p>
         </div>
         <div className="w-full p-4 m-4 md:w-2/5 min-w-[200px] bg-white bg-opacity-5 rounded-lg ">
-          <h3 className="my-2 py-2 font-extrabold bg-gray-400 dark:bg-purple-500 bg-opacity-50 text-center text-2xl sm:text-4xl lg-mobile:text-4xl md:text-4xl lg:text-4xl">TOOLBOX</h3>
+          <h3 className="my-2 py-2 font-extrabold bg-gray-400 dark:bg-purple-500 bg-opacity-50 text-center text-2xl safari-text-outline-white sm:text-4xl lg-mobile:text-4xl md:text-4xl lg:text-4xl">TOOLBOX</h3>
           <div className="flex flex-wrap justify-center">
             <Image
             src="/images/Next.svg"
@@ -127,10 +127,10 @@ export default function Home() {
     </section>
 
     <section className="grid grid-rows-[20px_1fr_20px] min-h-screen py-16 px-4 bg-white bg-opacity-10 sm:p-20" id="works">
-     <h2 className="font-extrabold">W<span className="text-gray-400 dark:text-purple-700">O</span>RKS</h2>
+     <h2 className="font-extrabold safari-text-outline-white">W<span className="text-gray-400 dark:text-purple-700">O</span>RKS</h2>
       <div className="px-2 sm:px-4 mt-20 flex flex-col bg-black bg-opacity-20 dark:border-none dark:bg-white dark:bg-opacity-5 rounded-md lg:flex-row">
           <div className="my-auto">
-            <h2 className="p-6 text-center font-extrabold"><span className="text-green-600 font-extrabold">flow</span>mode</h2>
+            <h2 className="p-6 text-center font-extrabold safari-text-outline-white"><span className="text-green-600 font-extrabold">flow</span>mode</h2>
           </div>
           <div className="py-2 sm:p-4">
             <p className="mt-0 lg:mt-12">
@@ -170,7 +170,7 @@ export default function Home() {
         </div>
       <div className="sm:items-start text-center sm:text-left z-10">
         <h1 className="px-1 hidden font-extrabold md:block">GET IN <span className="bg-white text-gray-600 dark:text-purple-700">TOUCH</span></h1>
-        <h1 className="px-1 block leading-3 font-extrabold md:hidden">GET IN </h1><br />
+        <h1 className="px-1 block leading-3 font-extrabold safari-text-outline-white md:hidden">GET IN </h1><br />
         <h1 className="mb-6 font-extrabold bg-white text-gray-600 dark:text-purple-700 inline-block md:hidden">TOUCH</h1>
         <h2 className="text-2xl font-semibold sm:text-3xl md:text-4xl lg:text-5xl">I&#39;m Excited to Bring My Skills to Your Team!</h2>
       </div>
