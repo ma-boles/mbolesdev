@@ -37,7 +37,7 @@ export default function Home() {
         <div className="flex flex-col gap-4 items-center md:items-start text-center md:text-left px-2 md:px-0 z-10">
             <h2 className="mt-16 sm:mt-8 fade-in-up-1 font-extrabold safari-text-outline-white">Web Developer</h2>
             <div className="flex gap-4 items-center flex-col sm:flex-row">
-              <h3 className="text-gray-300 font-bold dark:text-purple-500 fade-in-up-2">Delivering innovative user-centric solutions</h3>
+              <h3 className="text-gray-300 safari-text-outline-gray-300 dark:safari-text-outline-purple-500 font-bold dark:text-purple-500 fade-in-up-2">Delivering innovative user-centric solutions</h3>
             </div>
             <h1 /* mobile screen */ className="mt-24 text-gray-700 font-extrabold dark:text-purple-700 bg-white whitespace-nowrap md:hidden lg-mobile:mt-12 fade-in-up-3">Mary Boles</h1>
         </div>
@@ -127,10 +127,10 @@ export default function Home() {
     </section>
 
     <section className="grid grid-rows-[20px_1fr_20px] min-h-screen py-16 px-4 bg-white bg-opacity-10 sm:p-20" id="works">
-     <h2 className="font-extrabold safari-text-outline-white">W<span className="text-gray-400 dark:text-purple-700">O</span>RKS</h2>
+     <h2 className="font-extrabold safari-text-outline-white">W<span className="text-gray-400 safari-text-outline-gray-400 dark:safari-text-outline-purple-700 dark:text-purple-700">O</span>RKS</h2>
       <div className="px-2 sm:px-4 mt-20 flex flex-col bg-black bg-opacity-20 dark:border-none dark:bg-white dark:bg-opacity-5 rounded-md lg:flex-row">
           <div className="my-auto">
-            <h2 className="p-6 text-center font-extrabold safari-text-outline-white"><span className="text-green-600 font-extrabold">flow</span>mode</h2>
+            <h2 className="p-6 text-center font-extrabold safari-text-outline-white"><span className="text-green-600 safari-text-outline-green-600 font-extrabold">flow</span>mode</h2>
           </div>
           <div className="py-2 sm:p-4">
             <p className="mt-0 lg:mt-12">
