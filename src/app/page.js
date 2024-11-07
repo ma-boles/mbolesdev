@@ -35,7 +35,7 @@ export default function Home() {
           />
       </div>
         <div className="flex flex-col gap-4 items-center md:items-start text-center md:text-left px-2 md:px-0 z-10">
-            <h2 className="mt-16 sm:mt-8 fade-in-up-1 font-extrabold">Web Developer</h2>
+            <h2 className="mt-16 sm:mt-8 fade-in-up-1 font-extrabold safari-text-outline-white">Web Developer</h2>
             <div className="flex gap-4 items-center flex-col sm:flex-row">
               <h3 className="text-gray-300 font-bold dark:text-purple-500 fade-in-up-2">Delivering innovative user-centric solutions</h3>
             </div>
