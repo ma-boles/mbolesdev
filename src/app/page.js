@@ -37,12 +37,12 @@ export default function Home() {
         <div className="flex flex-col gap-4 items-center md:items-start text-center md:text-left px-2 md:px-0 z-10">
             <h2 className="mt-16 sm:mt-8 fade-in-up-1 font-extrabold safari-text-outline-white">Web Developer</h2>
             <div className="flex gap-4 items-center flex-col sm:flex-row">
-              <h3 className="text-gray-300 safari-text-outline-gray-300 dark:safari-text-outline-purple-500 font-bold dark:text-purple-500 fade-in-up-2">Delivering innovative user-centric solutions</h3>
+              <h3 className="text-gray-300 safari-text-outline-gray-300 font-extrabold dark:text-purple-400 dark:safari-text-outline-purple-400 fade-in-up-2" >Delivering innovative user-centric solutions</h3>
             </div>
-            <h1 /* mobile screen */ className="mt-24 text-gray-700 safari-text-outline-gray-700 font-extrabold dark:text-purple-700 dark:safari-text-outline-purple-700 bg-white whitespace-nowrap md:hidden lg-mobile:mt-12 fade-in-up-3">Mary Boles</h1>
+            <h1 /* mobile screen */ className="mt-24 text-gray-700 safari-text-outline-gray-700 font-extrabold dark:text-purple-700 dark:safari-text-outline-purple-700 bg-white whitespace-nowrap md:hidden lg-mobile:mt-8 fade-in-up-3">Mary Boles</h1>
         </div>
         <div className="row-start-4 flex flex-col items-center sm:flex-row sm:items-start justify-between z-10">
-          <h1 /* med screen */ className="mt-36 text-gray-700 font-extrabold  dark:text-purple-700  bg-white whitespace-nowrap hidden md:block shadow-[0px_12px_20px_rgba(0,0,0,0.5)] fade-in-up-3">Mary Boles</h1>
+          <h1 /* med screen */ className="mt-36 text-gray-700  safari-text-outline-gray-700 font-extrabold dark:text-purple-700 dark:safari-text-outline-purple-700 bg-white whitespace-nowrap hidden md:block shadow-[0px_12px_20px_rgba(0,0,0,0.5)] fade-in-up-3">Mary Boles</h1>
           <LargeNav className="hidden md:block"/>
           <SmallNav className="absolute bottom-0 block md:hidden"/>
         </div>
@@ -135,7 +135,7 @@ export default function Home() {
           <div className="py-2 sm:p-4">
             <p className="mt-0 lg:mt-12">
             <span className="italic font-light text-green-300">*Still in progress</span><br/>
-              <span className="safari-text-outline-white">Flowmode</span> is a web-based timer that integrates with Spotify to help users maintain productivity while preventing burnout. By encouraging regular breaks through customizable Flow and Rest intervals, <span className="text-green-600 font-extrabold safari-text-outline-green-600">flow</span>mode helps users work for longer periods without fatigue. Users can choose audio to accompany both Flow and Rest phases, making the experience enjoyable and effective.
+              <span className="safari-text-outline-white">Flowmode</span> is a web-based timer that integrates with Spotify to help users maintain productivity while preventing burnout. By encouraging regular breaks through customizable Flow and Rest intervals, <span className="text-green-600 font-extrabold" style={{ color: '#43a047', WebkitTextStroke: '0.5px #43a047'}}>flow</span>mode helps users work for longer periods without fatigue. Users can choose audio to accompany both Flow and Rest phases, making the experience enjoyable and effective.
             </p>
 
             <ProjectDetails />
@@ -170,8 +170,8 @@ export default function Home() {
         </div>
       <div className="sm:items-start text-center sm:text-left z-10">
         <h1 className="px-1 hidden font-extrabold md:block">GET IN <span className="bg-white text-gray-600 dark:text-purple-700">TOUCH</span></h1>
-        <h1 className="px-1 block leading-3 font-extrabold safari-text-outline-white md:hidden">GET IN </h1><br />
-        <h1 className="mb-6 font-extrabold bg-white text-gray-600 safari-text-outline-gray-600 dark:text-purple-700 dark:safari-text-outline-purple-700 inline-block md:hidden">TOUCH</h1>
+        <h1 /* mobile */ className="px-1 block leading-3 font-extrabold safari-text-outline-white md:hidden">GET IN </h1><br />
+        <h1 /* mobile */ className="mb-6 font-extrabold bg-white text-gray-600 safari-text-outline-gray-600 dark:text-purple-700 dark:safari-text-outline-purple-700 inline-block md:hidden">TOUCH</h1>
         <h2 className="text-2xl font-semibold sm:text-3xl md:text-4xl lg:text-5xl">I&#39;m Excited to Bring My Skills to Your Team!</h2>
       </div>
       <div className="absolute bottom-0 left-0 right-0 p-8 lg-mobile:px-12 sm:p-20 justify-between sm:flex z-10">
