@@ -42,7 +42,7 @@ export default function Home() {
             <h1 /* mobile screen */ className="mt-24 text-gray-700 font-extrabold dark:text-purple-700 bg-white whitespace-nowrap md:hidden lg-mobile:mt-12 fade-in-up-3">Mary Boles</h1>
         </div>
         <div className="row-start-4 flex flex-col items-center sm:flex-row sm:items-start justify-between z-10">
-          <h1 /* med screen */ className="mt-36 text-gray-700 font-extrabold dark:text-purple-700 bg-white whitespace-nowrap hidden md:block shadow-[0px_12px_20px_rgba(0,0,0,0.5)] fade-in-up-3">Mary Boles</h1>
+          <h1 /* med screen */ className="mt-36 text-gray-700 font-extrabold safari-text-outline-gray-700 dark:text-purple-700 dark:safari-text-outline-purple-700 bg-white whitespace-nowrap hidden md:block shadow-[0px_12px_20px_rgba(0,0,0,0.5)] fade-in-up-3">Mary Boles</h1>
           <LargeNav className="hidden md:block"/>
           <SmallNav className="absolute bottom-0 block md:hidden"/>
         </div>
@@ -127,7 +127,7 @@ export default function Home() {
     </section>
 
     <section className="grid grid-rows-[20px_1fr_20px] min-h-screen py-16 px-4 bg-white bg-opacity-10 sm:p-20" id="works">
-     <h2 className="font-extrabold safari-text-outline-white">W<span className="text-gray-400 safari-text-outline-gray-400 dark:safari-text-outline-purple-700 dark:text-purple-700">O</span>RKS</h2>
+     <h2 className="font-extrabold safari-text-outline-white">W<span className="text-gray-400 safari-text-outline-gray-400 dark:safari-text-outline-purple-400 dark:text-purple-400">O</span>RKS</h2>
       <div className="px-2 sm:px-4 mt-20 flex flex-col bg-black bg-opacity-20 dark:border-none dark:bg-white dark:bg-opacity-5 rounded-md lg:flex-row">
           <div className="my-auto">
             <h2 className="p-6 text-center font-extrabold safari-text-outline-white"><span className="text-green-600 safari-text-outline-green-600 font-extrabold">flow</span>mode</h2>
@@ -135,7 +135,7 @@ export default function Home() {
           <div className="py-2 sm:p-4">
             <p className="mt-0 lg:mt-12">
             <span className="italic font-light text-green-300">*Still in progress</span><br/>
-              Flowmode is a web-based timer that integrates with Spotify to help users maintain productivity while preventing burnout. By encouraging regular breaks through customizable Flow and Rest intervals, <span className="text-green-600 font-extrabold">flow</span>mode helps users work for longer periods without fatigue. Users can choose audio to accompany both Flow and Rest phases, making the experience enjoyable and effective.
+              <span className="safari-text-outline-white">Flowmode</span> is a web-based timer that integrates with Spotify to help users maintain productivity while preventing burnout. By encouraging regular breaks through customizable Flow and Rest intervals, <span className="text-green-600 font-extrabold safari-text-outline-green-600">flow</span><span className="safari-text-outline-white">mode</span> helps users work for longer periods without fatigue. Users can choose audio to accompany both Flow and Rest phases, making the experience enjoyable and effective.
             </p>
 
             <ProjectDetails />
