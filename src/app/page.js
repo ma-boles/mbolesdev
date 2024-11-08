@@ -39,10 +39,10 @@ export default function Home() {
             <div className="flex gap-4 items-center flex-col sm:flex-row">
               <h3 className="text-gray-300 safari-text-outline-gray-300 dark:safari-text-outline-purple-500 font-bold dark:text-purple-500 fade-in-up-2">Delivering innovative user-centric solutions</h3>
             </div>
-            <h1 /* mobile screen */ className="mt-24 text-gray-700 font-extrabold dark:text-purple-700 bg-white whitespace-nowrap md:hidden lg-mobile:mt-12 fade-in-up-3">Mary Boles</h1>
+            <h1 /* mobile screen */ className="mt-24 text-gray-700 safari-text-outline-gray-700 font-extrabold dark:text-purple-700 dark:safari-text-outline-purple-700 bg-white whitespace-nowrap md:hidden lg-mobile:mt-12 fade-in-up-3">Mary Boles</h1>
         </div>
         <div className="row-start-4 flex flex-col items-center sm:flex-row sm:items-start justify-between z-10">
-          <h1 /* med screen */ className="mt-36 text-gray-700 font-extrabold safari-text-outline-gray-700 dark:text-purple-700 dark:safari-text-outline-purple-700 bg-white whitespace-nowrap hidden md:block shadow-[0px_12px_20px_rgba(0,0,0,0.5)] fade-in-up-3">Mary Boles</h1>
+          <h1 /* med screen */ className="mt-36 text-gray-700 font-extrabold  dark:text-purple-700  bg-white whitespace-nowrap hidden md:block shadow-[0px_12px_20px_rgba(0,0,0,0.5)] fade-in-up-3">Mary Boles</h1>
           <LargeNav className="hidden md:block"/>
           <SmallNav className="absolute bottom-0 block md:hidden"/>
         </div>
@@ -171,7 +171,7 @@ export default function Home() {
       <div className="sm:items-start text-center sm:text-left z-10">
         <h1 className="px-1 hidden font-extrabold md:block">GET IN <span className="bg-white text-gray-600 dark:text-purple-700">TOUCH</span></h1>
         <h1 className="px-1 block leading-3 font-extrabold safari-text-outline-white md:hidden">GET IN </h1><br />
-        <h1 className="mb-6 font-extrabold bg-white text-gray-600 dark:text-purple-700 inline-block md:hidden">TOUCH</h1>
+        <h1 className="mb-6 font-extrabold bg-white text-gray-600 safari-text-outline-gray-600 dark:text-purple-700 dark:safari-text-outline-purple-700 inline-block md:hidden">TOUCH</h1>
         <h2 className="text-2xl font-semibold sm:text-3xl md:text-4xl lg:text-5xl">I&#39;m Excited to Bring My Skills to Your Team!</h2>
       </div>
       <div className="absolute bottom-0 left-0 right-0 p-8 lg-mobile:px-12 sm:p-20 justify-between sm:flex z-10">
