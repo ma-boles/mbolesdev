@@ -39,10 +39,10 @@ export default function Home() {
             <div className="flex gap-4 items-center flex-col sm:flex-row">
               <h3 className="text-gray-300 safari-text-outline-gray-300 font-extrabold dark:text-purple-400 dark:safari-text-outline-purple-400 fade-in-up-2" >Delivering innovative user-centric solutions</h3>
             </div>
-            <h1 /* mobile screen */ className="mt-24 text-gray-700 safari-text-outline-gray-700 font-extrabold dark:text-purple-700 dark:safari-text-outline-purple-700 bg-white whitespace-nowrap md:hidden lg-mobile:mt-8 fade-in-up-3">Mary Boles</h1>
+            <h1 /* mobile screen */ className="mt-8 px-2 text-gray-700 safari-text-outline-gray-700 font-extrabold dark:text-purple-700 dark:safari-text-outline-purple-700 bg-white whitespace-nowrap md:hidden lg-mobile:mt-8 fade-in-up-3">Mary Boles</h1>
         </div>
         <div className="row-start-4 flex flex-col items-center sm:flex-row sm:items-start justify-between z-10">
-          <h1 /* med screen */ className="mt-36 text-gray-700  safari-text-outline-gray-700 font-extrabold dark:text-purple-700 dark:safari-text-outline-purple-700 bg-white whitespace-nowrap hidden md:block shadow-[0px_12px_20px_rgba(0,0,0,0.5)] fade-in-up-3">Mary Boles</h1>
+          <h1 /* med screen */ className="mt-36 px-2 text-gray-700  safari-text-outline-gray-700 font-extrabold dark:text-purple-700 dark:safari-text-outline-purple-700 bg-white whitespace-nowrap hidden md:block shadow-[0px_12px_20px_rgba(0,0,0,0.5)] fade-in-up-3">Mary Boles</h1>
           <LargeNav className="hidden md:block"/>
           <SmallNav className="absolute bottom-0 block md:hidden"/>
         </div>
@@ -61,7 +61,7 @@ export default function Home() {
           <p className="mr-2">Hi! I&#39;m Mary, a web developer transitioning from a career in the education field. Movtivated by my passion for creativity and <span className="font-bold">problem-solving,</span> I made the decision to pursue development focusing on building impactful web applications.<br/><br/>
           With experience in <span className="font-bold">JavaScript, React, Next.js, Tailwind CSS,</span> I create solutions that merge functionality and clean UI design. My background in education has honed my skills in communication, project management, analytical thinking, which are invaluable to understanding user needs and collaborating with teams.<br/><br/>
           Outside of coding, I enjoy collecting vinyl records + CD&#39;s, DJing, watching films and sports, as well as listening to podcasts!<br/><br/>
-          Feel free to get in touch if you would like to collaborate, or simply <a href="#contact"><span className="underline hover:text-blue-400 dark:hover:text-purple-400">connect</span></a>!
+          Feel free to get in touch if you would like to collaborate, or simply <a href="#contact"><span className="underline hover:bg-gray-800 dark:hover:bg-blue-600">connect</span></a>!
           </p>
         </div>
         <div className="w-full p-4 m-4 md:w-2/5 min-w-[200px] bg-white bg-opacity-5 rounded-lg ">
@@ -127,15 +127,15 @@ export default function Home() {
     </section>
 
     <section className="grid grid-rows-[20px_1fr_20px] min-h-screen py-16 px-4 bg-white bg-opacity-10 sm:p-20" id="works">
-     <h2 className="font-extrabold safari-text-outline-white">W<span className="text-gray-400 safari-text-outline-gray-400 dark:safari-text-outline-purple-400 dark:text-purple-400">O</span>RKS</h2>
+     <h2 className="font-extrabold safari-text-outline-white">W<span className="text-gray-300 safari-text-outline-gray-400 dark:safari-text-outline-purple-400 dark:text-purple-400">O</span>RKS</h2>
       <div className="px-2 sm:px-4 mt-20 flex flex-col bg-black bg-opacity-20 dark:border-none dark:bg-white dark:bg-opacity-5 rounded-md lg:flex-row">
           <div className="my-auto">
-            <h2 className="p-6 text-center font-extrabold"><span className="text-green-600 safari-text-outline-green-600 font-extrabold">flow</span>mode</h2>
+            <h2 className="p-6 text-center font-normal"><span className="text-green-600 font-extrabold safari-text-outline-green-600">flow</span>mode</h2>
           </div>
           <div className="py-2 sm:p-4">
             <p className="mt-0 lg:mt-12">
             <span className="italic font-light text-green-300">*Still in progress</span><br/>
-              <span className="safari-text-outline-white">Flowmode</span> is a web-based timer that integrates with Spotify to help users maintain productivity while preventing burnout. By encouraging regular breaks through customizable Flow and Rest intervals, <span className="text-green-600 font-extrabold" style={{ color: '#43a047', WebkitTextStroke: '0.5px #43a047'}}>flow</span>mode helps users work for longer periods without fatigue. Users can choose audio to accompany both Flow and Rest phases, making the experience enjoyable and effective.
+              <span className="safari-text-outline-white">Flowmode</span> is a web-based timer that integrates with Spotify to help users maintain productivity while preventing burnout. By encouraging regular breaks through customizable Flow and Rest intervals, <span className="font-bold">flowmode</span> helps users work for longer periods without fatigue. Users can choose audio to accompany both Flow and Rest phases, making the experience enjoyable and effective.
             </p>
 
             <ProjectDetails />
@@ -169,18 +169,18 @@ export default function Home() {
           />
         </div>
       <div className="sm:items-start text-center sm:text-left z-10">
-        <h1 className="px-1 hidden font-extrabold md:block">GET IN <span className="bg-white text-gray-600 dark:text-purple-700">TOUCH</span></h1>
-        <h1 /* mobile */ className="px-1 block leading-3 font-extrabold safari-text-outline-white md:hidden">GET IN </h1><br />
-        <h1 /* mobile */ className="mb-6 font-extrabold bg-white text-gray-600 safari-text-outline-gray-600 dark:text-purple-700 dark:safari-text-outline-purple-700 inline-block md:hidden">TOUCH</h1>
+        <h1 className="px-1 font-extrabold hidden md:block">GET IN <span className="px-2 bg-white text-gray-600 dark:text-purple-700">TOUCH</span></h1>
+        <h1 /* mobile */ className="px-1 mt-8 block leading-3 font-extrabold safari-text-outline-white md:hidden">GET IN </h1><br />
+        <h1 /* mobile */ className="mb-6 px-2 font-extrabold bg-white text-gray-600 safari-text-outline-gray-600 dark:text-purple-700 dark:safari-text-outline-purple-700 inline-block md:hidden">TOUCH</h1>
         <h2 className="text-2xl font-semibold sm:text-3xl md:text-4xl lg:text-5xl">I&#39;m Excited to Bring My Skills to Your Team!</h2>
       </div>
       <div className="absolute bottom-0 left-0 right-0 p-8 lg-mobile:px-12 sm:p-20 justify-between sm:flex z-10">
         <div className="text-left">
-          <h3 className="text-gray-400 dark:text-purple-400">EMAIL</h3>
-          <p className="text-2xl font-semibold">mboles.dev@gmail.com</p>
+          <h3 className=" text-gray-300 text-2xl font-extrabold dark:text-purple-400 sm:text-3xl">EMAIL</h3>
+          <p className="text-xl font-semibold sm:text-2xl">mboles.dev@gmail.com</p>
         </div>
         <div className="text-left">
-          <h3 className="pb-1 text-gray-400 dark:text-purple-400">SOCIAL</h3>
+          <h3 className="pb-1 font-extrabold text-2xl text-gray-300 dark:text-purple-400 sm:text-3xl">SOCIAL</h3>
           <div className="flex sm:justify-start">
             <a href="https://www.linkedin.com/in/mary-boles"
               target="_blank"
