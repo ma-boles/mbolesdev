@@ -39,7 +39,7 @@ export default function Home() {
             <div className="flex gap-4 items-center flex-col sm:flex-row">
               <h3 className="text-gray-300 safari-text-outline-gray-300 font-extrabold dark:text-purple-400 dark:safari-text-outline-purple-400 fade-in-up-2" >Delivering innovative user-centric solutions</h3>
             </div>
-            <h1 /* mobile screen */ className="px-2 mt-8 lg-mobile:mt-24 text-gray-700 safari-text-outline-gray-700 font-extrabold dark:text-purple-700 dark:safari-text-outline-purple-700 bg-white whitespace-nowrap md:hidden  fade-in-up-3">Mary Boles</h1>
+            <h1 /* mobile screen */ className="px-2 mt-20 text-gray-700 safari-text-outline-gray-700 font-extrabold dark:text-purple-700 dark:safari-text-outline-purple-700 bg-white whitespace-nowrap md:hidden  fade-in-up-3">Mary Boles</h1>
         </div>
         <div className="row-start-4 flex flex-col items-center sm:flex-row sm:items-start justify-between z-10">
           <h1 /* med screen */ className="mt-36 px-2 text-gray-700  safari-text-outline-gray-700 font-extrabold dark:text-purple-700 dark:safari-text-outline-purple-700 bg-white whitespace-nowrap hidden md:block shadow-[0px_12px_20px_rgba(0,0,0,0.5)] fade-in-up-3">Mary Boles</h1>
@@ -170,7 +170,7 @@ export default function Home() {
         </div>
       <div className="sm:items-start text-center sm:text-left z-10">
         <h1 className="px-1 font-extrabold hidden md:block">GET IN <span className="px-2 bg-white text-gray-600 dark:text-purple-700">TOUCH</span></h1>
-        <h1 /* mobile */ className="px-1 mt-12 lg-mobile:mt-8  block leading-3 font-extrabold safari-text-outline-white md:hidden">GET IN </h1><br />
+        <h1 /* mobile */ className="px-1 mt-20 block leading-3 font-extrabold safari-text-outline-white md:hidden">GET IN </h1><br />
         <h1 /* mobile */ className="mb-6 px-2 font-extrabold bg-white text-gray-600 safari-text-outline-gray-600 dark:text-purple-700 dark:safari-text-outline-purple-700 inline-block md:hidden">TOUCH</h1>
         <h2 className="text-2xl font-semibold sm:text-3xl md:text-4xl lg:text-5xl">I&#39;m Excited to Bring My Skills to Your Team!</h2>
       </div>
