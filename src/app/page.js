@@ -170,7 +170,7 @@ export default function Home() {
         </div>
       <div className="sm:items-start text-center sm:text-left z-10">
         <h1 className="px-1 font-extrabold hidden md:block">GET IN <span className="px-2 bg-white text-gray-600 dark:text-purple-700">TOUCH</span></h1>
-        <h1 /* mobile */ className="px-1 mt-20 block leading-3 font-extrabold safari-text-outline-white md:hidden" >GET IN </h1><br />
+        <h1 /* mobile */ className="px-1 mt-20 block leading-3 font-extrabold safari-text-outline-purple-500 md:hidden" >GET IN </h1><br />
         <h1 /* mobile */ className="mb-6 px-2 font-extrabold bg-white text-gray-600 safari-text-outline-gray-600 dark:text-purple-700 dark:safari-text-outline-purple-700 inline-block md:hidden">TOUCH</h1>
         <h2 className="text-2xl font-semibold sm:text-3xl md:text-4xl lg:text-5xl">I&#39;m Excited to Bring My Skills to Your Team!</h2>
       </div>
