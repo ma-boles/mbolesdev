@@ -138,7 +138,7 @@ html {
 @media not all and (min-resolution: 0.001dpcm) {
   @supports (-webkit-touch-callout: none) {
     .safari-text-outline {
-      -webkit-text-stroke: var(--text-stroke-weight, 1px) white;
+      -webkit-text-stroke: var(--text-stroke-weight, 1px) black;
     }
     .safari-text-outline-white {
       color: white;
