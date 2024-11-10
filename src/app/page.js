@@ -34,13 +34,13 @@ export default function Home() {
           onLoad={handleImageLoad} // Trigger state change on image load
           />
       </div>
-        <div className="flex flex-col gap-2 items-center md:items-start text-center md:text-left px-2 md:px-0 z-10">
+        <div className="flex flex-col gap-4 items-center md:items-start text-center md:text-left px-2 md:px-0 z-10">
             <h2 className="mt-16 sm:mt-8 fade-in-up-1 font-extrabold safari-text-outline-white">Web Developer</h2>
             <div className="flex gap-4 items-center flex-col sm:flex-row">
               <h3 className="text-gray-300 safari-text-outline-gray-300 font-extrabold dark:text-purple-400 dark:safari-text-outline-purple-400 fade-in-up-2" >Delivering innovative user-centric solutions</h3>
             </div>
-            <div className="flex md:hidden items-center justify-center h-full w-full">
-              <h1 /* mobile screen */ className="px-2 text-gray-700 safari-text-outline-gray-700 font-extrabold dark:text-purple-700 dark:safari-text-outline-purple-700 bg-white whitespace-nowrap md:hidden  fade-in-up-3">Mary Boles</h1>
+            <div className="mb-4 flex md:hidden items-center justify-center h-full w-full">
+              <h1 /* mobile screen */ className="px-2 text-gray-700 safari-text-outline-gray-700 font-extrabold dark:text-purple-700 dark:safari-text-outline-purple-700 bg-white whitespace-nowrap md:hidden  fade-in-up-3 ">Mary Boles</h1>
             </div>
         </div>
         <div className="row-start-4 flex flex-col items-center sm:flex-row sm:items-start justify-between z-10">
