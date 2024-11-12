@@ -44,7 +44,7 @@ export default function Home() {
             </div>
         </div>
         <div className="row-start-4 flex flex-col items-center sm:flex-row sm:items-start justify-between z-10">
-          <h1 /* med screen */ className="mt-36 px-2  safari-text-outline-gray-700 font-extrabold dark:text-purple-700 bg-white dark:safari-text-outline-purple-700 whitespace-nowrap hidden md:block shadow-[0px_12px_20px_rgba(0,0,0,0.5)] fade-in-up-3">Mary Boles</h1>
+          <h1 /* med screen */ className="mt-36 px-2 safari-text-outline-gray-700 font-extrabold dark:text-purple-700 bg-white dark:safari-text-outline-purple-700 whitespace-nowrap hidden md:block shadow-[0px_12px_20px_rgba(0,0,0,0.5)] fade-in-up-3">Mary Boles</h1>
           <LargeNav className="hidden md:block"/>
           <SmallNav className="absolute bottom-0 block md:hidden"/>
         </div>
@@ -171,26 +171,24 @@ export default function Home() {
           />
         </div>
       <div className="sm:items-start text-center sm:text-left z-10">
-        <h1 className="px-1 hidden md:block font-extrabold">GET IN <span className="px-2 bg-white text-gray-600 dark:text-purple-700 shadow-[0px_12px_20px_rgba(0,0,0,0.5)]"style={{textShadow: "1px 1px 0 #6b21a8, -1px -1px 0 #6b21a8, 1px -1px 0 #6b21a8, -1px 1px 0 #6b21a8"}}
-        >TOUCH</span></h1>
+        <h1 className="px-1 hidden md:block font-extrabold">GET IN <span className="px-2  font-extrabold text-white dark:text-purple-400 border-2 border-white shadow-[0px_12px_20px_rgba(0,0,0,0.5)]">TOUCH</span></h1>
         <h1 /* mobile */ className="px-1 mt-20 block leading-3 md:hidden font-extrabold safari-text-outline-white" >GET IN </h1><br />
-        <h1 /* mobile */ className="mb-6 px-2 bg-white text-gray-600 dark:text-purple-700
-        shadow-[0px_12px_20px_rgba(0,0,0,0.5)] inline-block md:hidden font-extrabold dark:safari-text-outline-purple-700 safari-text-outline-gray-600">TOUCH</h1>
+        <h1 /* mobile */ className="mb-6 px-2 text-white dark:text-purple-400 border-2 border-white
+        shadow-[0px_12px_20px_rgba(0,0,0,0.5)] inline-block md:hidden font-extrabold dark:safari-text-outline-purple-400 safari-text-outline-white">TOUCH</h1>
         <h2 className="text-2xl font-semibold sm:text-3xl md:text-4xl lg:text-5xl">I&#39;m Excited to Bring My Skills to Your Team!</h2>
       </div>
       <div className="absolute bottom-0 left-0 right-0 p-8 lg-mobile:px-12 sm:p-20 justify-between sm:flex z-10">
         <div className="text-left">
-          <h3 className=" text-gray-300 text-2xl font-extrabold dark:text-purple-400 sm:text-3xl">EMAIL</h3>
-          <p className="text-xl font-semibold sm:text-2xl">mboles.dev@gmail.com</p>
+          <h3 className="text-2xl font-extrabold sm:text-3xl">EMAIL</h3>
+          <p className="text-xl font-semibold text-yellow-400 sm:text-2xl">mboles.dev@gmail.com</p>
         </div>
         <div className="text-left">
-          <h3 className="pb-1 font-extrabold text-2xl text-gray-300 dark:text-purple-400 sm:text-3xl">SOCIAL</h3>
+          <h3 className="pb-1 font-extrabold text-2xl sm:text-3xl">SOCIAL</h3>
           <div className="flex sm:justify-start">
             <a href="https://www.linkedin.com/in/mary-boles"
               target="_blank"
               rel="noopener noreferrer">
-                <button className="hover:scale-125 transition-transform duration-200 ease-in-out focus:outline-none focus:ring-4 focus:ring-purple-500
-">
+                <button className="hover:scale-125 transition-transform duration-200 ease-in-out focus:outline-none focus:ring-4 focus:ring-purple-500">
                 <div className="invert" style={{ width: '30px', height:'30px', display:'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                   <Image
                     src="/images/linkedin-brands-solid (1).svg"
@@ -203,8 +201,7 @@ export default function Home() {
             <a href="https://github.com/ma-boles"
               target="_blank"
               rel="noopener noreferrer">
-                <button className="hover:scale-125 transition-transform duration-200 ease-in-out focus:outline-none focus:ring-4 focus:ring-purple-500
-">
+                <button className="hover:scale-125 transition-transform duration-200 ease-in-out focus:outline-none focus:ring-4 focus:ring-purple-500">
                 <div className="invert mx-4" style={{ width: '30px', height:'30px', display:'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                   <Image
                     src="/images/github-brands-solid (1).svg"
