@@ -131,8 +131,8 @@ export default function Home() {
     <section className="grid grid-rows-[20px_1fr_20px] min-h-screen py-16 px-4 bg-white bg-opacity-10 sm:p-20" id="works">
      <h2 className="font-extrabold safari-text-outline-white">W<span className="text-gray-300 safari-text-outline-gray-400 dark:safari-text-outline-purple-400 dark:text-purple-400">O</span>RKS</h2>
       <div className="px-2 sm:px-4 mt-20 flex flex-col bg-black bg-opacity-20 dark:border-none dark:bg-white dark:bg-opacity-5 rounded-md lg:flex-row">
-          <div className="my-auto">
-            <h2 className="p-6 text-center font-normal"><span className="text-green-600 font-extrabold safari-text-outline-green-600">flow</span>mode</h2>
+          <div className="my-auto ">
+            <h2 className="p-2 m-2 text-center font-normal bg-black bg-opacity-70"><span className="font-extrabold safari-text-outline-green-600">flow</span>mode</h2>
           </div>
           <div className="py-2 sm:p-4">
             <p className="mt-0 lg:mt-12">
@@ -142,14 +142,14 @@ export default function Home() {
 
             <ProjectDetails />
 
-            <div className="flex mt-4 mb-2 sm:justify-between md:justify-start">
+            <div className="flex mt-4 mb-2 justify-start">
               <a href="https://github.com/ma-boles/flowmode/tree/main/my-nextjs-app"
               target="_blank"
               rel="noopener noreferrer"
               >
-              <button className="px-8 py-2 border border-white dark:border-gray-500 rounded-md hover:bg-gray-500">Code</button>
+              <button className="px-8 py-2 border border-white rounded-md hover:bg-green-600">Code</button>
               </a>
-              <button className="px-8 py-2 ml-2  bg-green-700 rounded-md cursor-not-allowed">Live</button>
+              <button className="px-8 py-2 ml-2 bg-gray-500 rounded-md cursor-not-allowed">Live</button>
             </div>
           </div>
       </div>
@@ -171,12 +171,11 @@ export default function Home() {
           />
         </div>
       <div className="sm:items-start text-center sm:text-left z-10">
-        <h1 className="px-1 font-extrabold hidden md:block">GET IN <span className="px-2 bg-white text-gray-600 dark:text-purple-700 shadow-[0px_12px_20px_rgba(0,0,0,0.5)]"style={{textShadow: "1px 1px 0 #6b21a8, -1px -1px 0 #6b21a8, 1px -1px 0 #6b21a8, -1px 1px 0 #6b21a8"}}
+        <h1 className="px-1 hidden md:block font-extrabold">GET IN <span className="px-2 bg-white text-gray-600 dark:text-purple-700 shadow-[0px_12px_20px_rgba(0,0,0,0.5)]"style={{textShadow: "1px 1px 0 #6b21a8, -1px -1px 0 #6b21a8, 1px -1px 0 #6b21a8, -1px 1px 0 #6b21a8"}}
         >TOUCH</span></h1>
-        <h1 /* mobile */ className="px-1 mt-20 block leading-3 font-extrabold safari-text-outline-white md:hidden" >GET IN </h1><br />
-        <h1 /* mobile */ className="mb-6 px-2 safari-text-outline-gray-600 font-extrabold bg-white text-gray-600  dark:text-purple-700 dark:safari-text-outline-purple-700
-        shadow-[0px_12px_20px_rgba(0,0,0,0.5)]
-        inline-block md:hidden">TOUCH</h1>
+        <h1 /* mobile */ className="px-1 mt-20 block leading-3 md:hidden font-extrabold safari-text-outline-white" >GET IN </h1><br />
+        <h1 /* mobile */ className="mb-6 px-2 bg-white text-gray-600 dark:text-purple-700
+        shadow-[0px_12px_20px_rgba(0,0,0,0.5)] inline-block md:hidden font-extrabold dark:safari-text-outline-purple-700 safari-text-outline-gray-600">TOUCH</h1>
         <h2 className="text-2xl font-semibold sm:text-3xl md:text-4xl lg:text-5xl">I&#39;m Excited to Bring My Skills to Your Team!</h2>
       </div>
       <div className="absolute bottom-0 left-0 right-0 p-8 lg-mobile:px-12 sm:p-20 justify-between sm:flex z-10">
