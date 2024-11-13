@@ -182,7 +182,7 @@ export default function Home() {
           <h3 className="text-2xl font-extrabold sm:text-3xl">EMAIL</h3>
           <p className="text-xl font-semibold text-yellow-400 sm:text-2xl">mboles.dev@gmail.com</p>
         </div>
-        <div className="text-left">
+        <div className="text-left hover:bg-black hover:bg-opacity-5">
           <h3 className="pb-1 font-extrabold text-2xl sm:text-3xl">SOCIAL</h3>
           <div className="flex sm:justify-start">
             <a href="https://www.linkedin.com/in/mary-boles"
@@ -202,7 +202,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer">
                 <button className="hover:scale-125 transition-transform duration-200 ease-in-out focus:outline-none focus:ring-4 focus:ring-purple-500">
-                <div className="invert mx-4" style={{ width: '30px', height:'30px', display:'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
+                <div className="invert mx-4" style={{ width: '30px', height:'30px', display:'inline-flex', alignItems: 'center', justifyContent: 'center'}}>
                   <Image
                     src="/images/github-brands-solid (1).svg"
                     alt="Link to GitHub Profile"
