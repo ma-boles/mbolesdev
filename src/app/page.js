@@ -155,7 +155,7 @@ export default function Home() {
       </div>
     </section>
 
-    <section className="grid grid-rows-[20px_1fr_20px] min-h-screen relative p-8 overflow-hidden sm:p-20 bg-white bg-opacity-5 backdrop-blur-3xl"  id="contact">
+    <section className="flex flex-col min-h-[100vh] p-8 overflow-y-auto sm:p-20 bg-white bg-opacity-5 backdrop-blur-3xl"  id="contact">
       <div className={`fade-in ${loaded ? 'fade-in-active' : ''}`}>
         <Image
           src="/images/background-blocks3.svg"
@@ -170,20 +170,23 @@ export default function Home() {
           onLoad={handleImageLoad} // Trigger state change on image load
           />
         </div>
+
+      <div className="flex flex-col flex-grow">
       <div className="sm:items-start text-center sm:text-left z-10">
-        <h1 className="px-1 hidden md:block font-extrabold">GET IN <span className="px-2  font-extrabold text-white dark:text-purple-400 border-2 border-white shadow-[0px_12px_20px_rgba(0,0,0,0.5)]">TOUCH</span></h1>
+        <h1 className="px-1 hidden md:block font-extrabold">GET IN <span className="px-2 font-extrabold text-yellow-400 border-2 border-white shadow-[0px_12px_20px_rgba(0,0,0,0.5)]">TOUCH</span></h1>
         <h1 /* mobile */ className="px-1 mt-20 block leading-3 md:hidden font-extrabold safari-text-outline-white" >GET IN </h1><br />
         <h1 /* mobile */ className="mb-6 px-2 text-white dark:text-purple-400 border-2 border-white
         shadow-[0px_12px_20px_rgba(0,0,0,0.5)] inline-block md:hidden font-extrabold dark:safari-text-outline-purple-400 safari-text-outline-white">TOUCH</h1>
         <h2 className="text-2xl font-semibold sm:text-3xl md:text-4xl lg:text-5xl">I&#39;m Excited to Bring My Skills to Your Team!</h2>
       </div>
-      <div className="absolute bottom-0 left-0 right-0 p-8 lg-mobile:px-12 sm:p-20 justify-between sm:flex z-10">
+      <div className="flex flex-col flex-grow justify-between md:p-0 z-10">
+       <div className="flex flex-col mt-auto md:flex-row justify-between w-full text-left">
         <div className="text-left">
           <h3 className="text-2xl font-extrabold sm:text-3xl">EMAIL</h3>
           <p className="text-xl font-semibold text-yellow-400 sm:text-2xl">mboles.dev@gmail.com</p>
         </div>
         <div className="text-left hover:bg-black hover:bg-opacity-5">
-          <h3 className="pb-1 font-extrabold text-2xl sm:text-3xl">SOCIAL</h3>
+          <h3 className="pb-1 font-extrabold text-2xl sm:text-3xl text-yellow-400">SOCIAL</h3>
           <div className="flex sm:justify-start">
             <a href="https://www.linkedin.com/in/mary-boles"
               target="_blank"
@@ -213,6 +216,8 @@ export default function Home() {
             </a>
           </div>
         </div>
+      </div>
+      </div>
       </div>
     </section>
     </main>
