@@ -176,7 +176,7 @@ export default function Home() {
           <h1 className="px-1 hidden md:block font-extrabold">GET IN <span className="px-2 font-extrabold text-yellow-400 border-4 border-white shadow-[0px_12px_20px_rgba(0,0,0,0.5)]">TOUCH</span></h1>
           <h1 /* mobile */ className="px-1 mt-20 block leading-3 md:hidden font-extrabold safari-text-outline-white" >GET IN </h1><br />
           <h1 /* mobile */ className="mb-6 px-2 text-yellow-400 border-4 border-white
-          shadow-[0px_12px_20px_rgba(0,0,0,0.5)] inline-block md:hidden font-extrabold dark:safari-text-outline-purple-400 safari-text-outline-white">TOUCH</h1>
+          shadow-[0px_12px_20px_rgba(0,0,0,0.5)] inline-block md:hidden font-extrabold  ">TOUCH</h1>
           <h2 className="text-2xl font-semibold sm:text-3xl md:text-4xl lg:text-5xl">I&#39;m Excited to Bring My Skills to Your Team!</h2>
         </div>
         <div className="flex flex-col flex-grow justify-between md:p-0 z-10">
