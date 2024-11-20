@@ -40,11 +40,9 @@ export default function Home() {
               <h3 className="text-gray-300 safari-text-outline-gray-300 font-extrabold dark:text-purple-400 dark:safari-text-outline-purple-400 fade-in-up-2" >Delivering innovative user-centric solutions</h3>
             </div>
             <div className="mb-4 flex md:hidden items-center justify-center h-full w-full">
-              {/* text-gray-700 dark:text-purple-700 dark:safari-text-outline-purple-700 safari-text-outline-gray-700*/}
               <h1 /* mobile screen */ className="px-2 font-extrabold border-4 border-white shadow-[0px_12px_20px_rgba(0,0,0,0.5)] safari-text-outline-white whitespace-nowrap md:hidden fade-in-up-3">Mary Boles</h1>
             </div>
         </div>
-        {/*safari-text-outline-gray-700 dark:text-purple-700 bg-white dark:safari-text-outline-purple-700 */}
         <div className="row-start-4 flex flex-col items-center sm:flex-row sm:items-start justify-between z-10">
           <h1 /* med screen */ className="mt-36 px-2 font-extrabold whitespace-nowrap hidden md:block border-4 border-white shadow-[0px_12px_20px_rgba(0,0,0,0.5)] fade-in-up-3">Mary Boles</h1>
           <LargeNav className="hidden md:block"/>
@@ -175,9 +173,9 @@ export default function Home() {
 
       <div className="flex flex-col flex-grow">
         <div className="sm:items-start text-center sm:text-left z-10">
-          <h1 className="px-1 hidden md:block font-extrabold">GET IN <span className="px-2 font-extrabold text-yellow-400 border-2 border-white shadow-[0px_12px_20px_rgba(0,0,0,0.5)]">TOUCH</span></h1>
+          <h1 className="px-1 hidden md:block font-extrabold">GET IN <span className="px-2 font-extrabold text-yellow-400 border-4 border-white shadow-[0px_12px_20px_rgba(0,0,0,0.5)]">TOUCH</span></h1>
           <h1 /* mobile */ className="px-1 mt-20 block leading-3 md:hidden font-extrabold safari-text-outline-white" >GET IN </h1><br />
-          <h1 /* mobile */ className="mb-6 px-2 text-white dark:text-purple-400 border-2 border-white
+          <h1 /* mobile */ className="mb-6 px-2 text-yellow-400 border-4 border-white
           shadow-[0px_12px_20px_rgba(0,0,0,0.5)] inline-block md:hidden font-extrabold dark:safari-text-outline-purple-400 safari-text-outline-white">TOUCH</h1>
           <h2 className="text-2xl font-semibold sm:text-3xl md:text-4xl lg:text-5xl">I&#39;m Excited to Bring My Skills to Your Team!</h2>
         </div>
