@@ -20,7 +20,7 @@ export default function ProjectDetails () {
             <li className="text-lg sm:text-lg"><span className="font-bold">Customizable Timer</span>: Set personalized Flow and Rest intervals to sustain productivity.</li>
             <li className="text-lg sm:text-lg"><span className="font-bold">Spotify Integration:</span> Play different audio during Flow and Rest periods, creating an engaging and balanced workflow.</li>
             <li className="text-lg sm:text-lg"><span className="font-bold">Multiple Cycles:</span> Manage multiple Flow/Rest cycles with real-time tracking to maintain a consistent rhythm.</li>
-            <li className="text-lg sm:text-lg"><span className="font-bold">User Profiles:</span> Build personalized accounts for saving settings and favorite playlists.</li>
+            <li className="text-lg sm:text-lg"><span className="font-bold">User Profiles:</span> Build personalized profiles for saving settings and favorite playlists.</li>
           </ul><br/>
 
           <ul><span className="font-bold text-green-400 text-lg sm:text-xl">Tech Stack</span>
