@@ -35,7 +35,7 @@ export default function Home() {
           />
       </div>
         <div className="flex flex-col gap-4 items-center md:items-start text-center md:text-left px-2 md:px-0 z-10">
-            <h2 className="mt-16 sm:mt-8 fade-in-up-1 font-extrabold safari-text-outline-white">Web Developer</h2>
+            <h2 className="mt-16 sm:mt-8 fade-in-up-1 font-extrabold safari-text-outline-white">Software Developer</h2>
             <div className="flex gap-4 items-center flex-col sm:flex-row">
               <h3 className="text-gray-300 safari-text-outline-gray-300 font-extrabold dark:text-purple-400 dark:safari-text-outline-purple-400 fade-in-up-2" >Delivering innovative user-centric solutions</h3>
             </div>
@@ -60,7 +60,7 @@ export default function Home() {
       <h2 className="font-extrabold safari-text-outline-white">ABOUT | SKILLS</h2>
       <div className="flex flex-col md:flex-row justify-start mt-20 md:justify-between items-center md-items-start">
         <div className="w-full md:w-3/5 pb-4">
-          <p className="mr-2">Hi! I&#39;m Mary, a web developer transitioning from a career in the education field. Motivated by my passion for creativity and <span className="font-bold">problem-solving,</span> I made the decision to pursue development focusing on building impactful web applications.<br/><br/>
+          <p className="mr-2">Hi! I&#39;m Mary, a software developer transitioning from a career in the education field. Motivated by my passion for creativity and <span className="font-bold">problem-solving,</span> I made the decision to pursue development focusing on building impactful web applications.<br/><br/>
           With experience in <span className="font-bold">JavaScript, React, Next.js, Tailwind CSS,</span> I create solutions that merge functionality and clean UI design. My background in education has honed my skills in communication, project management, analytical thinking, which are invaluable to understanding user needs and collaborating with teams.<br/><br/>
           Outside of coding, I enjoy collecting vinyl records + CD&#39;s, DJing, watching films and sports, as well as listening to podcasts!<br/><br/>
           Feel free to get in touch if you would like to collaborate, or simply <a href="#contact"><span className="underline hover:bg-gray-800 dark:hover:bg-blue-600">connect</span></a>!
