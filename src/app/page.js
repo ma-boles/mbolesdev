@@ -132,6 +132,30 @@ export default function Home() {
      <h2 className="font-extrabold safari-text-outline-white">W<span className="text-gray-300 safari-text-outline-gray-400 dark:safari-text-outline-purple-400 dark:text-purple-400">O</span>RKS</h2>
       <div className="px-2 sm:px-4 mt-20 flex flex-col bg-black bg-opacity-20 dark:border-none dark:bg-white dark:bg-opacity-5 rounded-md lg:flex-row">
           <div className="my-auto ">
+            <h2 className="p-2 m-2 text-center font-normal bg-black bg-opacity-70"><span className="font-extrabold safari-text-outline-green-600">Bracket</span>Madness</h2>
+          </div>
+          <div className="py-2 sm:p-4">
+            <p className="mt-0 lg:mt-12">
+            <span className="italic font-light text-purple-400">March 2025 - present</span><br/>
+              <strong>Bracket Madness</strong> is an interactive sports bracket management app optimized for the NCAA Women's March Madness tournament. I led full-stack development and designed a seamless user experience using React/Next.js and MySQL. The app supports dynamic scoring, multiple brackets per user, creation of private pool challenges, and more. Future plans include expansion to professional leagues and additional weekly/daily challeges.
+            </p>
+
+            <ProjectDetails />
+
+            <div className="flex mt-4 mb-2 justify-start">
+              <a href="https://github.com/ma-boles/flowmode/tree/main/my-nextjs-app"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+              <button className="px-8 py-2 border border-white rounded-md hover:bg-green-600">Code</button>
+              </a>
+              <button className="px-8 py-2 ml-2 bg-gray-500 rounded-md cursor-not-allowed">Live</button>
+            </div>
+          </div>
+      </div>
+
+      {/* <div className="px-2 sm:px-4 mt-20 flex flex-col bg-black bg-opacity-20 dark:border-none dark:bg-white dark:bg-opacity-5 rounded-md lg:flex-row">
+          <div className="my-auto ">
             <h2 className="p-2 m-2 text-center font-normal bg-black bg-opacity-70"><span className="font-extrabold safari-text-outline-green-600">flow</span>mode</h2>
           </div>
           <div className="py-2 sm:p-4">
@@ -152,7 +176,7 @@ export default function Home() {
               <button className="px-8 py-2 ml-2 bg-gray-500 rounded-md cursor-not-allowed">Live</button>
             </div>
           </div>
-      </div>
+      </div> */}
     </section>
 
     <section className="flex flex-col min-h-[100vh] p-8 overflow-y-auto sm:p-20 bg-white bg-opacity-5 backdrop-blur-3xl"  id="contact">
