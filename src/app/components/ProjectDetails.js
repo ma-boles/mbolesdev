@@ -24,15 +24,15 @@ export default function ProjectDetails () {
           </ul><br/>
 
           <ul><span className="font-bold text-green-400 text-lg sm:text-xl">Core Features</span>
-            <li className="text-lg sm:text-lg"><span className="font-bold">Bracket Creator</span>: Submit preditions for 67 games and track progress throughout the tournament.</li>
+            <li className="text-lg sm:text-lg"><span className="font-bold">Bracket Creator:</span> Submit predictions for 67 games and track progress throughout the tournament.</li>
             <li className="text-lg sm:text-lg"><span className="font-bold">Scoring System:</span> Real-time scoring wth round-based multipliers and bonus points.</li>
             <li className="text-lg sm:text-lg"><span className="font-bold">User Accounts:</span> Secure signup/login and the ability to create multiple brackets per user.</li>
-            <li className="text-lg sm:text-lg"><span className="font-bold">Pool Admin Controls:</span> Any use who creates a private pool challenge becomes its admin. Admins can manage their pool by inviting or remoing members, giving them full control of their custom competition.</li>
+            <li className="text-lg sm:text-lg"><span className="font-bold">Pool Admin Controls:</span> Any user who creates a private pool challenge becomes it&#39;s admin. Admins can manage their pool by inviting or removing members, giving them full control of their custom competition.</li>
              <li className="text-lg sm:text-lg"><span className="font-bold">Responsive Design:</span> Optimized across mobile, tablet, and desktop.</li>
           </ul><br/>
 
           <span className="font-bold text-blue-400 text-lg sm:text-xl">My Role</span>
-            <p className="text-lg sm:text-lg"> I led end-to-end development as a solo developer, from initial concept to frontend UX and backend architecture. The user experience and design were built from scratch based on research, inspiration, and intuition — without the use of formal witreframing tools.</p>
+            <p className="text-lg sm:text-lg"> I led end-to-end development as a solo developer, from initial concept to frontend UX and backend architecture. The user experience and design were built from scratch based on research, inspiration, and intuition — without the use of formal wireframing tools.</p>
           <br/>
           </div>
            )}
