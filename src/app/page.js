@@ -35,9 +35,10 @@ export default function Home() {
           />
       </div>
         <div className="flex flex-col gap-4 items-center md:items-start text-center md:text-left px-2 md:px-0 z-10">
-            <h2 className="mt-16 sm:mt-8 fade-in-up-1 font-extrabold safari-text-outline-white">Software Developer</h2>
+            <h2 className="mt-16 sm:mt-8 fade-in-up-1 font-extrabold safari-text-outline-white">Developer & Product Builder</h2>
             <div className="flex gap-4 items-center flex-col sm:flex-row">
-              <h3 className="text-gray-300 safari-text-outline-gray-300 font-extrabold dark:text-purple-400 dark:safari-text-outline-purple-400 fade-in-up-2" >Delivering innovative user-centric solutions</h3>
+              <h3 className="text-gray-300 safari-text-outline-gray-300 font-extrabold dark:text-purple-400 dark:safari-text-outline-purple-400 fade-in-up-2" >Building digital products that blend UX, strategy, and community impact
+</h3>
             </div>
             <div className="mb-4 flex md:hidden items-center justify-center h-full w-full">
               <h1 /* mobile screen */ className="px-2 font-extrabold border-4 border-white shadow-[0px_12px_20px_rgba(0,0,0,0.5)] safari-text-outline-white whitespace-nowrap md:hidden fade-in-up-3">Mary Boles</h1>
@@ -60,10 +61,13 @@ export default function Home() {
       <h2 className="font-extrabold safari-text-outline-white">ABOUT | SKILLS</h2>
       <div className="flex flex-col md:flex-row justify-start mt-20 md:justify-between items-center md-items-start">
         <div className="w-full md:w-3/5 pb-4">
-          <p className="mr-2">Hi! I&#39;m Mary, a software developer transitioning from a career in the education field. Motivated by my passion for creativity and <span className="font-bold">problem-solving,</span> I made the decision to pursue development focusing on building impactful web applications.<br/><br/>
-          With experience in <span className="font-bold">JavaScript, React, Next.js, Tailwind CSS,</span> I create solutions that merge functionality and clean UI design. My background in education has honed my skills in communication, project management, analytical thinking, which are invaluable to understanding user needs and collaborating with teams.<br/><br/>
-          Outside of coding, I enjoy collecting vinyl records + CD&#39;s, DJing, watching films and sports, as well as listening to podcasts!<br/><br/>
-          Feel free to get in touch if you would like to collaborate, or simply <a href="#contact"><span className="underline hover:bg-gray-800 dark:hover:bg-blue-600">connect</span></a>!
+          <p className="mr-2">Hi! I&#39;m Mary, a product-focused software developer with a background in education and a passion for building impactful web applications. Motivated by creativity and <span className="font-bold">problem-solving,</span> I transitioned from the classroom to code where I now design and build solutions that are as thoughtful as they are function. I specialize in <span className="font-bold">JavaScript, React, Next.js, Tailwind CSS, SQL,and MySQL</span>, creating clean, responsive interfaces that prioritize user experience. My years in education sharpened my strengths in<span className="font-bold"> communication, collaboration, analytical thinking,</span> all of which directly support my product mindset and ability to understand user needs, align with goals, and work across disciplines.<br/><br/>
+
+          Most recently, I built <span className="font-bold">Bracket Madness</span>, a fan-centered web app that brings community and sports together through interactive experiences.<br></br>
+
+          Outside of coding, you&#39;ll find me collecting vinyl, CDs, DJing, watching films and sports, or diving into a good podcast.<br/><br/>
+
+          Feel free to <a href="#contact"><span className="underline hover:bg-gray-800 dark:hover:bg-blue-600">reach out</span></a> — I&#39;m always up for discussing product ideas, sports UX, or sharing playlists and film recommendations.
           </p>
         </div>
         <div className="w-full p-4 m-4 md:w-2/5 min-w-[200px] bg-white bg-opacity-5 rounded-lg ">
@@ -99,6 +103,13 @@ export default function Home() {
             className="p-1"
             width={56}
             height={28}/>
+            <Image
+            src="/images/MySQL-4479A1.svg"
+            alt="MySQL badge"
+             className="p-1"
+            width={94}
+            height={28}
+            />
             <Image
             src="/images/GitHub-181717.svg"
             alt="GitHub badge"
@@ -137,7 +148,7 @@ export default function Home() {
           <div className="py-2 sm:p-4">
             <p className="mt-0 lg:mt-12">
             <span className="italic font-light text-purple-400">March 2025 - present</span><br/>
-              <strong>Bracket Madness</strong> is an interactive sports bracket management app optimized for the NCAA Women's March Madness tournament. I led full-stack development and designed a seamless user experience using React/Next.js and MySQL. The app supports dynamic scoring, multiple brackets per user, creation of private pool challenges, and more. Future plans include expansion to professional leagues and additional weekly/daily challeges.
+              <strong>Bracket Madness</strong> is an interactive sports bracket management app optimized for the NCAA Women&#39;s March Madness tournament. I led full-stack development and designed a seamless user experience using React/Next.js and MySQL. The app supports dynamic scoring, multiple brackets per user, creation of private pool challenges, and more. Future plans include expansion to professional leagues and additional weekly/daily challenges.
             </p>
 
             <ProjectDetails />
@@ -150,6 +161,7 @@ export default function Home() {
               <button className="px-8 py-2 border border-white rounded-md hover:bg-green-600">Code</button>
               </a>
               <button className="px-8 py-2 ml-2 bg-gray-500 rounded-md cursor-not-allowed">Live</button>
+              <button className="px-8 py-2 ml-2 bg-gray-500 rounded-md cursor-not-allowed">Case Study</button>
             </div>
           </div>
       </div>
