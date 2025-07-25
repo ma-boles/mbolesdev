@@ -61,7 +61,7 @@ export default function Home() {
       <h2 className="font-extrabold safari-text-outline-white">ABOUT | SKILLS</h2>
       <div className="flex flex-col md:flex-row justify-start mt-20 md:justify-between items-center md-items-start">
         <div className="w-full md:w-3/5 pb-4">
-          <p className="mr-2">Hi! I&#39;m Mary, a product-focused software developer with a background in education and a passion for building impactful web applications. Motivated by creativity and <span className="font-bold">problem-solving,</span> I transitioned from the classroom to code where I now design and build solutions that are as thoughtful as they are function. I specialize in <span className="font-bold">JavaScript, React, Next.js, Tailwind CSS, SQL,and MySQL</span>, creating clean, responsive interfaces that prioritize user experience. My years in education sharpened my strengths in<span className="font-bold"> communication, collaboration, analytical thinking,</span> all of which directly support my product mindset and ability to understand user needs, align with goals, and work across disciplines.<br/><br/>
+          <p className="mr-2">Hi! I&#39;m Mary, a product-focused software developer with a background in education and a passion for building impactful web applications. Motivated by creativity and <span className="font-bold">problem-solving,</span> I transitioned from the classroom to code where I now design and build solutions that are as thoughtful as they are function. I specialize in <span className="font-bold">JavaScript, React, Next.js, Tailwind CSS, and MySQL</span>, creating clean, responsive interfaces that prioritize user experience. My years in education sharpened my strengths in<span className="font-bold"> communication, collaboration, analytical thinking,</span> all of which directly support my product mindset and ability to understand user needs, align with goals, and work across disciplines.<br/><br/>
 
           Most recently, I built <span className="font-bold">Bracket Madness</span>, a fan-centered web app that brings community and sports together through interactive experiences.<br></br>
 
@@ -143,29 +143,38 @@ export default function Home() {
      <h2 className="font-extrabold safari-text-outline-white">W<span className="text-gray-300 safari-text-outline-gray-400 dark:safari-text-outline-purple-400 dark:text-purple-400">O</span>RKS</h2>
       <div className="px-2 sm:px-4 mt-20 flex flex-col bg-black bg-opacity-20 dark:border-none dark:bg-white dark:bg-opacity-5 rounded-md lg:flex-row">
           <div className="my-auto ">
-            <h2 className="p-2 m-2 text-center font-normal bg-black bg-opacity-70"><span className="font-extrabold safari-text-outline-green-600">Bracket</span>Madness</h2>
+            <h2 className="p-2 m-2 text-center font-normal bg-black bg-opacity-70"><span className="font-extrabold text-blue-600 safari-text-outline-blue-600">Bracket</span>Madness</h2>
           </div>
           <div className="py-2 sm:p-4">
             <p className="mt-0 lg:mt-12">
-            <span className="italic font-light text-purple-400">March 2025 - present</span><br/>
+            <span className="italic font-light text-blue-200">March 2025 - present</span><br/>
               <strong>Bracket Madness</strong> is an interactive sports bracket management app optimized for the NCAA Women&#39;s March Madness tournament. I led full-stack development and designed a seamless user experience using React/Next.js and MySQL. The app supports dynamic scoring, multiple brackets per user, creation of private pool challenges, and more. Future plans include expansion to professional leagues and additional weekly/daily challenges.
             </p>
 
             <ProjectDetails />
 
             <div className="flex mt-4 mb-2 justify-start">
-              <a href="https://github.com/ma-boles/flowmode/tree/main/my-nextjs-app"
+              <a href="https://github.com/ma-boles/Bracket_Madness"
               target="_blank"
               rel="noopener noreferrer"
               >
-              <button className="px-8 py-2 border border-white rounded-md hover:bg-green-600">Code</button>
+              <button className="px-8 py-2 border border-white rounded-md hover:bg-blue-600">Code</button>
               </a>
+
               <button className="px-8 py-2 ml-2 bg-gray-500 rounded-md cursor-not-allowed">Live</button>
-              <button className="px-8 py-2 ml-2 bg-gray-500 rounded-md cursor-not-allowed">Case Study</button>
+              <p className="px-2 py-2 ml-2 underline cursor-not-allowed hover:text-blue-400">Case Study</p>
             </div>
           </div>
       </div>
 
+              {/* <a href="https://github.com/ma-boles/flowmode/tree/main/my-nextjs-app"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+              <button className="px-8 py-2 border border-white rounded-md hover:bg-blue-600">Code</button>
+              </a> */}
+
+              
       {/* <div className="px-2 sm:px-4 mt-20 flex flex-col bg-black bg-opacity-20 dark:border-none dark:bg-white dark:bg-opacity-5 rounded-md lg:flex-row">
           <div className="my-auto ">
             <h2 className="p-2 m-2 text-center font-normal bg-black bg-opacity-70"><span className="font-extrabold safari-text-outline-green-600">flow</span>mode</h2>
@@ -209,11 +218,11 @@ export default function Home() {
 
       <div className="flex flex-col flex-grow">
         <div className="sm:items-start text-center sm:text-left z-10">
-          <h1 className="px-1 hidden md:block font-extrabold">GET IN <span className="px-2 font-extrabold text-yellow-400 border-4 border-white shadow-[0px_12px_20px_rgba(0,0,0,0.5)]">TOUCH</span></h1>
-          <h1 /* mobile */ className="px-1 mt-20 block leading-3 md:hidden font-extrabold safari-text-outline-white" >GET IN </h1><br />
+          <h1 className="px-1 hidden md:block font-extrabold">LET&#39;S <span className="px-2 font-extrabold text-yellow-400 border-4 border-white shadow-[0px_12px_20px_rgba(0,0,0,0.5)]">CONNECT</span></h1>
+          <h1 /* mobile */ className="px-1 mt-20 block leading-3 md:hidden font-extrabold safari-text-outline-white" >LET&#39;S </h1><br />
           <h1 /* mobile */ className="mb-6 px-2 text-yellow-400 border-4 border-white
-          shadow-[0px_12px_20px_rgba(0,0,0,0.5)] inline-block md:hidden font-extrabold  ">TOUCH</h1>
-          <h2 className="text-2xl font-semibold sm:text-3xl md:text-4xl lg:text-5xl">I&#39;m Excited to Bring My Skills to Your Team!</h2>
+          shadow-[0px_12px_20px_rgba(0,0,0,0.5)] inline-block md:hidden font-extrabold  ">CONNECT</h1>
+          <h2 className="italic text-2xl font-light sm:text-3xl md:text-4xl lg:text-5xl">I&#39;m excited to bring curiosity, creativity, and product thinking to a team where I can help build something impactful.</h2>
         </div>
         <div className="flex flex-col flex-grow justify-between md:p-0 z-10">
           <div className="flex flex-col mt-auto md:flex-row justify-between w-full text-left">
