@@ -10,14 +10,16 @@
     "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js"
   },
   "dependencies": {
-    "next": "14.2.15",
+    "next": "^14.2.32",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@babel/core": "^7.28.4",
     "@testing-library/jest-dom": "^6.6.2",
     "@testing-library/react": "^16.0.1",
     "@testing-library/user-event": "^14.5.2",
+    "@types/babel__core": "^7.20.5",
     "autoprefixer": "^10.4.20",
     "eslint": "^8",
     "eslint-config-next": "14.2.15",
