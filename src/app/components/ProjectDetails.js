@@ -10,20 +10,20 @@ export default function ProjectDetails () {
 
     return (
         <>
-        <button className="px-1 mt-1 bg-black text-blue-500 text-lg font-bold hover:bg-white hover:text-black"
+        <button className="px-1 mt-1 bg-black text-lg font-bold hover:bg-white hover:text-purple-700"
         onClick={toggleDetails}>
             {isExpanded ? "Show Less" : "Show More"}
         </button>
         {isExpanded && (
        <div className="pt-4">
-         <ul><span className="pr-1 mt-1 font-bold bg-blue-700 text-lg sm:text-xl">Tech Stack</span>
+         <ul><span className="pr-1 mt-1 font-bold bg-purple-700 text-lg sm:text-xl">Tech Stack</span>
             <li className="text-lg sm:text-lg"><span className="font-bold">Frontend:</span> React, Next.js, Tailwind CSS</li>
             <li className="text-lg sm:text-lg"><span className="font-bold">Backend:</span> Node.js, Next.js API Routes, MySQL</li>
             <li className="text-lg sm:text-lg"><span className="font-bold">Auth:</span> JWT & cookie-based authentication</li>
             <li className="text-lg sm:text-lg"><span className="font-bold">Hosting:</span> Vercel</li>
           </ul><br/>
 
-          <ul><span className="pr-1 font-bold bg-blue-700 text-lg sm:text-xl">Core Features</span>
+          <ul><span className="pr-1 font-bold bg-purple-700 text-lg sm:text-xl">Core Features</span>
             <li className="text-lg sm:text-lg"><span className="font-bold">Bracket Creator:</span> Submit predictions for 67 games and track progress throughout the tournament.</li>
             <li className="text-lg sm:text-lg"><span className="font-bold">Scoring System:</span> Real-time scoring wth round-based multipliers and bonus points.</li>
             <li className="text-lg sm:text-lg"><span className="font-bold">User Accounts:</span> Secure signup/login and the ability to create multiple brackets per user.</li>
@@ -31,7 +31,7 @@ export default function ProjectDetails () {
              <li className="text-lg sm:text-lg"><span className="font-bold">Responsive Design:</span> Optimized across mobile, tablet, and desktop.</li>
           </ul><br/>
 
-          <span className="pr-1 font-bold bg-blue-700 text-lg sm:text-xl">My Role</span>
+          <span className="pr-1 font-bold bg-purple-700 text-lg sm:text-xl">My Role</span>
             <p className="text-lg sm:text-lg"> I led end-to-end development as a solo developer, from initial concept to frontend UX and backend architecture. The user experience and design were built from scratch based on research, inspiration, and intuition — without the use of formal wireframing tools.</p>
           <br/>
           </div>
