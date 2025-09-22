@@ -6,6 +6,7 @@ import LargeNav from "./components/LargeNav";
 import SmallNav from "./components/SmallNav";
 import ToggleSwitch from "./components/ToggleSwitch";
 import { useState } from "react";
+import Link from "next/link";
 
 
 export default function Home() {
@@ -13,7 +14,7 @@ export default function Home() {
   const currentDate = new Date().getFullYear();
 
   const handleImageLoad = () => {
-    setLoaded(true); // Set loaded to true when the image has loaded
+    setLoaded(true);
   };
 
   return (
@@ -31,7 +32,7 @@ export default function Home() {
             objectPosition: "center",
             filter: "grayscale(100%)",
           }}
-          onLoad={handleImageLoad} // Trigger state change on image load
+          onLoad={handleImageLoad}
           />
       </div>
         <div className="flex flex-col gap-4 items-center md:items-start text-center md:text-left px-2 md:px-0 z-10">
@@ -141,13 +142,13 @@ export default function Home() {
 
     <section className="grid grid-rows-[20px_1fr_20px] min-h-screen py-16 px-4 bg-white bg-opacity-10 sm:p-20" id="works">
      <h2 className="font-extrabold safari-text-outline-white">W<span className="text-gray-300 safari-text-outline-gray-400 dark:safari-text-outline-purple-400 dark:text-purple-400">O</span>RKS</h2>
-      <div className="px-2 sm:px-4 mt-20 flex flex-col bg-black bg-opacity-20 dark:border-none dark:bg-white dark:bg-opacity-5 rounded-md lg:flex-row">
-          <div className="my-auto ">
-            <h2 className="p-2 m-2 text-center font-normal bg-black bg-opacity-70"><span className="font-extrabold text-blue-600 safari-text-outline-blue-600">Bracket</span>Madness</h2>
+      <div className="px-2 sm:px-6 mt-20 flex flex-col bg-black bg-opacity-20 dark:border-none dark:bg-white dark:bg-opacity-5 rounded-md lg:flex-row">
+          <div className="my-auto">
+            <h2 className="p-2 m-2 text-center bg-gradient-to-br from-black to-purple-900 bg-opacity-70"><span className="font-extrabold">Bracket</span><span className="font-light">Madness</span></h2>
           </div>
-          <div className="py-2 sm:p-4">
+          <div className="my-auto px-2 sm:p-4 ">
             <p className="mt-0 lg:mt-12">
-            <span className="italic font-light text-blue-200">March 2025 - present</span><br/>
+            <span className="italic font-light text-purple-200">March 2025 - present</span><br/>
               <strong>Bracket Madness</strong> is an interactive sports bracket management app optimized for the NCAA Women&#39;s March Madness tournament. I led full-stack development and designed a seamless user experience using React/Next.js and MySQL. The app supports dynamic scoring, multiple brackets per user, creation of private pool challenges, and more. Future plans include expansion to professional leagues and additional weekly/daily challenges.
             </p>
 
@@ -158,11 +159,22 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
               >
-              <button className="px-8 py-2 border border-white rounded-md hover:bg-blue-600">Code</button>
+              <button className="px-8 py-2 
+              bg-white/30 text-white rounded-md hover:bg-white/40 transition
+               
+               ">Code</button>
               </a>
 
-              <button className="px-8 py-2 ml-2 bg-gray-500 rounded-md cursor-not-allowed">Live</button>
-              <p className="px-2 py-2 ml-2 underline cursor-not-allowed hover:text-blue-400">Case Study</p>
+              <a href="https://bracket-madness.vercel.app/" target="_blank" rel="noopener noreferrer">
+               <button className="px-8 py-2 ml-2 
+                bg-purple-600 text-white rounded-md hover:bg-purple-500 transition
+               ">Live</button>
+              
+              </a>
+             
+              <Link href="/projects/bracket-madness">
+                <p className="px-2 py-2 ml-2 underline hover:text-purple-200 cursor-pointer">Case Study</p>
+              </Link>
             </div>
           </div>
       </div>
