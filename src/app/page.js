@@ -36,9 +36,9 @@ export default function Home() {
           />
       </div>
         <div className="flex flex-col gap-4 items-center md:items-start text-center md:text-left px-2 md:px-0 z-10">
-            <h2 className="mt-16 sm:mt-8 fade-in-up-1 font-extrabold safari-text-outline-white">Developer & Product Builder</h2>
+            <h2 className="mt-16 sm:mt-8 fade-in-up-1 font-extrabold safari-text-outline-white">Product-Minded Software Developer</h2>
             <div className="flex gap-4 items-center flex-col sm:flex-row">
-              <h3 className="text-gray-300 safari-text-outline-gray-300 font-extrabold dark:text-purple-400 dark:safari-text-outline-purple-400 fade-in-up-2" >Building digital products that blend UX, strategy, and community impact
+              <h3 className="text-gray-300 safari-text-outline-gray-300 font-extrabold dark:text-purple-400 dark:safari-text-outline-purple-400 fade-in-up-2" >Turning ideas into digital products that connect people and create impact
 </h3>
             </div>
             <div className="mb-4 flex md:hidden items-center justify-center h-full w-full">
@@ -62,13 +62,16 @@ export default function Home() {
       <h2 className="font-extrabold safari-text-outline-white">ABOUT | SKILLS</h2>
       <div className="flex flex-col md:flex-row justify-start mt-20 md:justify-between items-center md-items-start">
         <div className="w-full md:w-3/5 pb-4">
-          <p className="mr-2">Hi! I&#39;m Mary, a product-focused software developer with a background in education and a passion for building impactful web applications. Motivated by creativity and <span className="font-bold">problem-solving,</span> I transitioned from the classroom to code where I now design and build solutions that are as thoughtful as they are function. I specialize in <span className="font-bold">JavaScript, React, Next.js, Tailwind CSS, and MySQL</span>, creating clean, responsive interfaces that prioritize user experience. My years in education sharpened my strengths in<span className="font-bold"> communication, collaboration, analytical thinking,</span> all of which directly support my product mindset and ability to understand user needs, align with goals, and work across disciplines.<br/><br/>
+          <p className="mr-2">Hi, I&#39;m Mary — a product-minded software developer who brings ideas to life through code, design, and strategy. Before tech, I worked in education, teaching in Japan and substitute teaching in the U.S. Those experiences honed my communication, adaptability, and analytical thinking, as well as my ability to collaborate with school staff, engage with parents, and connect across cultures. Now, I apply those strengths in tech — understanding user needs, aligning with goals, and building thoughtful, impactful products.
+          <br/><br/>
 
-          Most recently, I built <span className="font-bold">Bracket Madness</span>, a fan-centered web app that brings community and sports together through interactive experiences.<br></br>
+          I specialize in building clean, responsive web applications with <span className="font-bold">JavaScript, React, Next.js, Tailwind CSS, and MySQL</span>, always with a focus on user experience and product value. Most recently, I designed and launched Bracket Madness, a DFS-style bracket challenge app dedicated to women&#39;s basketball — a community long underserved in the sports tech space.
+          <br/><br/>
 
-          Outside of coding, you&#39;ll find me collecting vinyl, CDs, DJing, watching films and sports, or diving into a good podcast.<br/><br/>
+          Outside of development, you&#39;ll find me DJing, crate-digging for vinyl, watching basketball, or diving into films and podcasts. These creative pursuits keep me curious and bring fresh perspective to my work.
+          <br/><br/>
 
-          Feel free to <a href="#contact"><span className="underline hover:bg-gray-800 dark:hover:bg-blue-600">reach out</span></a> — I&#39;m always up for discussing product ideas, sports UX, or sharing playlists and film recommendations.
+          I&#39;m always open to connecting about product ideas, fan engagement, or even swapping playlists and film recommendations.
           </p>
         </div>
         <div className="w-full p-4 m-4 md:w-2/5 min-w-[200px] bg-white bg-opacity-5 rounded-lg ">
@@ -140,16 +143,18 @@ export default function Home() {
     </div>
     </section>
 
-    <section className="grid grid-rows-[20px_1fr_20px] min-h-screen py-16 px-4 bg-white bg-opacity-10 sm:p-20" id="works">
+    <section className="py-16 px-4 sm:p-20 bg-white bg-opacity-10" id="works">
      <h2 className="font-extrabold safari-text-outline-white">W<span className="text-gray-300 safari-text-outline-gray-400 dark:safari-text-outline-purple-400 dark:text-purple-400">O</span>RKS</h2>
-      <div className="px-2 sm:px-6 mt-20 flex flex-col bg-black bg-opacity-20 dark:border-none dark:bg-white dark:bg-opacity-5 rounded-md lg:flex-row">
+      <div className="px-2 my-12 sm:px-6 mt-20 flex flex-col bg-black bg-opacity-20 dark:border-none dark:bg-white dark:bg-opacity-5 rounded-md lg:flex-row">
           <div className="my-auto">
-            <h2 className="p-2 m-2 text-center bg-gradient-to-br from-black to-purple-900 bg-opacity-70"><span className="font-extrabold">Bracket</span><span className="font-light">Madness</span></h2>
+            <h2 className="p-4 m-8 text-center bg-gradient-to-br from-black to-purple-900 bg-opacity-70"><span className="font-extrabold">Bracket</span><span className="font-light">Madness</span></h2>
           </div>
-          <div className="my-auto px-2 sm:p-4 ">
-            <p className="mt-0 lg:mt-12">
+          <div className="mx-8 mb-8 px-2 sm:p-4 lg:my-14">
+            <p className="lg:mt-0">
             <span className="italic font-light text-purple-200">March 2025 - present</span><br/>
-              <strong>Bracket Madness</strong> is an interactive sports bracket management app optimized for the NCAA Women&#39;s March Madness tournament. I led full-stack development and designed a seamless user experience using React/Next.js and MySQL. The app supports dynamic scoring, multiple brackets per user, creation of private pool challenges, and more. Future plans include expansion to professional leagues and additional weekly/daily challenges.
+              <strong>Bracket Madness</strong> <br/>
+              
+              An interactive bracket app for NCAA Women&#39;s March Madness, built for an underserved community of women&#39;s basketball fans. I led full-stack development and UX design, taking the product from concept to launch.
             </p>
 
             <ProjectDetails />
@@ -160,16 +165,14 @@ export default function Home() {
               rel="noopener noreferrer"
               >
               <button className="px-8 py-2 
-              bg-white/30 text-white rounded-md hover:bg-white/40 transition
-               
-               ">Code</button>
+              bg-white/30 text-white rounded-md hover:bg-white/40 transition">
+                Code</button>
               </a>
 
               <a href="https://bracket-madness.vercel.app/" target="_blank" rel="noopener noreferrer">
                <button className="px-8 py-2 ml-2 
-                bg-purple-600 text-white rounded-md hover:bg-purple-500 transition
-               ">Live</button>
-              
+                bg-purple-600 text-white rounded-md hover:bg-purple-500 transition">
+                  Live</button>
               </a>
              
               <Link href="/projects/bracket-madness">
@@ -178,38 +181,6 @@ export default function Home() {
             </div>
           </div>
       </div>
-
-              {/* <a href="https://github.com/ma-boles/flowmode/tree/main/my-nextjs-app"
-              target="_blank"
-              rel="noopener noreferrer"
-              >
-              <button className="px-8 py-2 border border-white rounded-md hover:bg-blue-600">Code</button>
-              </a> */}
-
-              
-      {/* <div className="px-2 sm:px-4 mt-20 flex flex-col bg-black bg-opacity-20 dark:border-none dark:bg-white dark:bg-opacity-5 rounded-md lg:flex-row">
-          <div className="my-auto ">
-            <h2 className="p-2 m-2 text-center font-normal bg-black bg-opacity-70"><span className="font-extrabold safari-text-outline-green-600">flow</span>mode</h2>
-          </div>
-          <div className="py-2 sm:p-4">
-            <p className="mt-0 lg:mt-12">
-            <span className="italic font-light text-green-300">*Still in progress</span><br/>
-              <span className="safari-text-outline-white">Flowmode</span> is a web-based timer that integrates with Spotify to help users maintain productivity while preventing burnout. By encouraging regular breaks through customizable Flow and Rest intervals, <span className="font-bold">flowmode</span> helps users work for longer periods without fatigue. Users can choose audio to accompany both Flow and Rest phases, making the experience enjoyable and effective.
-            </p>
-
-            <ProjectDetails />
-
-            <div className="flex mt-4 mb-2 justify-start">
-              <a href="https://github.com/ma-boles/flowmode/tree/main/my-nextjs-app"
-              target="_blank"
-              rel="noopener noreferrer"
-              >
-              <button className="px-8 py-2 border border-white rounded-md hover:bg-green-600">Code</button>
-              </a>
-              <button className="px-8 py-2 ml-2 bg-gray-500 rounded-md cursor-not-allowed">Live</button>
-            </div>
-          </div>
-      </div> */}
     </section>
 
     <section className="flex flex-col min-h-[100vh] p-8 overflow-y-auto sm:p-20 bg-white bg-opacity-5 backdrop-blur-3xl"  id="contact">
@@ -224,7 +195,7 @@ export default function Home() {
             objectPosition: "center",
             filter: "grayscale(100%)",
           }}
-          onLoad={handleImageLoad} // Trigger state change on image load
+          onLoad={handleImageLoad}
           />
         </div>
 
