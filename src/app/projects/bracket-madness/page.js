@@ -18,32 +18,26 @@ export default function BracketMadnessCaseStudy() {
           <p className="text-lg leading-relaxed">
             The idea for Bracket Madness started with a frustrating experience in a major bracket challenge app. The interface forced users into a rigid step-by-step flow, making it difficult to navigate between rounds and regions. Users also lacked flexible, community-focused ways to engage, leaving a gap in the market for a platform that serves this growing but underserved fan community.
           </p>
-          {/* <p className="text-lg leading-relaxed">
-            Bracket Madness was built to solve that with a more flexible, user-first interface. Mobile users get visual cues like dot indicators to show missing picks by round, while tablet and desktop users see color-coded game slots to help them track progress and stay oriented. A visible pick counter keeps users aware of how close they are to completion, removing friction from the process.
-          </p> */}
-          {/* <p className="text-lg leading-relaxed">
-            Beyond the UX improvements, the app introduces private pools as a central feature. Instead of competing anonymously in a sea of millions, users can create invite-only challenges with coworkers, friends, or family — making it easy to track who&apos;s winning in a familiar group. It brings back the social energy of office pools, but with modern design and seamless digital tools.
-          </p> */}
         </section>
 
         <section className="space-y-4">
           <h2 className="text-2xl font-bold text-blue-400">Goal</h2>
           <p className="text-lg leading-relaxed">
-            Create a platform that lets users compete individually or in groups in a flexible, engaging bracket-based game, while amplifying visibility for women&apos;s sports. The app features a custom scoring system, automatically updated game results, and a dynamic user experience designed to make competition intuitive and social.
+            Launch a platform that gives women&apos;s basketball fans a dedicated space for fun, community-driven competition. Private pools and bracket play turn passive spectating into active engagement, while live results, custom scoring, and a seamless interactive experience keep play dynamic and social. By filling a clear gap in the DFS and online gaming space, the app empowers an underserved fan community to grow alongside the rising popularity of the sport.
           </p>
         </section>
 
         <section className="space-y-4">
           <h2 className="text-2xl font-bold text-blue-400">Outcome</h2>
           <p className="text-lg leading-relaxed space-y-2">
-              The app allows users to create secure accounts, join or manage private pool challenges, and track performance across 67 games. It supports multiple brackets per user and uses a dynamic scoring engine with round multipliers and bonus points.
+            Bracket Madness launched as a fully functional full-stack app where users can create secure accounts, manage private pool challenges, and track their picks across all 67 games. The platform supports multiple brackets per user and runs on a dynamic scoring engine with round multipliers and bonus points. Together, these features deliver a polished, reliable experience that makes following women&apos;s basketball more interactive and community-driven.
           </p>
         </section>
 
         <section className="space-y-4">
           <h2 className="text-2xl font-bold text-blue-400">Vision</h2>
           <p className="text-lg leading-relaxed">
-            Bracket Madness is just the beginning. While the MVP focuses on college basketball, the broader vision is to create a fan engagement platform centered on women&apos;s sports, spanning multiple leagues and competition formats. The platform is designed to support a wide range of fan types — from casual followers to die-hard enthusiasts — through features like dynamic challenges, in-app currency, and a community-driven social experience. Currently in stealth mode, the project aims to contribute to the growth of women&apos;s sports by introducing new, interactive ways for fans to connect with the game and with each other.
+            Bracket Madness is just the beginning. The vision is to build a hub where women&apos;s sports fans can connect, compete, and grow together, shaping the future of fan engagement. By supporting a wide range of fan types and fostering deeper connections, the platform aims to expand the audience, strengthen engagement, and amplify the visibility of women&apos;s sports.
           </p>
         </section>
 
