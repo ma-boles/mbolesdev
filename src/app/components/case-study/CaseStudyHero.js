@@ -42,7 +42,7 @@ export default function CaseStudyHero() {
         links={[
           {
             label: "Live Product",
-            href: "#",
+            href: "https://gamestackr-hq.vercel.app/",
           },
           {
             label: "GitHub",
