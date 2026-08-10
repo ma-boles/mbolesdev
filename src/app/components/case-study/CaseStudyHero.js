@@ -1,5 +1,6 @@
 import Link from "next/link";
 import CaseStudyMetadata from "./CaseStudyMetadata";
+import CaseStudyVideo from "./CaseStudyVideo";
 
 export default function CaseStudyHero() {
   return (
@@ -50,10 +51,12 @@ export default function CaseStudyHero() {
           },
         ]}
       />
+        
+        <CaseStudyVideo 
+          src="/video/Off Tape Homepage Vid 2.mp4"
+          poster="/images/Off Tape Homepage Screen Shot.png"
+          />
 
-      <div className="mt-20 aspect-[16/9] rounded-sm bg-[#DDD7D0] flex items-center justify-center text-[#8A7F8D]">
-        Homepage Screenshot / Demo Video
-      </div>
     </section>
   );
 }
