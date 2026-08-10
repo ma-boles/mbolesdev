@@ -1,4 +1,6 @@
 import CaseStudySection from "./CaseStudySection";
+import CaseStudyImage from "./CaseStudyImage";
+import Image from "next/image";
 
 export default function DiscoveryExperience() {
   return (
@@ -21,7 +23,19 @@ export default function DiscoveryExperience() {
                     the experience supports different ways of discovering content.
                   </p>
                 </div>
-    
+
+              <CaseStudyImage caption="Off Tape homepage">
+                    <div className="relative aspect-[16/9] w-full">
+                      <Image
+                        src="/images/Off Tape Homepage Screen Shot.png"
+                        alt="Off Tape homepage"
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 1024px) 100vw, 900px"
+                      />
+                    </div>
+                  </CaseStudyImage>
+
                 <div>
                   <h3 className="font-serif text-2xl md:text-3xl">
                     Organizing Content Around the Sport
@@ -34,6 +48,18 @@ export default function DiscoveryExperience() {
                     the players, history, and growth of the sport.
                   </p>
                 </div>
+
+                <CaseStudyImage caption="Off Tape story page">
+                    <div className="relative aspect-[16/9] w-full">
+                      <Image
+                        src="/images/Off Tape Story page.png"
+                        alt="Off Tape story page"
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 1024px) 100vw, 900px"
+                      />
+                    </div>
+                  </CaseStudyImage>
     
                 <div>
                   <h3 className="font-serif text-2xl md:text-3xl">
@@ -52,6 +78,5 @@ export default function DiscoveryExperience() {
               </div>
                         
         </CaseStudySection>
-    
   );
 }
