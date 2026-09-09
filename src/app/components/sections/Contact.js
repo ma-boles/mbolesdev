@@ -70,7 +70,7 @@ export default function Contact() {
 
         <div className="mt-12 flex flex-wrap gap-8 text-sm">
           <a
-            href="mailto:your@email.com"
+            href="mailto:mboles.dev@gmail.com"
             className="
               text-[#6B5B73]
               transition-colors
