@@ -67,7 +67,7 @@ export default function FeaturedWork() {
               </a>
 
               <a
-                href="#"
+                href="https://gamestackr-hq.vercel.app/"
                 className="
                   text-[#6B5B73]
                   transition-colors

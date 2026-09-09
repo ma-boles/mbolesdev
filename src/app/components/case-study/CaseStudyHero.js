@@ -47,7 +47,7 @@ export default function CaseStudyHero() {
           },
           {
             label: "GitHub",
-            href: "#",
+            href: "https://github.com/ma-boles/Bracket_Madness",
           },
         ]}
       />
