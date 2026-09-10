@@ -87,6 +87,6 @@ export default function TechnologyArchitecture() {
                 </div>
                 
         </CaseStudySection>
-    
+
   );
 }
