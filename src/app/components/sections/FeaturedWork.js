@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function FeaturedWork() {
   return (
     <section
@@ -20,7 +22,7 @@ export default function FeaturedWork() {
             </h2>
 
             <p className="mt-6 text-lg leading-relaxed text-[#5F5A60]">
-            A discovery platform helping fans explore the people, history, and culture behind women&apos;s basketball.
+            A discovery platform helping fans explore the people, stories, and culture behind women&apos;s basketball.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">
@@ -85,27 +87,24 @@ export default function FeaturedWork() {
           <div
             className="
               group
+              relative
               aspect-[4/3]
               overflow-hidden
               rounded-sm
-              bg-[#E9E1D8]
             "
           >
-            <div
+            <Image
+              src="/images/Off Tape Homepage Screen Shot.png"
+              alt="Off Tape homepage"
+              fill
               className="
-                flex
-                h-full
-                items-center
-                justify-center
-                text-sm
-                text-[#8A7F8D]
+                object-contain
                 transition-transform
                 duration-500
                 group-hover:scale-[1.02]
               "
-            >
-              Off Tape Preview
-            </div>
+              sizes="(max-width: 1024px) 100vw, 900px"
+            />
           </div>
 
         </div>
