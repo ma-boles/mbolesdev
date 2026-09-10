@@ -63,8 +63,8 @@ export default function Contact() {
         </h2>
 
         <p className="mt-8 max-w-xl text-lg leading-relaxed text-[#5F5A60]">
-          I&apos;m interested in connecting with teams building meaningful
-          products and solving interesting problems.
+          I&apos;m looking to connect with teams building meaningful products,
+          solving interesting problems, and putting people at the center of what they build.
         </p>
 
 
