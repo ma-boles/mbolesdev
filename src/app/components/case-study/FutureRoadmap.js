@@ -75,6 +75,21 @@ export default function FutureRoadmap() {
                 </p>
               </div>
 
+              <div>
+                <p className="font-bold">Want to explore the project in more detail?</p>
+                <a
+                href="https://docs.google.com/document/d/1Wq9LQVm6SRxg1zzUyZR4tXViZca-g8e0iyPdYu0VZKg/edit?usp=sharing"
+                className="
+                  text-[#6B5B73]
+                  transition-colors
+                  duration-300
+                  hover:text-[#1E1B1F]
+                "
+              >
+                View the full case study →
+              </a>
+              </div>
+
             </div>
             
         </CaseStudySection>
